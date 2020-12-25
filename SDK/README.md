@@ -1,0 +1,1 @@
+Unpack [Appodeal.zip](https://s3-us-west-1.amazonaws.com/appodeal-ios/2.1.9/cocoapods/Appodeal.zip) here, so there is `./Appodeal/Appodeal.framework`.

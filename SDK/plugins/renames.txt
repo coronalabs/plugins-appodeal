@@ -1,0 +1,2 @@
+Mailru -> MyTarget
+Mobvista -> Mintegral

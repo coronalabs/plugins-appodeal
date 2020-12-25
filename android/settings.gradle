@@ -1,0 +1,2 @@
+rootProject.name = "Appodeal plugin"
+include("app", "plugin")

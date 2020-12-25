@@ -1,0 +1,47 @@
+--
+-- For more information on build.settings see the Corona Build Guide at:
+-- http://docs.coronalabs.com/guide/distribution/buildSettings/index.html
+--
+
+settings = 
+{	
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait", "landscapeRight" }
+	},
+
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			UILaunchStoryboardName = "LaunchScreen",
+			CFBundleIdentifier = "com.appodeal.testing",
+			NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
+		},
+	},
+
+	plugins = {
+		['plugin.appodeal.base'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-base.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-base.tgz'}, android = false, macos = false, win32 = false, } },
+
+		['plugin.appodeal.AdColony'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-AdColony.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-AdColony.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.AmazonAds'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-AmazonAds.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-AmazonAds.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-AppLovin.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-AppLovin.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Chartboost'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Chartboost.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Chartboost.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-FacebookAudience.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-FacebookAudience.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Flurry'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Flurry.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Flurry.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.GoogleAdMob'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-GoogleAdMob.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-GoogleAdMob.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.InMobi'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-InMobi.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-InMobi.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.IronSource'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-IronSource.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-IronSource.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Mobvista'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Mobvista.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Mobvista.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.MyTarget'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-MyTarget.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-MyTarget.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Pubnative'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Pubnative.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Pubnative.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.StartApp'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-StartApp.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-StartApp.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Tapjoy'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Tapjoy.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Tapjoy.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.TwitterMoPub'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-TwitterMoPub.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-TwitterMoPub.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Unity'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Unity.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Unity.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Vungle'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Vungle.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Vungle.tgz'}, android = false, macos = false, win32 = false, } },
+		['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs', supportedPlatforms = { iphone = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-Yandex.tgz'}, ['iphone-sim'] = { url = 'https://vlad-test.s3.amazonaws.com/selfHostedAppodeal/iphone-simiphone-sim-Yandex.tgz'}, android = false, macos = false, win32 = false, } },
+	}
+}

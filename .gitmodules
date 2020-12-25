@@ -1,0 +1,359 @@
+[submodule "AdColony"]
+    path = SDK/plugins/AdColony
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.AdColony.git
+    branch = master
+[submodule "AmazonAds"]
+    path = SDK/plugins/AmazonAds
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.AmazonAds.git
+    branch = master
+[submodule "AppLovin"]
+    path = SDK/plugins/AppLovin
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.AppLovin.git
+    branch = master
+[submodule "Appnext"]
+    path = SDK/plugins/Appnext
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Appnext.git
+    branch = master
+[submodule "base"]
+    path = SDK/plugins/base
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.base.git
+    branch = master
+[submodule "Chartboost"]
+    path = SDK/plugins/Chartboost
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Chartboost.git
+    branch = master
+[submodule "FacebookAudience"]
+    path = SDK/plugins/FacebookAudience
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.FacebookAudience.git
+    branch = master
+[submodule "Flurry"]
+    path = SDK/plugins/Flurry
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Flurry.git
+    branch = master
+[submodule "GoogleAdMob"]
+    path = SDK/plugins/GoogleAdMob
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.GoogleAdMob.git
+    branch = master
+[submodule "InMobi"]
+    path = SDK/plugins/InMobi
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.InMobi.git
+    branch = master
+[submodule "InnerActive"]
+    path = SDK/plugins/InnerActive
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.InnerActive.git
+    branch = master
+[submodule "IronSource"]
+    path = SDK/plugins/IronSource
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.IronSource.git
+    branch = master
+[submodule "MillenialMedia"]
+    path = SDK/plugins/MillenialMedia
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.MillenialMedia.git
+    branch = master
+[submodule "Mobvista"]
+    path = SDK/plugins/Mobvista
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Mobvista.git
+    branch = master
+[submodule "MyTarget"]
+    path = SDK/plugins/MyTarget
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.MyTarget.git
+    branch = master
+[submodule "Ogury"]
+    path = SDK/plugins/Ogury
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Ogury.git
+    branch = master
+[submodule "OpenX"]
+    path = SDK/plugins/OpenX
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.OpenX.git
+    branch = master
+[submodule "Pubnative"]
+    path = SDK/plugins/Pubnative
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Pubnative.git
+    branch = master
+[submodule "Smaato"]
+    path = SDK/plugins/Smaato
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Smaato.git
+    branch = master
+[submodule "StartApp"]
+    path = SDK/plugins/StartApp
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.StartApp.git
+    branch = master
+[submodule "Tapjoy"]
+    path = SDK/plugins/Tapjoy
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Tapjoy.git
+    branch = master
+[submodule "TwitterMoPub"]
+    path = SDK/plugins/TwitterMoPub
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.TwitterMoPub.git
+    branch = master
+[submodule "Unity"]
+    path = SDK/plugins/Unity
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Unity.git
+    branch = master
+[submodule "Vungle"]
+    path = SDK/plugins/Vungle
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Vungle.git
+    branch = master
+[submodule "Yandex"]
+    path = SDK/plugins/Yandex
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Yandex.git
+    branch = master
+
+[submodule "beta_AdColony"]
+    path = SDK/plugins.beta/AdColony
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.AdColony.git
+    branch = master
+[submodule "beta_AmazonAds"]
+    path = SDK/plugins.beta/AmazonAds
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.AmazonAds.git
+    branch = master
+[submodule "beta_AppLovin"]
+    path = SDK/plugins.beta/AppLovin
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.AppLovin.git
+    branch = master
+[submodule "beta_Appnext"]
+    path = SDK/plugins.beta/Appnext
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Appnext.git
+    branch = master
+[submodule "beta_base"]
+    path = SDK/plugins.beta/base
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.base.git
+    branch = master
+[submodule "beta_Chartboost"]
+    path = SDK/plugins.beta/Chartboost
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Chartboost.git
+    branch = master
+[submodule "beta_FacebookAudience"]
+    path = SDK/plugins.beta/FacebookAudience
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.FacebookAudience.git
+    branch = master
+[submodule "beta_Flurry"]
+    path = SDK/plugins.beta/Flurry
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Flurry.git
+    branch = master
+[submodule "beta_GoogleAdMob"]
+    path = SDK/plugins.beta/GoogleAdMob
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.GoogleAdMob.git
+    branch = master
+[submodule "beta_InMobi"]
+    path = SDK/plugins.beta/InMobi
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.InMobi.git
+    branch = master
+[submodule "beta_InnerActive"]
+    path = SDK/plugins.beta/InnerActive
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.InnerActive.git
+    branch = master
+[submodule "beta_IronSource"]
+    path = SDK/plugins.beta/IronSource
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.IronSource.git
+    branch = master
+[submodule "beta_MillenialMedia"]
+    path = SDK/plugins.beta/MillenialMedia
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.MillenialMedia.git
+    branch = master
+[submodule "beta_Mobvista"]
+    path = SDK/plugins.beta/Mobvista
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Mobvista.git
+    branch = master
+[submodule "beta_MyTarget"]
+    path = SDK/plugins.beta/MyTarget
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.MyTarget.git
+    branch = master
+[submodule "beta_Ogury"]
+    path = SDK/plugins.beta/Ogury
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Ogury.git
+    branch = master
+[submodule "beta_OpenX"]
+    path = SDK/plugins.beta/OpenX
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.OpenX.git
+    branch = master
+[submodule "beta_Pubnative"]
+    path = SDK/plugins.beta/Pubnative
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Pubnative.git
+    branch = master
+[submodule "beta_Smaato"]
+    path = SDK/plugins.beta/Smaato
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Smaato.git
+    branch = master
+[submodule "beta_StartApp"]
+    path = SDK/plugins.beta/StartApp
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.StartApp.git
+    branch = master
+[submodule "beta_Tapjoy"]
+    path = SDK/plugins.beta/Tapjoy
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Tapjoy.git
+    branch = master
+[submodule "beta_TwitterMoPub"]
+    path = SDK/plugins.beta/TwitterMoPub
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.TwitterMoPub.git
+    branch = master
+[submodule "beta_Unity"]
+    path = SDK/plugins.beta/Unity
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Unity.git
+    branch = master
+[submodule "beta_Vungle"]
+    path = SDK/plugins.beta/Vungle
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Vungle.git
+    branch = master
+[submodule "beta_Yandex"]
+    path = SDK/plugins.beta/Yandex
+    url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Yandex.git
+    branch = master
+[submodule "SDK/plugins/AdColony"]
+	path = SDK/plugins/AdColony
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.AdColony.git
+[submodule "SDK/plugins/AmazonAds"]
+	path = SDK/plugins/AmazonAds
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.AmazonAds.git
+[submodule "SDK/plugins/AppLovin"]
+	path = SDK/plugins/AppLovin
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.AppLovin.git
+[submodule "SDK/plugins/Appnext"]
+	path = SDK/plugins/Appnext
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Appnext.git
+[submodule "SDK/plugins/base"]
+	path = SDK/plugins/base
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.base.git
+[submodule "SDK/plugins/Chartboost"]
+	path = SDK/plugins/Chartboost
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Chartboost.git
+[submodule "SDK/plugins/FacebookAudience"]
+	path = SDK/plugins/FacebookAudience
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.FacebookAudience.git
+[submodule "SDK/plugins/Flurry"]
+	path = SDK/plugins/Flurry
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Flurry.git
+[submodule "SDK/plugins/GoogleAdMob"]
+	path = SDK/plugins/GoogleAdMob
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.GoogleAdMob.git
+[submodule "SDK/plugins/InMobi"]
+	path = SDK/plugins/InMobi
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.InMobi.git
+[submodule "SDK/plugins/InnerActive"]
+	path = SDK/plugins/InnerActive
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.InnerActive.git
+[submodule "SDK/plugins/IronSource"]
+	path = SDK/plugins/IronSource
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.IronSource.git
+[submodule "SDK/plugins/MillenialMedia"]
+	path = SDK/plugins/MillenialMedia
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.MillenialMedia.git
+[submodule "SDK/plugins/Mobvista"]
+	path = SDK/plugins/Mobvista
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Mobvista.git
+[submodule "SDK/plugins/MyTarget"]
+	path = SDK/plugins/MyTarget
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.MyTarget.git
+[submodule "SDK/plugins/Ogury"]
+	path = SDK/plugins/Ogury
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Ogury.git
+[submodule "SDK/plugins/OpenX"]
+	path = SDK/plugins/OpenX
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.OpenX.git
+[submodule "SDK/plugins/Pubnative"]
+	path = SDK/plugins/Pubnative
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Pubnative.git
+[submodule "SDK/plugins/Smaato"]
+	path = SDK/plugins/Smaato
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Smaato.git
+[submodule "SDK/plugins/StartApp"]
+	path = SDK/plugins/StartApp
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.StartApp.git
+[submodule "SDK/plugins/Tapjoy"]
+	path = SDK/plugins/Tapjoy
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Tapjoy.git
+[submodule "SDK/plugins/TwitterMoPub"]
+	path = SDK/plugins/TwitterMoPub
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.TwitterMoPub.git
+[submodule "SDK/plugins/Unity"]
+	path = SDK/plugins/Unity
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Unity.git
+[submodule "SDK/plugins/Vungle"]
+	path = SDK/plugins/Vungle
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Vungle.git
+[submodule "SDK/plugins/Yandex"]
+	path = SDK/plugins/Yandex
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Yandex.git
+[submodule "SDK/plugins.beta/AdColony"]
+	path = SDK/plugins.beta/AdColony
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.AdColony.git
+[submodule "SDK/plugins.beta/AmazonAds"]
+	path = SDK/plugins.beta/AmazonAds
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.AmazonAds.git
+[submodule "SDK/plugins.beta/AppLovin"]
+	path = SDK/plugins.beta/AppLovin
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.AppLovin.git
+[submodule "SDK/plugins.beta/Appnext"]
+	path = SDK/plugins.beta/Appnext
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Appnext.git
+[submodule "SDK/plugins.beta/base"]
+	path = SDK/plugins.beta/base
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.base.git
+[submodule "SDK/plugins.beta/Chartboost"]
+	path = SDK/plugins.beta/Chartboost
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Chartboost.git
+[submodule "SDK/plugins.beta/FacebookAudience"]
+	path = SDK/plugins.beta/FacebookAudience
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.FacebookAudience.git
+[submodule "SDK/plugins.beta/Flurry"]
+	path = SDK/plugins.beta/Flurry
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Flurry.git
+[submodule "SDK/plugins.beta/GoogleAdMob"]
+	path = SDK/plugins.beta/GoogleAdMob
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.GoogleAdMob.git
+[submodule "SDK/plugins.beta/InMobi"]
+	path = SDK/plugins.beta/InMobi
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.InMobi.git
+[submodule "SDK/plugins.beta/InnerActive"]
+	path = SDK/plugins.beta/InnerActive
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.InnerActive.git
+[submodule "SDK/plugins.beta/IronSource"]
+	path = SDK/plugins.beta/IronSource
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.IronSource.git
+[submodule "SDK/plugins.beta/MillenialMedia"]
+	path = SDK/plugins.beta/MillenialMedia
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.MillenialMedia.git
+[submodule "SDK/plugins.beta/Mobvista"]
+	path = SDK/plugins.beta/Mobvista
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Mobvista.git
+[submodule "SDK/plugins.beta/MyTarget"]
+	path = SDK/plugins.beta/MyTarget
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.MyTarget.git
+[submodule "SDK/plugins.beta/Ogury"]
+	path = SDK/plugins.beta/Ogury
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Ogury.git
+[submodule "SDK/plugins.beta/OpenX"]
+	path = SDK/plugins.beta/OpenX
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.OpenX.git
+[submodule "SDK/plugins.beta/Pubnative"]
+	path = SDK/plugins.beta/Pubnative
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Pubnative.git
+[submodule "SDK/plugins.beta/Smaato"]
+	path = SDK/plugins.beta/Smaato
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Smaato.git
+[submodule "SDK/plugins.beta/StartApp"]
+	path = SDK/plugins.beta/StartApp
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.StartApp.git
+[submodule "SDK/plugins.beta/Tapjoy"]
+	path = SDK/plugins.beta/Tapjoy
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Tapjoy.git
+[submodule "SDK/plugins.beta/TwitterMoPub"]
+	path = SDK/plugins.beta/TwitterMoPub
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.TwitterMoPub.git
+[submodule "SDK/plugins.beta/Unity"]
+	path = SDK/plugins.beta/Unity
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Unity.git
+[submodule "SDK/plugins.beta/Vungle"]
+	path = SDK/plugins.beta/Vungle
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Vungle.git
+[submodule "SDK/plugins.beta/Yandex"]
+	path = SDK/plugins.beta/Yandex
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.beta.Yandex.git
+[submodule "SDK/plugins/A4G"]
+	path = SDK/plugins/A4G
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.A4G.git
+	branch = master
+[submodule "SDK/plugins/Bidmachine"]
+	path = SDK/plugins/Bidmachine
+	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Bidmachine.git
+	branch = master

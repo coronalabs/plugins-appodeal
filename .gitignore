@@ -1,0 +1,11 @@
+build/
+.idea/
+*xcuser*
+.gradle/
+BuiltPlugin/
+ios-modular/libplugin_appodeal_base.a
+SDK/iOSPods/Pods/
+SDK/Facebook/
+SDK/Googler/
+SDK/JustFrameworks/
+SDK/selfHostedAppodeal

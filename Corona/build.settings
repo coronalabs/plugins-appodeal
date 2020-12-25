@@ -1,0 +1,229 @@
+--
+-- For more information on build.settings see the Corona Build Guide at:
+-- http://docs.coronalabs.com/guide/distribution/buildSettings/index.html
+--
+
+settings =
+{
+	-- buildQueue = "build-dev",
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait", "landscapeRight" }
+	},
+
+    android =
+    {
+    	minSdkVersion = "16",
+        applicationChildElements =
+        {
+            [[
+                <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
+                    android:value="ca-app-pub-3940256099942544~3347511713"/>  -- replace with your app id. See: https://goo.gl/fQ2neu
+            ]],
+        },
+    },
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			UILaunchStoryboardName = "LaunchScreen",
+			CFBundleIdentifier = "com.appodeal.testing",
+			NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
+			GADApplicationIdentifier = "ca-app-pub-3940256099942544~1458002511",
+			NSLocationWhenInUseUsageDescription = "The app needs your location for analytics and advertising purposes",
+			NSCalendarsUsageDescription = "The app needs your calendar to provide personalised advertising experience tailored to you",
+			NSUserTrackingUsageDescription = "This identifier will be used to deliver personalized ads to you.",
+			SKAdNetworkItems = {
+				{ SKAdNetworkIdentifier = "4pfyvq9l8r.skadnetwork" },
+				{ SKAdNetworkIdentifier = "yclnxrl5pm.skadnetwork" },
+				{ SKAdNetworkIdentifier = "v72qych5uu.skadnetwork" },
+				{ SKAdNetworkIdentifier = "tl55sbb4fm.skadnetwork" },
+				{ SKAdNetworkIdentifier = "t38b2kh725.skadnetwork" },
+				{ SKAdNetworkIdentifier = "prcb7njmu6.skadnetwork" },
+				{ SKAdNetworkIdentifier = "ppxm28t8ap.skadnetwork" },
+				{ SKAdNetworkIdentifier = "mlmmfzh3r3.skadnetwork" },
+				{ SKAdNetworkIdentifier = "klf5c3l5u5.skadnetwork" },
+				{ SKAdNetworkIdentifier = "hs6bdukanm.skadnetwork" },
+				{ SKAdNetworkIdentifier = "c6k4g5qg8m.skadnetwork" },
+				{ SKAdNetworkIdentifier = "9t245vhmpl.skadnetwork" },
+				{ SKAdNetworkIdentifier = "9rd848q2bz.skadnetwork" },
+				{ SKAdNetworkIdentifier = "8s468mfl3y.skadnetwork" },
+				{ SKAdNetworkIdentifier = "7ug5zh24hu.skadnetwork" },
+				{ SKAdNetworkIdentifier = "4fzdc2evr5.skadnetwork" },
+				{ SKAdNetworkIdentifier = "4468km3ulz.skadnetwork" },
+				{ SKAdNetworkIdentifier = "3rd42ekr43.skadnetwork" },
+				{ SKAdNetworkIdentifier = "2u9pt9hc89.skadnetwork" },
+				{ SKAdNetworkIdentifier = "m8dbw4sv7c.skadnetwork" },
+				{ SKAdNetworkIdentifier = "7rz58n8ntl.skadnetwork" },
+				{ SKAdNetworkIdentifier = "ejvt5qm6ak.skadnetwork" },
+				{ SKAdNetworkIdentifier = "5lm9lj6jb7.skadnetwork" },
+				{ SKAdNetworkIdentifier = "44jx6755aq.skadnetwork" },
+				{ SKAdNetworkIdentifier = "mtkv5xtk9e.skadnetwork" },
+				{ SKAdNetworkIdentifier = "ludvb6z3bs.skadnetwork" },
+				{ SKAdNetworkIdentifier = "wg4vff78zm.skadnetwork" },
+				{ SKAdNetworkIdentifier = "737z793b9f.skadnetwork" },
+				{ SKAdNetworkIdentifier = "ydx93a7ass.skadnetwork" },
+				{ SKAdNetworkIdentifier = "w9q455wk68.skadnetwork" },
+				{ SKAdNetworkIdentifier = "glqzh8vgby.skadnetwork" },
+				{ SKAdNetworkIdentifier = "av6w8kgt66.skadnetwork" },
+				{ SKAdNetworkIdentifier = "cj5566h2ga.skadnetwork" },
+				{ SKAdNetworkIdentifier = "f38h382jlk.skadnetwork" },
+				{ SKAdNetworkIdentifier = "s39g8k73mm.skadnetwork" },
+				{ SKAdNetworkIdentifier = "v9wttpbfk9.skadnetwork" },
+				{ SKAdNetworkIdentifier = "n38lu8286q.skadnetwork" },
+				{ SKAdNetworkIdentifier = "cstr6suwn9.skadnetwork" },
+				{ SKAdNetworkIdentifier = "su67r6k2v3.skadnetwork" },
+				{ SKAdNetworkIdentifier = "n9x2a789qt.skadnetwork" },
+				{ SKAdNetworkIdentifier = "kbd757ywx3.skadnetwork" },
+				{ SKAdNetworkIdentifier = "uw77j35x4d.skadnetwork" },
+				{ SKAdNetworkIdentifier = "3sh42y64q3.skadnetwork" },
+				{ SKAdNetworkIdentifier = "5l3tpt7t6e.skadnetwork" },
+				{ SKAdNetworkIdentifier = "mls7yz5dvl.skadnetwork" },
+				{ SKAdNetworkIdentifier = "5a6flpkh64.skadnetwork" },
+				{ SKAdNetworkIdentifier = "578prtvx9j.skadnetwork" },
+				{ SKAdNetworkIdentifier = "f73kdq92p3.skadnetwork" },
+				{ SKAdNetworkIdentifier = "8m87ys6875.skadnetwork" },
+				{ SKAdNetworkIdentifier = "488r3q3dtq.skadnetwork" },
+				{ SKAdNetworkIdentifier = "zmvfpc5aq8.skadnetwork" },
+				{ SKAdNetworkIdentifier = "97r2b46745.skadnetwork" },
+				{ SKAdNetworkIdentifier = "6xzpu9s2p8.skadnetwork" },
+				{ SKAdNetworkIdentifier = "cg4yq2srnc.skadnetwork" },
+				{ SKAdNetworkIdentifier = "ecpz2srf59.skadnetwork" },
+				{ SKAdNetworkIdentifier = "238da6jt44.skadnetwork" },
+				{ SKAdNetworkIdentifier = "22mmun2rn5.skadnetwork" },
+				{ SKAdNetworkIdentifier = "lr83yxwka7.skadnetwork" },
+				{ SKAdNetworkIdentifier = "24t9a8vw3c.skadnetwork" },
+				{ SKAdNetworkIdentifier = "v79kvwwj4g.skadnetwork" },
+				{ SKAdNetworkIdentifier = "424m5254lk.skadnetwork" },
+				{ SKAdNetworkIdentifier = "44n7hlldy6.skadnetwork" },
+				{ SKAdNetworkIdentifier = "4dzt52r2t5.skadnetwork" },
+				{ SKAdNetworkIdentifier = "wzmmz9fp6w.skadnetwork" },
+				{ SKAdNetworkIdentifier = "bvpn9ufa9b.skadnetwork" },
+				{ SKAdNetworkIdentifier = "gta9lk7p23.skadnetwork" },
+			},
+		},
+	},
+
+	plugins = {
+    
+  --       ["plugin.zip"] = { publisherId = "com.coronalabs" },
+  --       ["plugin.facebook.v4a"] = { publisherId = "com.coronalabs" },
+		-- ["plugin.notifications.v2"] = { publisherId = "com.coronalabs" },
+		
+		['plugin.appodeal.base'] = { publisherId = 'com.coronalabs' },
+
+		['plugin.appodeal.A4G'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.AdColony'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.AmazonAds'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Bidmachine'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.GoogleAdMob'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.IronSource'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.MyTarget'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Ogury'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Smaato'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.StartApp'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Unity'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Vungle'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs' },
+
+		--- ['plugin.appodeal.Appnext'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.Chartboost'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.Flurry'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.InMobi'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.InnerActive'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.MillenialMedia'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.Mobvista'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.OpenX'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.Pubnative'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.Tapjoy'] = { publisherId = 'com.coronalabs' },
+		--- ['plugin.appodeal.TwitterMoPub'] = { publisherId = 'com.coronalabs' },
+
+	--[[
+		-- Base
+		['plugin.appodeal.base'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.AmazonAds'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.GoogleAdMob'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.TwitterMoPub'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.StartApp'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Smaato'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.A4G'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Bidmachine'] = { publisherId = 'com.coronalabs' },
+
+		-- Banner
+		['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Flurry'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.InMobi'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.MyTarget'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.MillenialMedia'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs' },
+
+		-- Interstitial
+		['plugin.appodeal.AdColony'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Chartboost'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Flurry'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.InMobi'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.IronSource'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Mobvista'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.MyTarget'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.StartApp'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.MillenialMedia'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Ogury'] = { publisherId = 'com.coronalabs' },
+
+		-- Rewarded Video
+		['plugin.appodeal.AdColony'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Chartboost'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Flurry'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.InMobi'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.IronSource'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Mobvista'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.MyTarget'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.StartApp'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Unity'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Vungle'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.Tapjoy'] = { publisherId = 'com.coronalabs' },
+
+		-- This one is for native, which is not available for corona right now
+		-- ['plugin.appodeal.Pubnative'] = { publisherId = 'com.coronalabs' },
+	--]]
+	--[[
+		['plugin.appodeal.beta.base'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.AdColony'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.AmazonAds'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.AppLovin'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Appnext'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Chartboost'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.FacebookAudience'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Flurry'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.GoogleAdMob'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.InMobi'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.IronSource'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Mobvista'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.MyTarget'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Ogury'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.StartApp'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Tapjoy'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.TwitterMoPub'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Unity'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Vungle'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Yandex'] = { publisherId = 'com.coronalabs' },
+
+		['plugin.appodeal.beta.InnerActive'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.OpenX'] = { publisherId = 'com.coronalabs' },
+		['plugin.appodeal.beta.Smaato'] = { publisherId = 'com.coronalabs' },
+
+		-- This one is for native, which is not available for corona right now
+		-- ['plugin.appodeal.Pubnative'] = { publisherId = 'com.coronalabs' },
+	--]]
+
+
+	}
+}

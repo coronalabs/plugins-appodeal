@@ -1,0 +1,209 @@
+--
+-- For more information on build.settings see the Corona Build Guide at:
+-- http://docs.coronalabs.com/guide/distribution/buildSettings/index.html
+--
+
+settings =
+{
+	-- buildQueue = "build-dev",
+	orientation =
+	{
+		default = "portrait",
+		supported = { "portrait", "landscapeRight" }
+	},
+
+    android =
+    {
+        applicationChildElements =
+        {
+            [[
+                <meta-data android:name="com.google.android.gms.ads.APPLICATION_ID"
+                    android:value="ca-app-pub-3940256099942544~3347511713"/>  -- replace with your app id. See: https://goo.gl/fQ2neu
+            ]],
+        },
+    },
+	iphone =
+	{
+		xcassets = "Images.xcassets",
+		plist =
+		{
+			GADApplicationIdentifier = "ca-app-pub-3940256099942544~1458002511",
+			UILaunchStoryboardName = "LaunchScreen",
+			CFBundleIdentifier = "com.appodeal.testing",
+			NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
+		},
+	},
+
+	plugins = {
+    
+        ["plugin.zip"] = { publisherId = "com.coronalabs" },
+        ["plugin.facebook.v4a"] = { publisherId = "com.coronalabs" },
+		["plugin.notifications.v2"] = { publisherId = "com.coronalabs" },
+		
+	['plugin.appodeal.AdColony'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-AdColony.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-AdColony.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-AdColony.tgz'},
+		}
+	},
+	['plugin.appodeal.AmazonAds'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-AmazonAds.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-AmazonAds.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-AmazonAds.tgz'},
+		}
+	},
+	['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-AppLovin.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-AppLovin.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-AppLovin.tgz'},
+		}
+	},
+	['plugin.appodeal.Chartboost'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Chartboost.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Chartboost.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Chartboost.tgz'},
+		}
+	},
+	['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-FacebookAudience.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-FacebookAudience.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-FacebookAudience.tgz'},
+		}
+	},
+	['plugin.appodeal.Flurry'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Flurry.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Flurry.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Flurry.tgz'},
+		}
+	},
+	['plugin.appodeal.GoogleAdMob'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-GoogleAdMob.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-GoogleAdMob.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-GoogleAdMob.tgz'},
+		}
+	},
+	['plugin.appodeal.InMobi'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-InMobi.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-InMobi.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-InMobi.tgz'},
+		}
+	},
+	['plugin.appodeal.InnerActive'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-InnerActive.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-InnerActive.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-InnerActive.tgz'},
+		}
+	},
+	['plugin.appodeal.IronSource'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-IronSource.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-IronSource.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-IronSource.tgz'},
+		}
+	},
+	['plugin.appodeal.Mobvista'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Mobvista.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Mobvista.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Mobvista.tgz'},
+		}
+	},
+	['plugin.appodeal.MyTarget'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-MyTarget.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-MyTarget.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-MyTarget.tgz'},
+		}
+	},
+	['plugin.appodeal.Ogury'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Ogury.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Ogury.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Ogury.tgz'},
+		}
+	},
+	['plugin.appodeal.OpenX'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-OpenX.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-OpenX.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-OpenX.tgz'},
+		}
+	},
+	['plugin.appodeal.Pubnative'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Pubnative.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Pubnative.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Pubnative.tgz'},
+		}
+	},
+	['plugin.appodeal.Smaato'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Smaato.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Smaato.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Smaato.tgz'},
+		}
+	},
+	['plugin.appodeal.StartApp'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-StartApp.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-StartApp.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-StartApp.tgz'},
+		}
+	},
+	['plugin.appodeal.Tapjoy'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Tapjoy.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Tapjoy.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Tapjoy.tgz'},
+		}
+	},
+	['plugin.appodeal.TwitterMoPub'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-TwitterMoPub.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-TwitterMoPub.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-TwitterMoPub.tgz'},
+		}
+	},
+	['plugin.appodeal.Unity'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Unity.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Unity.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Unity.tgz'},
+		}
+	},
+	['plugin.appodeal.Vungle'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Vungle.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Vungle.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Vungle.tgz'},
+		}
+	},
+	['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-Yandex.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-Yandex.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-Yandex.tgz'},
+		}
+	},
+	['plugin.appodeal.base'] = { publisherId = 'com.coronalabs-x',
+	    supportedPlatforms = {
+			android = { url = 'http://localhost:8000/android-base.tgz'},
+			iphone = { url = 'http://localhost:8000/iphone-base.tgz'},
+			['iphone-sim'] = { url = 'http://localhost:8000/iphone-sim-base.tgz'},
+			['mac-sim'] = { url = 'http://localhost:8000/mac-sim-base.tgz'},
+			['win32-sim'] = { url = 'http://localhost:8000/win32-sim-base.tgz'},
+		}
+	},
+
+
+	}
+}
