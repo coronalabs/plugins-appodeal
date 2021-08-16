@@ -274,7 +274,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
             for (Object objKey : customRules.keySet()) {
                 String key = (String) objKey;
                 Object value = customRules.get(objKey);
-                Appodeal.setCustomFilter(key, (String) value);
+                Appodeal.setCustomFilter(key, value);
             }
         }
     }
@@ -774,7 +774,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                         }
 
                         // the last two booleans are internal settings for banner performance testing
-                        Appodeal.setFramework(CORONA_TAG, PLUGIN_VERSION, null, fShowInOtherWindow, fDisableOnscreenFocusCheck);
+                        Appodeal.setFramework(CORONA_TAG, PLUGIN_VERSION);
 
                         // set the custom rules
                         if (fCustomRules != null) {

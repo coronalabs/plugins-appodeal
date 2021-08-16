@@ -11,4 +11,4 @@ LIBRARY_SEARCH_PATHS = $(inherited) "$(CORONA_ROOT)/Corona/ios/lib"  ../SDK/plug
 FRAMEWORK_SEARCH_PATHS = $(inherited)  ../SDK/plugins/base/plugins/2100.9999/universal
 
  
-CORONA_CUSTOM_LDFLAGS =   -framework StackFoundation -framework StackMRAIDKit -framework StackNASTKit -framework StackRichMedia -framework StackUIKit -framework StackVASTAssets -framework StackVASTKit -framework StackVideoPlayer -framework StackXML -framework Appodeal -framework Protobuf
+CORONA_CUSTOM_LDFLAGS =   -framework StackFoundation -framework StackMRAIDKit -framework StackNASTKit -framework StackRichMedia -framework StackUIKit -framework StackVASTAssets -framework StackVASTKit -framework StackVideoPlayer -framework StackXML -framework Appodeal -framework Protobuf -framework StackCrashReporter
