@@ -147,9 +147,12 @@ function copyPluginContents {
     local srcDir="$1"
     local dstDir="$2"
 
-    if [ ! -d "$srcDir" ]
+    srcDirDevice="${srcDir/______/Release-iphoneos}"
+    srcDirSim="${srcDir/______/Release-iphonesimulator}"
+    
+    if [ ! -d "$srcDir" ] && [ ! -e "$srcDirDevice" ]
     then
-        echo "Skipping plugin for $srcDir, no source framework found."
+        echo "Skipping plugin for $srcDir $srcDirDevice, no source framework or file found."
         return 0
     fi
 
@@ -178,19 +181,20 @@ function copyPluginContents {
         "$(xcrun -f rsync)" --links --exclude '*.xcconfig' --exclude _CodeSignature --exclude .DS_Store --exclude CVS --exclude .svn --exclude .git --exclude .hg -resolve-src-symlinks "$a"  "$dstDir/universal/"
     done
 
-    for xc in "ios-arm64_armv7" "ios-x86_64-simulator"
+    for deviceFile in "$srcDirDevice" "$srcDirSim"
     do
         
-        if [ $xc = "ios-arm64_armv7" ] && [ -e "$srcDir/$xc" ]
-        then 
-            mkdir -p "$dstDir/iphone/"
-            cp -r "$srcDir/$xc/." "$dstDir/iphone/"
-        elif [ $xc = "ios-x86_64-simulator" ] && [ -d "$srcDir/$xc" ]
-        then 
-            mkdir -p "$dstDir/iphone-sim/"
-            cp -r "$srcDir/$xc/." "$dstDir/iphone-sim/"
+        if [[ "$deviceFile" == *"Release-"* ]]; then
+            local deviceDst="iphone"
+            mkdir -p "$dstDir"
+            if [[ "$deviceFile" == *"iphonesimulator"* ]]; then
+                deviceDst="iphone-sim"
+            fi
+            cp -r "$deviceFile" "$dstDir/$deviceDst"
         fi
+        
     done
+
 
     for device in "iphone" "iphone-sim"
     do
@@ -310,22 +314,22 @@ addSrcPods "${PLUGINS}/base/plugins/$REV"              "iOSPods/build/Build/Prod
 addSrcPods "${PLUGINS}/base/plugins/$REV"              "iOSPods/build/Build/Products/______/Protobuf/Protobuf.framework"
 
 
-makePlugin "${PLUGINS}/AdColony/plugins/$REV"          "iOSPods/Pods/APDAdColonyAdapter/APDAdColonyAdapter-${VERSION}/APDAdColonyAdapter.xcframework" "iOSPods/Pods/AdColony"
+makePlugin "${PLUGINS}/AdColony/plugins/$REV"          "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDAdColonyAdapter/libAPDAdColonyAdapter.a" "iOSPods/Pods/AdColony"
 
-makePlugin "${PLUGINS}/AmazonAds/plugins/$REV"         "iOSPods/Pods/APDAmazonAdsAdapter/APDAmazonAdsAdapter-${VERSION}/APDAmazonAdsAdapter.xcframework" "iOSPods/Pods/AmazonAd/AmazonMobileAds-ios-3.1.0-SDK/" "iOSPods/Pods/AmazonPublisherServicesSDK/APS_iOS_SDK-3.3.0/"
+makePlugin "${PLUGINS}/AmazonAds/plugins/$REV"         "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDAmazonAdsAdapter/libAPDAmazonAdsAdapter.a" "iOSPods/Pods/AmazonAd/AmazonMobileAds-ios-3.1.0-SDK/" "iOSPods/Pods/AmazonPublisherServicesSDK/APS_iOS_SDK-3.3.0/"
 
-makePlugin "${PLUGINS}/AppLovin/plugins/$REV"            "iOSPods/Pods/APDAppLovinAdapter/APDAppLovinAdapter-${VERSION}/APDAppLovinAdapter.xcframework" "iOSPods/Pods/AppLovinSDK/applovin-ios-sdk-10.3.7"
+makePlugin "${PLUGINS}/AppLovin/plugins/$REV"            "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDAppLovinAdapter/libAPDAppLovinAdapter.a" "iOSPods/Pods/AppLovinSDK/applovin-ios-sdk-10.3.7"
 addSrcPods "${PLUGINS}/AppLovin/plugins/$REV"          "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/AppLovinSDK/AppLovinSDK.framework"
 
-makePlugin "${PLUGINS}/Bidmachine/plugins/$REV"        "iOSPods/Pods/APDBidMachineAdapter/APDBidMachineAdapter-${VERSION}/APDBidMachineAdapter.xcframework" "iOSPods/Pods/BidMachine"
+makePlugin "${PLUGINS}/Bidmachine/plugins/$REV"        "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDBidMachineAdapter/libAPDBidMachineAdapter.a" "iOSPods/Pods/BidMachine"
 addSrcPods "${PLUGINS}/Bidmachine/plugins/$REV"        "iOSPods/build/Build/Products/______/CriteoPublisherSdk/CriteoPublisherSdk.framework"
 
 
-makePlugin "${PLUGINS}/FacebookAudience/plugins/$REV"  "iOSPods/Pods/APDFacebookAudienceAdapter/APDFacebookAudienceAdapter-${VERSION}/APDFacebookAudienceAdapter.xcframework" "iOSPods/Pods/FBAudienceNetwork/Static"
+makePlugin "${PLUGINS}/FacebookAudience/plugins/$REV"  "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDFacebookAudienceAdapter/libAPDFacebookAudienceAdapter.a" "iOSPods/Pods/FBAudienceNetwork/Static"
 addSrcPods "${PLUGINS}/FacebookAudience/plugins/$REV"  "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/FBSDKCoreKit/FBSDKCoreKit.framework"
 addSrcPods "${PLUGINS}/FacebookAudience/plugins/$REV"  "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework"
 
-makePlugin "${PLUGINS}/GoogleAdMob/plugins/$REV"       "iOSPods/Pods/APDGoogleAdMobAdapter/APDGoogleAdMobAdapter-${VERSION}/APDGoogleAdMobAdapter.xcframework"
+makePlugin "${PLUGINS}/GoogleAdMob/plugins/$REV"       "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDGoogleAdMobAdapter/libAPDGoogleAdMobAdapter.a"
 addSrcPods "${PLUGINS}/GoogleAdMob/plugins/$REV"       "iOSPods/build/Build/Products/______/PromisesObjC/FBLPromises.framework"
 addSrcPods "${PLUGINS}/GoogleAdMob/plugins/$REV"       "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/GoogleAppMeasurement/WithoutAdIdSupport/GoogleAppMeasurement.framework"
 addSrcPods "${PLUGINS}/GoogleAdMob/plugins/$REV"       "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/GoogleAppMeasurement/AdIdSupport/GoogleAppMeasurementIdentitySupport.framework"
@@ -335,21 +339,21 @@ addSrcPods "${PLUGINS}/GoogleAdMob/plugins/$REV"       "iOSPods/build/Build/Prod
 
 
 
-makePlugin "${PLUGINS}/IronSource/plugins/$REV"        "iOSPods/Pods/APDIronSourceAdapter/APDIronSourceAdapter-${VERSION}/APDIronSourceAdapter.xcframework" "iOSPods/Pods/IronSourceSDK/IronSource"
+makePlugin "${PLUGINS}/IronSource/plugins/$REV"        "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDIronSourceAdapter/libAPDIronSourceAdapter.a" "iOSPods/Pods/IronSourceSDK/IronSource"
 
 
-makePlugin "${PLUGINS}/MyTarget/plugins/$REV"          "iOSPods/Pods/APDMyTargetAdapter/APDMyTargetAdapter-${VERSION}/APDMyTargetAdapter.xcframework"
+makePlugin "${PLUGINS}/MyTarget/plugins/$REV"          "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDMyTargetAdapter/libAPDMyTargetAdapter.a"
 addSrcPods "${PLUGINS}/MyTarget/plugins/$REV"          "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/MyTargetSDK/MyTargetSDK.framework"
 
-makePlugin "${PLUGINS}/Ogury/plugins/$REV"             "iOSPods/Pods/APDOguryAdapter/APDOguryAdapter-${VERSION}/APDOguryAdapter.xcframework" "iOSPods/Pods/OguryAds/OguryAds"
+makePlugin "${PLUGINS}/Ogury/plugins/$REV"             "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDOguryAdapter/libAPDOguryAdapter.a" "iOSPods/Pods/OguryAds/OguryAds"
 addSrcPods "${PLUGINS}/Ogury/plugins/$REV"             "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/OguryAds/OguryAds.framework"
 
-makePlugin "${PLUGINS}/Unity/plugins/$REV"             "iOSPods/Pods/APDUnityAdapter/APDUnityAdapter-${VERSION}/APDUnityAdapter.xcframework" "iOSPods/Pods/UnityAds"
+makePlugin "${PLUGINS}/Unity/plugins/$REV"             "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDUnityAdapter/libAPDUnityAdapter.a" "iOSPods/Pods/UnityAds"
 
-makePlugin "${PLUGINS}/Vungle/plugins/$REV"            "iOSPods/Pods/APDVungleAdapter/APDVungleAdapter-${VERSION}/APDVungleAdapter.xcframework"
+makePlugin "${PLUGINS}/Vungle/plugins/$REV"            "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDVungleAdapter/libAPDVungleAdapter.a"
 addSrcPods "${PLUGINS}/Vungle/plugins/$REV"            "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/VungleSDK-iOS/VungleSDK.framework"
 
-makePlugin "${PLUGINS}/Yandex/plugins/$REV"            "iOSPods/Pods/APDYandexAdapter/APDYandexAdapter-${VERSION}/APDYandexAdapter.xcframework" "iOSPods/Pods/YandexMobileAds/static" "iOSPods/Pods/YandexMobileAds/static/YandexMobileAds.framework"
+makePlugin "${PLUGINS}/Yandex/plugins/$REV"            "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/APDYandexAdapter/libAPDYandexAdapter.a" "iOSPods/Pods/YandexMobileAds/static" "iOSPods/Pods/YandexMobileAds/static/YandexMobileAds.framework"
 addSrcPods "${PLUGINS}/Yandex/plugins/$REV"            "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/YandexMobileMetrica/Static/Core/YandexMobileMetrica.framework"
 addSrcPods "${PLUGINS}/Yandex/plugins/$REV"            "iOSPods/build/Build/Products/______/XCFrameworkIntermediates/YandexMobileMetrica/Static/Crashes/YandexMobileMetricaCrashes.framework"
 
@@ -394,4 +398,5 @@ then
     true
     cp -R ../ios-modular/BuiltPlugin/ "${PLUGINS}/base/plugins/$REV/"
 fi
+
 cd "$PREV_DIR"
