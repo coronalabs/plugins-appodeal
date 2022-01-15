@@ -31,6 +31,6 @@ task extractPluginJar() {
 
 dependencies {
     implementation ':Corona@aar'
-    implementation 'com.appodeal.ads.sdk:core:2.10.1'
+    implementation 'com.appodeal.ads.sdk:core:2.11.+'
 }
 

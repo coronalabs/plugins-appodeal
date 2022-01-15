@@ -46,7 +46,7 @@ import java.util.Map;
 @SuppressWarnings({"unused", "RedundantSuppression"})
 public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
     private static final String PLUGIN_NAME = "plugin.appodeal";
-    private static final String PLUGIN_VERSION = "1.6.5b";
+    private static final String PLUGIN_VERSION = "1.6.6";
     private static final String PLUGIN_SDK_VERSION = Appodeal.getVersion();
 
     private static final String EVENT_NAME = "adsRequest";
@@ -762,10 +762,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
             if (coronaActivity != null) {
                 Runnable runnableActivity = new Runnable() {
                     public void run() {
-                        if (fDisableWriteExternalPermissionCheck) {
-                            Appodeal.disableWriteExternalStoragePermissionCheck();
-                        }
-                        Appodeal.disableLocationPermissionCheck();
+
                         Appodeal.setAutoCache(fdAutoCacheAdTypes, false);
                         Appodeal.setBannerAnimation(fBannerAnimation);
                         Appodeal.setSmartBanners(fSmartBanners);
