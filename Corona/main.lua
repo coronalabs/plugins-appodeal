@@ -24,7 +24,7 @@ if platformName == "Android" then
 		appKey = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f" -- com.appodeal.test
 	end
 elseif platformName == "iPhone OS" then
-	appKey = "4b46ef930cd37cf11da84ae4d41019abb7234d5bbce3f000" -- com.appodeal.testing
+	appKey = "68f7479070ea55f751054146a93b69ba50f839b2b8c577c4" -- com.appodeal.testing
 end
 
 local processEventTable = function(event)

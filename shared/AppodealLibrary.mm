@@ -37,7 +37,7 @@
 // ----------------------------------------------------------------------------
 
 #define PLUGIN_NAME        "plugin.appodeal"
-#define PLUGIN_VERSION     "1.6.0b"
+#define PLUGIN_VERSION     "1.6.1"
 #define PLUGIN_SDK_VERSION [Appodeal getVersion]
 
 
