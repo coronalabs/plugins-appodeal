@@ -362,7 +362,6 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
             }
             try {
                 Class.forName("com.flurry.android.ads.FlurryAdBanner");
-                Class.forName("com.flurry.android.FlurryAgent");
             } catch (ClassNotFoundException e) {
                 Appodeal.disableNetwork(coronaActivity, "flurry");
             }
@@ -382,9 +381,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                 Appodeal.disableNetwork(coronaActivity, "mailru");
             }
             try {
-                Class.forName("com.mopub.mobileads.MoPubView");
                 Class.forName("com.mopub.mobileads.MoPubInterstitial");
-                Class.forName("com.mopub.mobileads.MoPubRewardedVideos");
             } catch (ClassNotFoundException e) {
                 Appodeal.disableNetwork(coronaActivity, "mopub");
             }
@@ -404,8 +401,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                 Appodeal.disableNetwork(coronaActivity, "startapp");
             }
             try {
-                Class.forName("com.yandex.metrica.YandexMetrica");
-                Class.forName("com.yandex.mobile.ads.InterstitialAd");
+                Class.forName("com.yandex.mobile.ads.interstitial.InterstitialAd");
             } catch (ClassNotFoundException e) {
                 Appodeal.disableNetwork(coronaActivity, "yandex");
             }
@@ -425,7 +421,6 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                 Appodeal.disableNetwork(coronaActivity, "vungle");
             }
             try {
-                Class.forName("com.amazon.device.ads.AdLayout");
                 Class.forName("com.amazon.device.ads.AdRegistration");
             } catch (ClassNotFoundException e) {
                 Appodeal.disableNetwork(coronaActivity, "amazon");
