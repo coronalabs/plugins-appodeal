@@ -181,14 +181,18 @@ if (configureCoronaPlugins == "YES") {
 //</editor-fold>
 
 android {
-    compileSdkVersion(29)
+    compileSdkVersion(32)
     defaultConfig {
         applicationId = coronaAppPackage
-        targetSdkVersion(29)
+        targetSdkVersion(32)
         minSdkVersion(coronaMinSdkVersion)
         versionCode = coronaVersionCode
         versionName = coronaVersionName
         multiDexEnabled = true
+    }
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
     }
 
     coronaKeystore?.let { keystore ->
