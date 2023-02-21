@@ -124,7 +124,7 @@ val parsedBuildProperties: JsonObject = run {
 }
 
 val coronaMinSdkVersion = parsedBuildProperties.lookup<Any?>("buildSettings.android.minSdkVersion").firstOrNull()?.toString()?.toIntOrNull()
-        ?: 15
+        ?: 21
 
 val coronaBuilder = if (windows) {
     "$nativeDir/Corona/win/bin/CoronaBuilder.exe"
@@ -181,11 +181,12 @@ if (configureCoronaPlugins == "YES") {
 //</editor-fold>
 
 android {
+
     compileSdkVersion(32)
     defaultConfig {
         applicationId = coronaAppPackage
         targetSdkVersion(32)
-        minSdkVersion(coronaMinSdkVersion)
+        minSdkVersion(21)
         versionCode = coronaVersionCode
         versionName = coronaVersionName
         multiDexEnabled = true
@@ -260,6 +261,9 @@ android {
                 }
             }
         }
+    }
+    packagingOptions {
+        exclude("META-INF/com.android.tools/proguard/coroutines.pro")
     }
 }
 

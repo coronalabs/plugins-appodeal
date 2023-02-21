@@ -23,10 +23,14 @@ import com.appodeal.ads.BannerCallbacks;
 import com.appodeal.ads.InterstitialCallbacks;
 import com.appodeal.ads.RewardedVideoCallbacks;
 import com.appodeal.ads.UserSettings;
+import com.appodeal.ads.initializing.ApdInitializationCallback;
+import com.appodeal.ads.initializing.ApdInitializationError;
 import com.naef.jnlua.JavaFunction;
 import com.naef.jnlua.LuaState;
 import com.naef.jnlua.LuaType;
 import com.naef.jnlua.NamedJavaFunction;
+
+import org.json.JSONArray;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -337,95 +341,28 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
 
     // Check available modules
     private void checkAvailableModules() {
-        final CoronaActivity coronaActivity = CoronaEnvironment.getCoronaActivity();
 
-        if (coronaActivity != null) {
-            try {
-                Class.forName("com.adcolony.sdk.AdColony");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "adcolony");
-            }
-            try {
-                Class.forName("com.applovin.sdk.AppLovinSdk");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "applovin");
-            }
-            try {
-                Class.forName("com.chartboost.sdk.Chartboost");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "chartboost");
-            }
-            try {
-                Class.forName("com.facebook.ads.InterstitialAd");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "facebook");
-            }
-            try {
-                Class.forName("com.flurry.android.ads.FlurryAdBanner");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "flurry");
-            }
-            try {
-                Class.forName("com.inmobi.sdk.InMobiSdk");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "inmobi");
-            }
-            try {
-                Class.forName("com.ironsource.mediationsdk.IronSource");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "ironsource");
-            }
-            try {
-                Class.forName("com.my.target.ads.InterstitialAd");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "mailru");
-            }
-            try {
-                Class.forName("com.mopub.mobileads.MoPubInterstitial");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "mopub");
-            }
-            try {
-                Class.forName("com.mintegral.msdk.out.MTGInterstitialHandler");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "mobvista");
-            }
-            try {
-                Class.forName("io.presage.Presage");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "ogury");
-            }
-            try {
-                Class.forName("com.startapp.android.publish.adsCommon.StartAppSDK");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "startapp");
-            }
-            try {
-                Class.forName("com.yandex.mobile.ads.interstitial.InterstitialAd");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "yandex");
-            }
-            try {
-                Class.forName("com.tapjoy.TJPlacement");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "tapjoy");
-            }
-            try {
-                Class.forName("com.unity3d.ads.UnityAds");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "unity_ads");
-            }
-            try {
-                Class.forName("com.vungle.warren.model.Advertisement");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "vungle");
-            }
-            try {
-                Class.forName("com.amazon.device.ads.AdRegistration");
-            } catch (ClassNotFoundException e) {
-                Appodeal.disableNetwork(coronaActivity, "amazon");
-            }
+        if(isSDKInitialized()) {
+            Log.w(CORONA_TAG, "Too late to disable modules!");
         }
+
+//            com.appodeal.ads.adapters.a4g.R
+//            com.appodeal.ads.adapters.admob.R;
+//            com.appodeal.ads.adapters.applovin.R;
+//            com.appodeal.ads.adapters.bidmachine.R;
+//            com.appodeal.ads.adapters.meta.R;
+//            com.appodeal.ads.adapters.ironsource.R;
+//            com.appodeal.ads.adapters.mytarget.R;
+//            com.appodeal.ads.adapters.notsy.R;
+//            com.appodeal.ads.adapters.unityads.R;
+//            com.appodeal.ads.adapters.vungle.R;
+//            com.appodeal.ads.adapters.yandex.R;
+
+//            try {
+//                Class.forName("com.appodeal.ads.ada");
+//            } catch (ClassNotFoundException e) {
+//                Appodeal.disableNetwork("adcolony");
+//            }
     }
 
     // -------------------------------------------------------------------
@@ -784,24 +721,35 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
 
                         // set testing mode
                         if (fTestMode) {
-                            Appodeal.setTesting(fTestMode);
+                            Appodeal.setTesting(true);
                             Appodeal.setLogLevel(com.appodeal.ads.utils.Log.LogLevel.verbose);
                         }
 
                         checkAvailableModules();
 
                         // initialize sdk
-                        Appodeal.initialize(coronaActivity, fAppKey, fAdTypes, fHasUserConsent);
+                        Appodeal.initialize(coronaActivity, fAppKey, fAdTypes, new ApdInitializationCallback() {
+                            @Override
+                            public void onInitializationFinished(List<ApdInitializationError> errors) {
+                                HashMap<String, Object> event = new HashMap<>();
+                                event.put(EVENT_PHASE_KEY, PHASE_INIT);
+
+                                if(errors != null) {
+                                    event.put(CoronaLuaEvent.ISERROR_KEY, true);
+                                    JSONArray array = new JSONArray();
+                                    for (ApdInitializationError e : errors) {
+                                        array.put(e.getLocalizedMessage());
+                                    }
+                                    event.put(CoronaLuaEvent.RESPONSE_KEY, array.toString());
+                                }
+                                dispatchLuaEvent(event);
+                            }
+                        });
 
                         Appodeal.setBannerCallbacks(new AppodealBannerDelegate());
                         Appodeal.setInterstitialCallbacks(new AppodealInterstitialDelegate());
                         Appodeal.setRewardedVideoCallbacks(new AppodealRewardedVideoDelegate());
                         Appodeal.setFramework("Corona", "1.0.0");
-
-                        // Send Corona Lua event
-                        HashMap<String, Object> event = new HashMap<>();
-                        event.put(EVENT_PHASE_KEY, PHASE_INIT);
-                        dispatchLuaEvent(event);
                     }
                 };
 
@@ -814,6 +762,32 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
 
             sdkInitialized = true;
 
+            return 0;
+        }
+    }
+
+    private class LogEvent implements NamedJavaFunction {
+
+        @Override
+        public String getName() {
+            return "logEvent";
+        }
+
+        @Override
+        public int invoke(LuaState luaState) {
+            if (!isSDKInitialized()) {
+                return 0;
+            }
+            String name = luaState.toString(1);
+            HashMap<String, Object> params = new HashMap<>();
+            if(luaState.isTable(2)) {
+                for (luaState.pushNil(); luaState.next(2); luaState.pop(1)) {
+                    String key = luaState.toString(-2);
+                    Object value = CoronaLua.toValue(luaState, -1);
+                    params.put(key, value);
+                }
+            }
+            Appodeal.logEvent(name, params);
             return 0;
         }
     }

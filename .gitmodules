@@ -357,3 +357,7 @@
 	path = SDK/plugins/Bidmachine
 	url = https://github.com/coronalabs/com.coronalabs-plugin.appodeal.Bidmachine.git
 	branch = master
+[submodule "SDK/plugins.beta/Bidmachine"]
+	path = SDK/plugins.beta/Bidmachine
+	url = https://github.com/solar2d/com.coronalabs-plugin.appodeal.beta.Bidmachine.git
+	branch = master

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 32
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 32
         versionCode 1
         versionName "1.0"
@@ -36,6 +36,17 @@ task extractPluginJar() {
 
 dependencies {
     implementation ':Corona@aar'
-    implementation 'com.appodeal.ads.sdk:core:2.11.1'
-}
+    implementation 'com.appodeal.ads.sdk:core:3.0.2'
 
+    implementation("com.appodeal.ads.sdk.networks:a4g:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:admob:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:applovin:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:bidmachine:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:facebook:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:ironsource:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:my_target:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:notsy:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:unity_ads:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:vungle:3.0.2.0")
+    implementation("com.appodeal.ads.sdk.networks:yandex:3.0.2.0")
+}
