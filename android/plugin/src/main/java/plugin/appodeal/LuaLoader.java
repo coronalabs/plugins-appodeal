@@ -25,6 +25,7 @@ import com.appodeal.ads.RewardedVideoCallbacks;
 import com.appodeal.ads.UserSettings;
 import com.appodeal.ads.initializing.ApdInitializationCallback;
 import com.appodeal.ads.initializing.ApdInitializationError;
+import com.appodeal.ads.rewarded.Reward;
 import com.naef.jnlua.JavaFunction;
 import com.naef.jnlua.LuaState;
 import com.naef.jnlua.LuaType;
@@ -715,7 +716,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                         if (disabledAdNetworks.size() > 0) {
                             for (String adNetwork : disabledAdNetworks) {
                                 Log.i(CORONA_TAG, "Disabling ad network " + adNetwork + " (WARNING: FOR ADVANCED USE ONLY. DO NOT USE UNLESS YOU KNOW WHAT YOU ARE DOING)");
-                                Appodeal.disableNetwork(coronaActivity, adNetwork);
+                                Appodeal.disableNetwork(adNetwork);
                             }
                         }
 
@@ -1065,19 +1066,19 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                 coronaActivity.runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        Pair<Double, String> rewardParams;
+                        Reward rewardParams;
 
                         if (fPlacementId == null) {
-                            rewardParams = Appodeal.getRewardParameters();
+                            rewardParams = Appodeal.getReward();
                         } else {
-                            rewardParams = Appodeal.getRewardParameters(fPlacementId);
+                            rewardParams = Appodeal.getReward(fPlacementId);
                         }
 
-                        if (rewardParams.first != null && rewardParams.second != null) {
+                        if (rewardParams != null) {
                             // Create the event data (need to use Hashtable here for Corona's pushValue to work)
                             Map<String, Object> eventData = new Hashtable<>();
-                            eventData.put(REWARD_AMOUNT_KEY, rewardParams.first);
-                            eventData.put(REWARD_NAME_KEY, rewardParams.second);
+                            eventData.put(REWARD_AMOUNT_KEY, rewardParams.getAmount());
+                            eventData.put(REWARD_NAME_KEY, rewardParams.getCurrency());
 
                             // Dispatch the Lua event
                             HashMap<String, Object> event = new HashMap<>();
@@ -1622,31 +1623,31 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
             }
 
             // validate gender
-            UserSettings.Gender appodealGender = null;
-
-            if (gender != null) {
-                if (gender.equals(GENDER_FEMALE)) {
-                    appodealGender = UserSettings.Gender.FEMALE;
-                } else if (gender.equals(GENDER_MALE)) {
-                    appodealGender = UserSettings.Gender.MALE;
-                } else if (gender.equals(GENDER_OTHER)) {
-                    appodealGender = UserSettings.Gender.OTHER;
-                } else {
-                    logMsg(ERROR_MSG, "'" + gender + "', invalid gender");
-                    return 0;
-                }
-            }
+            //            UserSettings.Gen appodealGender = null;
+            //
+            //            if (gender != null) {
+            //                if (gender.equals(GENDER_FEMALE)) {
+            //                    appodealGender = UserSettings.Gender.FEMALE;
+            //                } else if (gender.equals(GENDER_MALE)) {
+            //                    appodealGender = UserSettings.Gender.MALE;
+            //                } else if (gender.equals(GENDER_OTHER)) {
+            //                    appodealGender = UserSettings.Gender.OTHER;
+            //                } else {
+            //                    logMsg(ERROR_MSG, "'" + gender + "', invalid gender");
+            //                    return 0;
+            //                }
+            //            }
 
             if (userId != null) {
                 Appodeal.setUserId(userId);
             }
 
             if (age != NO_VALUE) {
-                Appodeal.setUserAge((int) age);
+                //Appodeal.setAge((int) age);
             }
 
             if (gender != null) {
-                Appodeal.setUserGender(appodealGender);
+                //Appodeal.setUserGender(appodealGender);
             }
 
             return 0;

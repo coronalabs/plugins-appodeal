@@ -1,25 +1,32 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 32
+    compileSdk 33
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 32
+        minSdkVersion 15
+        targetSdk 33
         versionCode 1
         versionName "1.0"
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
 
 }
+repositories {
+    maven { url "https://artifactory.appodeal.com/appodeal-beta-public" }
+}
 
+dependencies {
+    implementation ':Corona@aar'
+    implementation 'com.appodeal.ads.sdk:core:3.2.0-beta.1'
+}
 
-task extractPluginJar() {
+tasks.register("extractPluginJar") {
     group "Solar2Dev"
-    dependsOn assemble
+    dependsOn assembleRelease
     doLast {
         copy {
             from {
@@ -34,19 +41,36 @@ task extractPluginJar() {
     }
 }
 
-dependencies {
-    implementation ':Corona@aar'
-    implementation 'com.appodeal.ads.sdk:core:3.0.2'
+// This creates archive for plugin so it can be used by Simulator from build.settings
+// by deploying it directly to Solar2DPlugins directory. This is first in line location
+// to retrieve plugins, so will overshadow online directory/store downloads.
+def providerId = 'com.solar2d'
+tasks.register("deployToLocalSolar2DRepo", Tar) {
+    group "Solar2Dev"
 
-    implementation("com.appodeal.ads.sdk.networks:a4g:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:admob:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:applovin:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:bidmachine:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:facebook:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:ironsource:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:my_target:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:notsy:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:unity_ads:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:vungle:3.0.2.0")
-    implementation("com.appodeal.ads.sdk.networks:yandex:3.0.2.0")
+    dependsOn assembleRelease
+
+    File pluginManifestFile = file("src/main/AndroidManifest.xml")
+    String manifestContents = pluginManifestFile.text
+    def pluginManifestXml = new XmlSlurper().parseText(manifestContents)
+    String packageName = pluginManifestXml.@package.toString()
+
+    compression = Compression.GZIP
+    archiveFileName = "data.tgz"
+    def rootS2DP
+    if(System.env.APP_DATA) {
+        rootS2DP = System.env.APP_DATA
+    } else {
+        rootS2DP = System.env.HOME
+    }
+    def dst = file("$rootS2DP/Solar2DPlugins/$providerId/$packageName/android")
+    destinationDirectory = dst
+
+    into("/") {
+        from("$buildDir/outputs/aar")
+        include("${project.name}-release.aar")
+    }
+    doLast {
+        println("\n\n\n== !!! IMPORTANT !!! ==\nMake sure to delete plugin when done: $dst\nThis plugin will override any Solar2Directory plugin, or plugin from any other source")
+    }
 }
