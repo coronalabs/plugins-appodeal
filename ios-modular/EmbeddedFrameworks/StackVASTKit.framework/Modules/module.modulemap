@@ -1,0 +1,6 @@
+framework module StackVASTKit {
+  umbrella header "StackVASTKit.h"
+
+  export *
+  module * { export * }
+}

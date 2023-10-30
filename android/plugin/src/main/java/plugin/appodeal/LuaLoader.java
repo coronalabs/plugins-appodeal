@@ -25,6 +25,8 @@ import com.appodeal.ads.RewardedVideoCallbacks;
 import com.appodeal.ads.UserSettings;
 import com.appodeal.ads.initializing.ApdInitializationCallback;
 import com.appodeal.ads.initializing.ApdInitializationError;
+import com.appodeal.ads.regulator.CCPAUserConsent;
+import com.appodeal.ads.regulator.GDPRUserConsent;
 import com.appodeal.ads.rewarded.Reward;
 import com.naef.jnlua.JavaFunction;
 import com.naef.jnlua.LuaState;
@@ -587,6 +589,13 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                     } else if (key.equals("hasUserConsent")) {
                         if (luaState.type(-1) == LuaType.BOOLEAN) {
                             hasUserConsent = luaState.toBoolean(-1);
+                            if(hasUserConsent){
+                                Appodeal.updateGDPRUserConsent(GDPRUserConsent.Personalized);
+                                Appodeal.updateCCPAUserConsent(CCPAUserConsent.OptIn);
+                            }else{
+                                Appodeal.updateGDPRUserConsent(GDPRUserConsent.NonPersonalized);
+                                Appodeal.updateCCPAUserConsent(CCPAUserConsent.OptOut);
+                            }
                         } else {
                             logMsg(ERROR_MSG, "options.hasUserConsent (boolean) expected, got: " + luaState.typeName(-1));
                             return 0;
@@ -690,7 +699,6 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
             final boolean fDisableOnscreenFocusCheck = disableOnscreenFocusCheck;
             final Hashtable<Object, Object> fCustomRules = customRules;
             final int fAdTypes = adTypes;
-            final boolean fHasUserConsent = hasUserConsent;
 
             if (coronaActivity != null) {
                 Runnable runnableActivity = new Runnable() {

@@ -1,0 +1,6 @@
+framework module StackIABAssets {
+  umbrella header "StackIABAssets.h"
+
+  export *
+  module * { export * }
+}

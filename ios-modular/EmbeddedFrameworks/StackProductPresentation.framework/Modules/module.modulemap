@@ -1,0 +1,11 @@
+framework module StackProductPresentation {
+  umbrella header "StackProductPresentation.h"
+
+  export *
+  module * { export * }
+}
+
+module StackProductPresentation.Swift {
+  header "StackProductPresentation-Swift.h"
+  requires objc
+}

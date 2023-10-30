@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Osize -module-name AppodealMediationCore
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import AppodealMediationCore
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@objc(AMCMediationControllerDelegate) public protocol MediationControllerDelegate {
+  @objc func controller(_: AppodealMediationCore.MediationController, shouldProceedAdUnit adUnit: any AppodealMediationCore.AdUnit) -> Swift.Bool
+  @objc func controller(_: AppodealMediationCore.MediationController, willProceedAdUnit adUnit: any AppodealMediationCore.AdUnit)
+  @objc func controller(_: AppodealMediationCore.MediationController, willDiscardAdUnit adUnit: any AppodealMediationCore.AdUnit)
+  @objc func controller(_: AppodealMediationCore.MediationController, willExpireAdUnit adUnit: any AppodealMediationCore.AdUnit)
+  @objc func controller(_: AppodealMediationCore.MediationController, didCompleteAdUnits adUnits: [any AppodealMediationCore.AdUnit])
+}
+@_inheritsConvenienceInitializers @objc(AMCMediationController) public class MediationController : ObjectiveC.NSObject {
+  @objc weak public var delegate: (any AppodealMediationCore.MediationControllerDelegate)?
+  @objc(proceedAdUnits:) public func proceed(adUnits: [any AppodealMediationCore.AdUnit])
+  @objc(completeAdUnit:) public func complete(adUnit: any AppodealMediationCore.AdUnit)
+  @objc public func prepareForReuse()
+  @objc public func breakExecution()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(AMCAdUnitType) public enum AdUnitType : Swift.Int {
+  case `default` = 0
+  case targeted
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(AMCAdUnitStrategy) public enum AdUnitStrategy : Swift.Int {
+  case asynchronous
+  case synchronous
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc(AMCAdUnit) public protocol AdUnit : ObjectiveC.NSObjectProtocol {
+  @objc var type: AppodealMediationCore.AdUnitType { get }
+  @objc var strategy: AppodealMediationCore.AdUnitStrategy { get }
+  @objc var timeout: Foundation.TimeInterval { get }
+}
+extension AppodealMediationCore.AdUnitType : Swift.Equatable {}
+extension AppodealMediationCore.AdUnitType : Swift.Hashable {}
+extension AppodealMediationCore.AdUnitType : Swift.RawRepresentable {}
+extension AppodealMediationCore.AdUnitStrategy : Swift.Equatable {}
+extension AppodealMediationCore.AdUnitStrategy : Swift.Hashable {}
+extension AppodealMediationCore.AdUnitStrategy : Swift.RawRepresentable {}

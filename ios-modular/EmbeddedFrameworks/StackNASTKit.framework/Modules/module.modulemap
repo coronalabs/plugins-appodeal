@@ -1,0 +1,6 @@
+framework module StackNASTKit {
+  umbrella header "StackNASTKit.h"
+
+  export *
+  module * { export * }
+}

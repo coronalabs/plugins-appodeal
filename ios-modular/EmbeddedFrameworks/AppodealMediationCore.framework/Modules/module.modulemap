@@ -1,0 +1,11 @@
+framework module AppodealMediationCore {
+  umbrella header "AppodealMediationCore.h"
+
+  export *
+  module * { export * }
+}
+
+module AppodealMediationCore.Swift {
+  header "AppodealMediationCore-Swift.h"
+  requires objc
+}

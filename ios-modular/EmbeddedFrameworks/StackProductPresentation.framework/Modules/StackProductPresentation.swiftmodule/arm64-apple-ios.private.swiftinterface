@@ -1,0 +1,66 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StackProductPresentation
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import SafariServices
+import StackFoundation
+@_exported import StackProductPresentation
+import StackUIKit
+import StoreKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_inheritsConvenienceInitializers @objc(STKProductPresentation) final public class ProductPresentation : ObjectiveC.NSObject {
+  @objc public static func openProduct(parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>, success: ((Swift.Dictionary<Swift.String, Swift.AnyHashable>) -> Swift.Void)?, failure: ((Foundation.NSError) -> Swift.Void)?, completion: (() -> Swift.Void)?)
+  @objc public static func startImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc public static func endImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension StackProductPresentation.ProductPresentation : StackProductPresentation.ProductControllerDelegate {
+  @objc final public func controller(_ controller: StackProductPresentation.ProductController, didFailToPresent error: Foundation.NSError)
+  @objc final public func controller(_ controller: StackProductPresentation.ProductController, willLeaveApplication parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func controller(_ controller: StackProductPresentation.ProductController, willPresentProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func controllerDidCompleteProcessing(_ controller: StackProductPresentation.ProductController)
+}
+@objc(STKProductControllerDelegate) public protocol ProductControllerDelegate {
+  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didFailToPresent error: Foundation.NSError)
+  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didPrepareProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didPrepareProductOverlay parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc optional func controller(_ controller: StackProductPresentation.ProductController, willPresentProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didDismissProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc optional func controller(_ controller: StackProductPresentation.ProductController, willLeaveApplication parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didTrackOverlayInteraction parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc optional func controllerDidCompleteProcessing(_ controller: StackProductPresentation.ProductController)
+}
+@_inheritsConvenienceInitializers @objc(STKProductController) final public class ProductController : ObjectiveC.NSObject {
+  @objc public static let itemIdentifierKey: Swift.String
+  @objc public static let clickThroughKey: Swift.String
+  @objc public static let adNetworkAttributionSignatureKey: Swift.String
+  @objc public static let adNetworkCampaignIdentifierKey: Swift.String
+  @objc public static let adNetworkSourceIdentifierKey: Swift.String
+  @objc public static let adNetworkIdentifierKey: Swift.String
+  @objc public static let adNetworkNonceKey: Swift.String
+  @objc public static let adNetworkTimestampKey: Swift.String
+  @objc public static let adNetworkSourceAppStoreIdentifierKey: Swift.String
+  @objc public static let adNetworkVersionKey: Swift.String
+  @objc public static let adNetworkFidelitiesKey: Swift.String
+  @objc public static let adNetworkFidelityKey: Swift.String
+  @objc public static let useEmbeddedBrowser: Swift.String
+  @objc weak final public var delegate: StackProductPresentation.ProductControllerDelegate?
+  @objc public static var supportedSKAdNetworkVersions: [Swift.String] {
+    @objc get
+  }
+  @objc final public func isReady(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>) -> Swift.Bool
+  @objc final public func load(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func present(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func presentSKOverlay(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func presentOverlay(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func hideOverlay(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func startImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc final public func endImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+  @objc override dynamic public init()
+  @objc deinit
+}

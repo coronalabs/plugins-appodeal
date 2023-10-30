@@ -37,8 +37,8 @@
 // ----------------------------------------------------------------------------
 
 #define PLUGIN_NAME        "plugin.appodeal"
-#define PLUGIN_VERSION     "1.7.0"
-#define PLUGIN_SDK_VERSION [Appodeal getVersion]
+#define PLUGIN_VERSION     "1.8.0"
+#define PLUGIN_SDK_VERSION  [Appodeal getVersion]
 
 
 
@@ -331,29 +331,32 @@ AppodealLibrary::ToLibrary(lua_State *L)
 	return library;
 }
 
-static void InitAppodeal(AppodealAdType adTypes, const char *appKey, bool hasUserConsent, bool testMode) {
-	[Appodeal initializeWithApiKey:@(appKey) types:adTypes hasConsent:hasUserConsent];
-	
-	// set delegates / log level
-	[Appodeal setBannerDelegate:appodealPluginDelegate];
-	[Appodeal setInterstitialDelegate:appodealPluginDelegate];
-	[Appodeal setRewardedVideoDelegate:appodealPluginDelegate];
-	
-	if (testMode) {
-		[APDSdk setLogLevel:APDLogLevelVerbose];
-	}
-	
-	[Appodeal setFramework:APDFrameworkCorona version:[NSString stringWithUTF8String:CoronaVersionBuildString()]];
-	// log the plugin version to device console
-	NSLog(@"Corona/Solar2D Appodeal %s: %s (SDK: %@)", PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_SDK_VERSION);
-	
-	appodealPluginDelegate.sdkInitialized = true;
-	
-	// send Corona Lua event
-	NSDictionary *coronaEvent = @{
-		@(CoronaEventPhaseKey()) : PHASE_INIT
-	};
-	[appodealPluginDelegate dispatchLuaEvent:coronaEvent];
+static void InitAppodeal(AppodealAdType adTypes, const char *appKey, bool testMode) {
+        
+        // set delegates / log level
+        [Appodeal setBannerDelegate:appodealPluginDelegate];
+        [Appodeal setInterstitialDelegate:appodealPluginDelegate];
+        [Appodeal setRewardedVideoDelegate:appodealPluginDelegate];
+
+        [Appodeal setAutocache:YES types:adTypes]; // At moment appodeal requires this
+        
+        if (testMode) {
+            [Appodeal setTestingEnabled:YES];
+            [APDSdk setLogLevel:APDLogLevelVerbose];
+        }
+        
+        [Appodeal setFramework:APDFrameworkCorona version:[NSString stringWithUTF8String:CoronaVersionBuildString()]];
+        // log the plugin version to device console
+        NSLog(@"Corona/Solar2D Appodeal %s: %s (SDK: %@)", PLUGIN_NAME, PLUGIN_VERSION, PLUGIN_SDK_VERSION);
+        
+        appodealPluginDelegate.sdkInitialized = true;
+        
+        [Appodeal initializeWithApiKey:@(appKey) types:adTypes];
+        // send Corona Lua event
+        NSDictionary *coronaEvent = @{
+            @(CoronaEventPhaseKey()) : PHASE_INIT
+        };
+        [appodealPluginDelegate dispatchLuaEvent:coronaEvent];
 }
 
 // [Lua] appodeal.init(listener, options)
@@ -574,6 +577,13 @@ AppodealLibrary::init(lua_State *L)
 			else if (UTF8IsEqual(key, "hasUserConsent")) {
 				if (lua_type(L, -1) == LUA_TBOOLEAN) {
 					hasUserConsent = lua_toboolean(L, -1);
+                    if(hasUserConsent){
+                        [Appodeal updateUserConsentGDPR:APDGDPRUserConsentPersonalized];
+                        [Appodeal updateUserConsentCCPA:APDCCPAUserConsentOptIn];
+                    }else{
+                        [Appodeal updateUserConsentGDPR:APDGDPRUserConsentNonPersonalized];
+                        [Appodeal updateUserConsentCCPA:APDCCPAUserConsentOptOut];
+                    }
 				}
 				else {
 					logMsg(L, ERROR_MSG, MsgFormat(@"options.hasUserConsent (boolean) expected, got: %s", luaL_typename(L, -1)));
@@ -699,13 +709,13 @@ AppodealLibrary::init(lua_State *L)
 	if([[NSBundle mainBundle] objectForInfoDictionaryKey:@"NSUserTrackingUsageDescription"]) {
 		if (@available(iOS 14, *)) {
 			[ATTrackingManager requestTrackingAuthorizationWithCompletionHandler:^(ATTrackingManagerAuthorizationStatus status) {
-				InitAppodeal(adTypes, appKey, hasUserConsent, testMode);
+				InitAppodeal(adTypes, appKey, testMode);
 			}];
 		} else {
-			InitAppodeal(adTypes, appKey, hasUserConsent, testMode);
+			InitAppodeal(adTypes, appKey, testMode);
 		}
 	} else {
-		InitAppodeal(adTypes, appKey, hasUserConsent, testMode);
+		InitAppodeal(adTypes, appKey, testMode);
 	}
 	
 	return 0;
@@ -1463,11 +1473,11 @@ AppodealLibrary::setUserDetails(lua_State *L)
 	}
 	
 	if (age != NO_VALUE) {
-		[Appodeal setUserAge:age];
+		//[Appodeal setUserAge:age];
 	}
 	
 	if (gender != NULL) {
-		[Appodeal setUserGender:appodealGender];
+		//[Appodeal setUserGender:appodealGender];
 	}
 	
 	return 0;

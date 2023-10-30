@@ -1,0 +1,6 @@
+framework module StackCrashReporter {
+  umbrella header "StackCrashReporter.h"
+
+  export *
+  module * { export * }
+}

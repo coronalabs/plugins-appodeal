@@ -1,0 +1,6 @@
+framework module StackXML {
+  umbrella header "StackXML.h"
+
+  export *
+  module * { export * }
+}

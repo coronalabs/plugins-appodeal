@@ -1,0 +1,6 @@
+framework module StackOpenMeasure {
+  umbrella header "StackOpenMeasure.h"
+
+  export *
+  module * { export * }
+}

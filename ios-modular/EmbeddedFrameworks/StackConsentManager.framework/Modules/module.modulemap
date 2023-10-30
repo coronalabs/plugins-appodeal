@@ -1,0 +1,6 @@
+framework module StackConsentManager {
+  umbrella header "StackConsentManager.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+module OMSDK_Appodeal {
+    header "Headers/OMIDImports.h"
+    export *
+}

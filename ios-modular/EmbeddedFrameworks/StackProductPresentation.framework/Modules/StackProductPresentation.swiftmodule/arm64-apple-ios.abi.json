@@ -1,0 +1,2970 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StackFoundation",
+        "printedName": "StackFoundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StackFoundation",
+        "printedName": "StackFoundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StackUIKit",
+        "printedName": "StackUIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StackUIKit",
+        "printedName": "StackUIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StackFoundation",
+        "printedName": "StackFoundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProductPresentation",
+        "printedName": "ProductPresentation",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openProduct",
+            "printedName": "openProduct(parameters:success:failure:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String : Swift.AnyHashable]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Swift.AnyHashable]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.AnyHashable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)openProductWithParameters:success:failure:completion:",
+            "mangledName": "$s24StackProductPresentation0bC0C04openB010parameters7success7failure10completionySDySSs11AnyHashableVG_yAKcSgySo7NSErrorCcSgyycSgtFZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "objc_name": "openProductWithParameters:success:failure:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startImpression",
+            "printedName": "startImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)startImpression:",
+            "mangledName": "$s24StackProductPresentation0bC0C15startImpressionyySDySSs11AnyHashableVGFZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endImpression",
+            "printedName": "endImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)endImpression:",
+            "mangledName": "$s24StackProductPresentation0bC0C13endImpressionyySDySSs11AnyHashableVGFZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductPresentation",
+                "printedName": "StackProductPresentation.ProductPresentation",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(im)init",
+            "mangledName": "$s24StackProductPresentation0bC0CACycfc",
+            "moduleName": "StackProductPresentation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:didFailToPresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:didFailToPresent:",
+            "mangledName": "$s24StackProductPresentation0bC0C10controller_16didFailToPresentyAA0B10ControllerC_So7NSErrorCtF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controller:didFailToPresent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:willLeaveApplication:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:willLeaveApplication:",
+            "mangledName": "$s24StackProductPresentation0bC0C10controller_20willLeaveApplicationyAA0B10ControllerC_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controller:willLeaveApplication:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:willPresentProduct:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:willPresentProduct:",
+            "mangledName": "$s24StackProductPresentation0bC0C10controller_011willPresentB0yAA0B10ControllerC_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controller:willPresentProduct:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controllerDidCompleteProcessing",
+            "printedName": "controllerDidCompleteProcessing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controllerDidCompleteProcessing:",
+            "mangledName": "$s24StackProductPresentation0bC0C31controllerDidCompleteProcessingyyAA0B10ControllerCF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controllerDidCompleteProcessing:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation",
+        "mangledName": "$s24StackProductPresentation0bC0C",
+        "moduleName": "StackProductPresentation",
+        "objc_name": "STKProductPresentation",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ProductControllerDelegate",
+            "printedName": "ProductControllerDelegate",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StackUIKit",
+        "printedName": "StackUIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StackFoundation",
+        "printedName": "StackFoundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProductControllerDelegate",
+        "printedName": "ProductControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:didFailToPresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controller:didFailToPresent:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP10controller_16didFailToPresentyAA0bD0C_So7NSErrorCtF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:didPrepareProduct:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controller:didPrepareProduct:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP10controller_010didPrepareB0yAA0bD0C_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:didPrepareProductOverlay:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controller:didPrepareProductOverlay:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP10controller_010didPrepareB7OverlayyAA0bD0C_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:willPresentProduct:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controller:willPresentProduct:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP10controller_011willPresentB0yAA0bD0C_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:didDismissProduct:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controller:didDismissProduct:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP10controller_010didDismissB0yAA0bD0C_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:willLeaveApplication:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controller:willLeaveApplication:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP10controller_20willLeaveApplicationyAA0bD0C_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:didTrackOverlayInteraction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controller:didTrackOverlayInteraction:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP10controller_26didTrackOverlayInteractionyAA0bD0C_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controllerDidCompleteProcessing",
+            "printedName": "controllerDidCompleteProcessing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate(im)controllerDidCompleteProcessing:",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP31controllerDidCompleteProcessingyyAA0bD0CF",
+            "moduleName": "StackProductPresentation",
+            "genericSig": "<τ_0_0 where τ_0_0 : StackProductPresentation.ProductControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : StackProductPresentation.ProductControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate",
+        "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP",
+        "moduleName": "StackProductPresentation",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "STKProductControllerDelegate",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ProductController",
+        "printedName": "ProductController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "itemIdentifierKey",
+            "printedName": "itemIdentifierKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)itemIdentifierKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC17itemIdentifierKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)itemIdentifierKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC17itemIdentifierKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clickThroughKey",
+            "printedName": "clickThroughKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)clickThroughKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC15clickThroughKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)clickThroughKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC15clickThroughKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkAttributionSignatureKey",
+            "printedName": "adNetworkAttributionSignatureKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkAttributionSignatureKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC32adNetworkAttributionSignatureKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkAttributionSignatureKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC32adNetworkAttributionSignatureKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkCampaignIdentifierKey",
+            "printedName": "adNetworkCampaignIdentifierKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkCampaignIdentifierKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC30adNetworkCampaignIdentifierKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkCampaignIdentifierKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC30adNetworkCampaignIdentifierKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkSourceIdentifierKey",
+            "printedName": "adNetworkSourceIdentifierKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkSourceIdentifierKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC28adNetworkSourceIdentifierKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkSourceIdentifierKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC28adNetworkSourceIdentifierKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkIdentifierKey",
+            "printedName": "adNetworkIdentifierKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkIdentifierKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC22adNetworkIdentifierKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkIdentifierKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC22adNetworkIdentifierKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkNonceKey",
+            "printedName": "adNetworkNonceKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkNonceKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC17adNetworkNonceKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkNonceKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC17adNetworkNonceKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkTimestampKey",
+            "printedName": "adNetworkTimestampKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkTimestampKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC21adNetworkTimestampKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkTimestampKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC21adNetworkTimestampKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkSourceAppStoreIdentifierKey",
+            "printedName": "adNetworkSourceAppStoreIdentifierKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkSourceAppStoreIdentifierKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC36adNetworkSourceAppStoreIdentifierKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkSourceAppStoreIdentifierKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC36adNetworkSourceAppStoreIdentifierKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkVersionKey",
+            "printedName": "adNetworkVersionKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkVersionKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC19adNetworkVersionKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkVersionKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC19adNetworkVersionKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkFidelitiesKey",
+            "printedName": "adNetworkFidelitiesKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkFidelitiesKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC22adNetworkFidelitiesKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkFidelitiesKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC22adNetworkFidelitiesKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "adNetworkFidelityKey",
+            "printedName": "adNetworkFidelityKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)adNetworkFidelityKey",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC20adNetworkFidelityKeySSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)adNetworkFidelityKey",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC20adNetworkFidelityKeySSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "useEmbeddedBrowser",
+            "printedName": "useEmbeddedBrowser",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)useEmbeddedBrowser",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC18useEmbeddedBrowserSSvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)useEmbeddedBrowser",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC18useEmbeddedBrowserSSvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "StackProductPresentation.ProductControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(py)delegate",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC8delegateAA0bD8Delegate_pSgvp",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "StackProductPresentation.ProductControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProductControllerDelegate",
+                        "printedName": "StackProductPresentation.ProductControllerDelegate",
+                        "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)delegate",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC8delegateAA0bD8Delegate_pSgvg",
+                "moduleName": "StackProductPresentation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "StackProductPresentation.ProductControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProductControllerDelegate",
+                        "printedName": "StackProductPresentation.ProductControllerDelegate",
+                        "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)setDelegate:",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC8delegateAA0bD8Delegate_pSgvs",
+                "moduleName": "StackProductPresentation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24StackProductPresentation0B10ControllerC8delegateAA0bD8Delegate_pSgvM",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC8delegateAA0bD8Delegate_pSgvM",
+                "moduleName": "StackProductPresentation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedSKAdNetworkVersions",
+            "printedName": "supportedSKAdNetworkVersions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cpy)supportedSKAdNetworkVersions",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC28supportedSKAdNetworkVersionsSaySSGvpZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(cm)supportedSKAdNetworkVersions",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC28supportedSKAdNetworkVersionsSaySSGvgZ",
+                "moduleName": "StackProductPresentation",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isReady",
+            "printedName": "isReady(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)isReady:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC7isReadyySbSDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)load:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC4loadyySDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)present:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC7presentyySDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentSKOverlay",
+            "printedName": "presentSKOverlay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)presentSKOverlay:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC16presentSKOverlayyySDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentOverlay",
+            "printedName": "presentOverlay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)presentOverlay:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC14presentOverlayyySDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideOverlay",
+            "printedName": "hideOverlay(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)hideOverlay:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC11hideOverlayyySDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startImpression",
+            "printedName": "startImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)startImpression:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC15startImpressionyySDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endImpression",
+            "printedName": "endImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)endImpression:",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC13endImpressionyySDySSs11AnyHashableVGF",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)init",
+            "mangledName": "$s24StackProductPresentation0B10ControllerCACycfc",
+            "moduleName": "StackProductPresentation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController",
+        "mangledName": "$s24StackProductPresentation0B10ControllerC",
+        "moduleName": "StackProductPresentation",
+        "objc_name": "STKProductController",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StackFoundation",
+        "printedName": "StackFoundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ExternalPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 17,
+      "value": "\"StackProductPresentation.ExternalPresenter\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/STKAdImpression.swift",
+      "kind": "StringLiteral",
+      "offset": 437,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SafariPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 365,
+      "length": 15,
+      "value": "\"StackProductPresentation.SafariPresenter\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1645,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1862,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 2163,
+      "length": 4,
+      "value": "0.18"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2176,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2220,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2265,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2334,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2591,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2629,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2691,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2920,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 3057,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 3284,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3297,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3336,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3376,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3440,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3667,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3888,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4113,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 9300,
+      "length": 16,
+      "value": "\"StackProductPresentation.OverlayPresenter\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/CompleteOperatation.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 19,
+      "value": "\"StackProductPresentation.CompleteOperatation\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKOverlayPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 18,
+      "value": "\"StackProductPresentation.SKOverlayPresenter\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 48,
+      "value": "\"Unable to present SKStoreProductViewController\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 537,
+      "length": 67,
+      "value": "\"Unable to find controller to present SKStoreProductViewController\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 49,
+      "value": "\"SKStoreProductViewController has been presented\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 739,
+      "length": 17,
+      "value": "\"StackProductPresentation.StoreKitPresenter\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 5611,
+      "length": 50,
+      "value": "\"StackProductPresentation.StoreControllerViewControllerAnimatedTransitioning\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 1405,
+      "length": 35,
+      "value": "\"STKProductParameterItemIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 1491,
+      "length": 33,
+      "value": "\"STKProductParameterClickThrough\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 1592,
+      "length": 50,
+      "value": "\"STKProductParameterAdNetworkAttributionSignature\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 1708,
+      "length": 48,
+      "value": "\"STKProductParameterAdNetworkCampaignIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 1820,
+      "length": 46,
+      "value": "\"STKProductParameterAdNetworkSourceIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 1924,
+      "length": 40,
+      "value": "\"STKProductParameterAdNetworkIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 2017,
+      "length": 35,
+      "value": "\"STKProductParameterAdNetworkNonce\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 2109,
+      "length": 39,
+      "value": "\"STKProductParameterAdNetworkTimestamp\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 2220,
+      "length": 54,
+      "value": "\"STKProductParameterAdNetworkSourceAppStoreIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 2329,
+      "length": 37,
+      "value": "\"STKProductParameterAdNetworkVersion\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 2424,
+      "length": 40,
+      "value": "\"STKProductParameterAdNetworkFidelities\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
+      "length": 38,
+      "value": "\"STKProductParameterAdNetworkFidelity\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 2612,
+      "length": 39,
+      "value": "\"STKProductParameterUseEmbeddedBrowser\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "Array",
+      "offset": 2987,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 3100,
+      "length": 40,
+      "value": "\"com.explore.stack.product-presentation\""
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3185,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3780,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3780,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3757,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3780,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "kind": "Array",
+      "offset": 383,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "kind": "Array",
+      "offset": 479,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 215,
+      "length": 17,
+      "value": "\"StackProductPresentation.ValidateOperation\""
+    }
+  ]
+}

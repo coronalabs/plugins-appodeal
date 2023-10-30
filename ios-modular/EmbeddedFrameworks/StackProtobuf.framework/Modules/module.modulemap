@@ -1,0 +1,6 @@
+framework module StackProtobuf {
+  umbrella header "StackProtobuf.h"
+
+  export *
+  module * { export * }
+}
