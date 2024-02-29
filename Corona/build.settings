@@ -122,6 +122,7 @@ settings =
         ['plugin.appodeal.Vungle'] = { publisherId = 'com.coronalabs' },
         ['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs' },
         ["plugin.appodeal.AdColony"] = {publisherId = 'com.coronalabs'},
+        ["plugin.appodeal.InMobi"] = {publisherId = 'com.coronalabs'},
         
         ["plugin.facebook.v4a"] = {publisherId = 'com.coronalabs'},
         ["plugin.notifications.v2.firebase"] = {publisherId = 'com.coronalabs'},
