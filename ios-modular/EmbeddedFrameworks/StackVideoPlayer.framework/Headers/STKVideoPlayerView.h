@@ -15,7 +15,9 @@ typedef NS_ENUM(NSInteger, AVPVideoEvent) {
     AVPVideoEventFinish,
     AVPVideoEventClick,
     AVPVideoEventPause,
-    AVPVideoEventResume
+    AVPVideoEventResume,
+    AVPVideoEventStartBuffering,
+    AVPVideoEventFinishBuffering
 };
 
 @class STKVideoPlayerView;

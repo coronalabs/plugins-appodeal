@@ -29,9 +29,10 @@ settings =
         plist =
         {
             UILaunchStoryboardName = "LaunchScreen",
-            CFBundleIdentifier = "com.appodeal.testing",
+            CFBundleIdentifier = "com.scotthtech.coronaDev",
             NSAppTransportSecurity = { NSAllowsArbitraryLoads=true },
             GADApplicationIdentifier = "ca-app-pub-3940256099942544~1458002511",
+            FacebookClientToken = "YYYYYYYYYYYYYY", 
             NSLocationWhenInUseUsageDescription = "The app needs your location for analytics and advertising purposes",
             NSCalendarsUsageDescription = "The app needs your calendar to provide personalised advertising experience tailored to you",
             NSBluetoothAlwaysUsageDescription = "The app needs your calendar to provide personalised advertising experience tailored to you",
@@ -121,7 +122,7 @@ settings =
         ['plugin.appodeal.Vungle'] = { publisherId = 'com.coronalabs' },
         ['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs' },
         ["plugin.appodeal.AdColony"] = {publisherId = 'com.coronalabs'},
-        ['plugin.appodeal.IronSource'] = { publisherId = 'com.coronalabs' },
+        
         ["plugin.facebook.v4a"] = {publisherId = 'com.coronalabs'},
         ["plugin.notifications.v2.firebase"] = {publisherId = 'com.coronalabs'},
 

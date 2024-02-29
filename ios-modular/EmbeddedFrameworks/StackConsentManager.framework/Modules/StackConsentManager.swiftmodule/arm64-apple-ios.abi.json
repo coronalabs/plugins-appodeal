@@ -1,0 +1,3972 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentDialog",
+        "printedName": "ConsentDialog",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(rootViewController:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentDialog(im)presentWithRootViewController:completion:",
+            "mangledName": "$s19StackConsentManager0B6DialogC7present18rootViewController10completionySo06UIViewH0C_ySo7NSErrorCSgctF",
+            "moduleName": "StackConsentManager",
+            "objc_name": "presentWithRootViewController:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentDialog",
+                "printedName": "StackConsentManager.ConsentDialog",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentDialog"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentDialog(im)init",
+            "mangledName": "$s19StackConsentManager0B6DialogCACycfc",
+            "moduleName": "StackConsentManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19StackConsentManager0B6DialogC7present18rootViewControllerySo06UIViewH0C_tYaKF",
+            "mangledName": "$s19StackConsentManager0B6DialogC7present18rootViewControllerySo06UIViewH0C_tYaKF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "Final",
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@StackConsentManager@objc(cs)APDConsentDialog",
+        "mangledName": "$s19StackConsentManager0B6DialogC",
+        "moduleName": "StackConsentManager",
+        "objc_name": "APDConsentDialog",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserMessagingPlatform",
+        "printedName": "UserMessagingPlatform",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AuthorizationStatus",
+        "printedName": "AuthorizationStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "notDetermined",
+            "printedName": "notDetermined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.AuthorizationStatus.Type) -> StackConsentManager.AuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationStatus",
+                    "printedName": "StackConsentManager.AuthorizationStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.AuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationStatus",
+                        "printedName": "StackConsentManager.AuthorizationStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus@APDAuthorizationStatusNotDetermined",
+            "mangledName": "$s19StackConsentManager19AuthorizationStatusO13notDeterminedyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "restricted",
+            "printedName": "restricted",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.AuthorizationStatus.Type) -> StackConsentManager.AuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationStatus",
+                    "printedName": "StackConsentManager.AuthorizationStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.AuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationStatus",
+                        "printedName": "StackConsentManager.AuthorizationStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus@APDAuthorizationStatusRestricted",
+            "mangledName": "$s19StackConsentManager19AuthorizationStatusO10restrictedyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "denied",
+            "printedName": "denied",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.AuthorizationStatus.Type) -> StackConsentManager.AuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationStatus",
+                    "printedName": "StackConsentManager.AuthorizationStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.AuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationStatus",
+                        "printedName": "StackConsentManager.AuthorizationStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus@APDAuthorizationStatusDenied",
+            "mangledName": "$s19StackConsentManager19AuthorizationStatusO6deniedyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "authorized",
+            "printedName": "authorized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.AuthorizationStatus.Type) -> StackConsentManager.AuthorizationStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationStatus",
+                    "printedName": "StackConsentManager.AuthorizationStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.AuthorizationStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthorizationStatus",
+                        "printedName": "StackConsentManager.AuthorizationStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus@APDAuthorizationStatusAuthorized",
+            "mangledName": "$s19StackConsentManager19AuthorizationStatusO10authorizedyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "StackConsentManager.AuthorizationStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AuthorizationStatus",
+                    "printedName": "StackConsentManager.AuthorizationStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19StackConsentManager19AuthorizationStatusO8rawValueACSgSu_tcfc",
+            "mangledName": "$s19StackConsentManager19AuthorizationStatusO8rawValueACSgSu_tcfc",
+            "moduleName": "StackConsentManager",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19StackConsentManager19AuthorizationStatusO8rawValueSuvp",
+            "mangledName": "$s19StackConsentManager19AuthorizationStatusO8rawValueSuvp",
+            "moduleName": "StackConsentManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19StackConsentManager19AuthorizationStatusO8rawValueSuvg",
+                "mangledName": "$s19StackConsentManager19AuthorizationStatusO8rawValueSuvg",
+                "moduleName": "StackConsentManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@StackConsentManager@E@APDAuthorizationStatus",
+        "mangledName": "$s19StackConsentManager19AuthorizationStatusO",
+        "moduleName": "StackConsentManager",
+        "objc_name": "APDAuthorizationStatus",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentStatus",
+        "printedName": "ConsentStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "unknown",
+            "printedName": "unknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentStatus.Type) -> StackConsentManager.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "StackConsentManager.ConsentStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "StackConsentManager.ConsentStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDConsentStatus@APDConsentStatusUnknown",
+            "mangledName": "$s19StackConsentManager0B6StatusO7unknownyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "required",
+            "printedName": "required",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentStatus.Type) -> StackConsentManager.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "StackConsentManager.ConsentStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "StackConsentManager.ConsentStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDConsentStatus@APDConsentStatusRequired",
+            "mangledName": "$s19StackConsentManager0B6StatusO8requiredyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "notRequired",
+            "printedName": "notRequired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentStatus.Type) -> StackConsentManager.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "StackConsentManager.ConsentStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "StackConsentManager.ConsentStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDConsentStatus@APDConsentStatusNotRequired",
+            "mangledName": "$s19StackConsentManager0B6StatusO11notRequiredyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "obtained",
+            "printedName": "obtained",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentStatus.Type) -> StackConsentManager.ConsentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "StackConsentManager.ConsentStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentStatus",
+                        "printedName": "StackConsentManager.ConsentStatus",
+                        "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@StackConsentManager@E@APDConsentStatus@APDConsentStatusObtained",
+            "mangledName": "$s19StackConsentManager0B6StatusO8obtainedyA2CmF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "StackConsentManager.ConsentStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "StackConsentManager.ConsentStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19StackConsentManager0B6StatusO8rawValueACSgSu_tcfc",
+            "mangledName": "$s19StackConsentManager0B6StatusO8rawValueACSgSu_tcfc",
+            "moduleName": "StackConsentManager",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19StackConsentManager0B6StatusO8rawValueSuvp",
+            "mangledName": "$s19StackConsentManager0B6StatusO8rawValueSuvp",
+            "moduleName": "StackConsentManager",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19StackConsentManager0B6StatusO8rawValueSuvg",
+                "mangledName": "$s19StackConsentManager0B6StatusO8rawValueSuvg",
+                "moduleName": "StackConsentManager",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@StackConsentManager@E@APDConsentStatus",
+        "mangledName": "$s19StackConsentManager0B6StatusO",
+        "moduleName": "StackConsentManager",
+        "objc_name": "APDConsentStatus",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "UInt",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserMessagingPlatform",
+        "printedName": "UserMessagingPlatform",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentManagerError",
+        "printedName": "ConsentManagerError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "requestTimeout",
+            "printedName": "requestTimeout",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO14requestTimeoutyA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO14requestTimeoutyA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "requestError",
+            "printedName": "requestError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> (Swift.String) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> StackConsentManager.ConsentManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO07requestD0yACSScACmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO07requestD0yACSScACmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO06serverD0yA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO06serverD0yA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "cache",
+            "printedName": "cache",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO5cacheyA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO5cacheyA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "notRequested",
+            "printedName": "notRequested",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO12notRequestedyA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO12notRequestedyA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyPresented",
+            "printedName": "alreadyPresented",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO16alreadyPresentedyA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO16alreadyPresentedyA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "presentationNotRequired",
+            "printedName": "presentationNotRequired",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO23presentationNotRequiredyA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO23presentationNotRequiredyA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "dialogNotLoaded",
+            "printedName": "dialogNotLoaded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO15dialogNotLoadedyA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO15dialogNotLoadedyA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "internalError",
+            "printedName": "internalError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> (Swift.String) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> StackConsentManager.ConsentManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO08internalD0yACSScACmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO08internalD0yACSScACmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidForm",
+            "printedName": "invalidForm",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManagerError",
+                    "printedName": "StackConsentManager.ConsentManagerError",
+                    "usr": "s:19StackConsentManager0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO11invalidFormyA2CmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO11invalidFormyA2CmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "generic",
+            "printedName": "generic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> (Swift.Error) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> StackConsentManager.ConsentManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO7genericyACs0D0_pcACmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO7genericyACs0D0_pcACmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19StackConsentManager0bC5ErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO16errorDescriptionSSSgvp",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19StackConsentManager0bC5ErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s19StackConsentManager0bC5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "StackConsentManager",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19StackConsentManager0bC5ErrorO",
+        "mangledName": "$s19StackConsentManager0bC5ErrorO",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentManager",
+        "printedName": "ConsentManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentManager",
+                "printedName": "StackConsentManager.ConsentManager",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(cpy)shared",
+            "mangledName": "$s19StackConsentManager0bC0C6sharedACvpZ",
+            "moduleName": "StackConsentManager",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentManager",
+                    "printedName": "StackConsentManager.ConsentManager",
+                    "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(cm)shared",
+                "mangledName": "$s19StackConsentManager0bC0C6sharedACvgZ",
+                "moduleName": "StackConsentManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "status",
+            "printedName": "status",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentStatus",
+                "printedName": "StackConsentManager.ConsentStatus",
+                "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(py)status",
+            "mangledName": "$s19StackConsentManager0bC0C6statusAA0B6StatusOvp",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "Final",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess",
+              "Dynamic",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConsentStatus",
+                    "printedName": "StackConsentManager.ConsentStatus",
+                    "usr": "c:@M@StackConsentManager@E@APDConsentStatus"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(im)status",
+                "mangledName": "$s19StackConsentManager0bC0C6statusAA0B6StatusOvg",
+                "moduleName": "StackConsentManager",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestConsentInfoUpdate",
+            "printedName": "requestConsentInfoUpdate(parameters:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentUpdateRequestParameters",
+                "printedName": "StackConsentManager.ConsentUpdateRequestParameters",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentUpdateRequestParameters"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(im)requestConsentInfoUpdateWithParameters:completion:",
+            "mangledName": "$s19StackConsentManager0bC0C07requestB10InfoUpdate10parameters10completionyAA0bF17RequestParametersC_ySo7NSErrorCSgctF",
+            "moduleName": "StackConsentManager",
+            "objc_name": "requestConsentInfoUpdateWithParameters:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "revoke",
+            "printedName": "revoke()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(im)revoke",
+            "mangledName": "$s19StackConsentManager0bC0C6revokeyyF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAndPresentIfNeeded",
+            "printedName": "loadAndPresentIfNeeded(rootViewController:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSError?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(im)loadAndPresentIfNeededWithRootViewController:completion:",
+            "mangledName": "$s19StackConsentManager0bC0C22loadAndPresentIfNeeded18rootViewController10completionySo06UIViewK0C_ySo7NSErrorCSgctF",
+            "moduleName": "StackConsentManager",
+            "objc_name": "loadAndPresentIfNeededWithRootViewController:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentDialog?, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(StackConsentManager.ConsentDialog?, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "StackConsentManager.ConsentDialog?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ConsentDialog",
+                            "printedName": "StackConsentManager.ConsentDialog",
+                            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentDialog"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(im)loadWithCompletion:",
+            "mangledName": "$s19StackConsentManager0bC0C4load10completionyyAA0B6DialogCSg_So7NSErrorCSgtc_tF",
+            "moduleName": "StackConsentManager",
+            "objc_name": "loadWithCompletion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentManager",
+                "printedName": "StackConsentManager.ConsentManager",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager(im)init",
+            "mangledName": "$s19StackConsentManager0bC0CACycfc",
+            "moduleName": "StackConsentManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "requestConsentInfoUpdate",
+            "printedName": "requestConsentInfoUpdate(parameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentUpdateRequestParameters",
+                "printedName": "StackConsentManager.ConsentUpdateRequestParameters",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentUpdateRequestParameters"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19StackConsentManager0bC0C07requestB10InfoUpdate10parametersyAA0bF17RequestParametersC_tYaKF",
+            "mangledName": "$s19StackConsentManager0bC0C07requestB10InfoUpdate10parametersyAA0bF17RequestParametersC_tYaKF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadAndPresentIfNeeded",
+            "printedName": "loadAndPresentIfNeeded(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19StackConsentManager0bC0C22loadAndPresentIfNeeded18rootViewControllerySo06UIViewK0C_tYaKF",
+            "mangledName": "$s19StackConsentManager0bC0C22loadAndPresentIfNeeded18rootViewControllerySo06UIViewK0C_tYaKF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentDialog",
+                "printedName": "StackConsentManager.ConsentDialog",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentDialog"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19StackConsentManager0bC0C4loadAA0B6DialogCyYaKF",
+            "mangledName": "$s19StackConsentManager0bC0C4loadAA0B6DialogCyYaKF",
+            "moduleName": "StackConsentManager",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@StackConsentManager@objc(cs)APDConsentManager",
+        "mangledName": "$s19StackConsentManager0bC0C",
+        "moduleName": "StackConsentManager",
+        "objc_name": "APDConsentManager",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConsentUpdateRequestParameters",
+        "printedName": "ConsentUpdateRequestParameters",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(appKey:mediationSdkName:mediationSdkVersion:COPPA:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentUpdateRequestParameters",
+                "printedName": "StackConsentManager.ConsentUpdateRequestParameters",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentUpdateRequestParameters"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentUpdateRequestParameters(im)initWithAppKey:mediationSdkName:mediationSdkVersion:COPPA:",
+            "mangledName": "$s19StackConsentManager0B23UpdateRequestParametersC6appKey16mediationSdkName0iJ7Version5COPPAACSS_S2SSbtcfc",
+            "moduleName": "StackConsentManager",
+            "objc_name": "initWithAppKey:mediationSdkName:mediationSdkVersion:COPPA:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ConsentUpdateRequestParameters",
+                "printedName": "StackConsentManager.ConsentUpdateRequestParameters",
+                "usr": "c:@M@StackConsentManager@objc(cs)APDConsentUpdateRequestParameters"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StackConsentManager@objc(cs)APDConsentUpdateRequestParameters(im)init",
+            "mangledName": "$s19StackConsentManager0B23UpdateRequestParametersCACycfc",
+            "moduleName": "StackConsentManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@StackConsentManager@objc(cs)APDConsentUpdateRequestParameters",
+        "mangledName": "$s19StackConsentManager0B23UpdateRequestParametersC",
+        "moduleName": "StackConsentManager",
+        "objc_name": "APDConsentUpdateRequestParameters",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      },
+      {
+        "kind": "Import",
+        "name": "AppTrackingTransparency",
+        "printedName": "AppTrackingTransparency",
+        "declKind": "Import",
+        "moduleName": "StackConsentManager"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 669,
+      "length": 78,
+      "value": "\"window.bridge.setApp('\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 702,
+      "length": 4,
+      "value": "\"', '\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 4,
+      "value": "\"', '\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 3,
+      "value": "\"')\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "Dictionary",
+      "offset": 883,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1205,
+      "length": 21,
+      "value": "\"CFBundleDisplayName\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1305,
+      "length": 14,
+      "value": "\"CFBundleName\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1501,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1546,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1675,
+      "length": 15,
+      "value": "\"CFBundleIcons\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1743,
+      "length": 21,
+      "value": "\"CFBundlePrimaryIcon\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1817,
+      "length": 19,
+      "value": "\"CFBundleIconFiles\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 1994,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 2080,
+      "length": 33,
+      "value": "\"data:image\/png;base64,\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/BridgeCommand.swift",
+      "kind": "BooleanLiteral",
+      "offset": 396,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsentDialog.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 13,
+      "value": "\"StackConsentManager.ConsentDialog\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 38,
+      "value": "\"Storing v1 ConsentModel is forbidden\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 21,
+      "value": "\"StackConsentManager\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 17,
+      "value": "\"STKConsentModel\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
+      "kind": "StringLiteral",
+      "offset": 1029,
+      "length": 16,
+      "value": "\"STKVendorModel\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
+      "kind": "StringLiteral",
+      "offset": 1605,
+      "length": 21,
+      "value": "\"StackConsentManager\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 380,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 10,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 512,
+      "length": 16,
+      "value": "\"NOT_DETERMINED\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 12,
+      "value": "\"RESTRICTED\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 8,
+      "value": "\"DENIED\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 682,
+      "length": 12,
+      "value": "\"AUTHORIZED\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 857,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 900,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 360,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 380,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 10,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 442,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 483,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
+      "kind": "Array",
+      "offset": 1067,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
+      "kind": "Array",
+      "offset": 1981,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
+      "kind": "Array",
+      "offset": 2800,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 283,
+      "length": 11,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "IntegerLiteral",
+      "offset": 304,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 417,
+      "length": 10,
+      "value": "\"REQUIRED\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 471,
+      "length": 14,
+      "value": "\"NOT_REQUIRED\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 10,
+      "value": "\"OBTAINED\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 18,
+      "value": "\"http:\/\/localhost\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 34,
+      "value": "\"init?(coder:) is not implemented\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1848,
+      "length": 11,
+      "value": "\"text\/html\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1896,
+      "length": 7,
+      "value": "\"utf-8\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2589,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4156,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4868,
+      "length": 54,
+      "value": "\"iOS version is lower than 14.0, ATT is not supported\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 264,
+      "length": 26,
+      "value": "\"StackConsentManager.ConsenDialogViewController\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/NativeBridge.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 14,
+      "value": "\"StackConsentManager.MessageHandler\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Proxy\/ATTConsentDialogProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 29,
+      "value": "\"ATT Request is not required\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/DisableZoomingBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 284,
+      "value": "\"        var meta = document.createElement('meta');\n        meta.name = 'viewport';\n        meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\n        var head = document.getElementsByTagName('head')[0];\n        head.appendChild(meta);\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/DisableSelectionsBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 57,
+      "value": "\"document.documentElement.style.webkitUserSelect='none';\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 830,
+      "length": 27,
+      "value": "\"The form is not requested\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 907,
+      "length": 39,
+      "value": "\"The request failed because of timeout\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1007,
+      "length": 66,
+      "value": "\"Server return unsuccessful status code with messsage: \""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 35,
+      "value": "\"Server return unsuccessful status\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1196,
+      "length": 23,
+      "value": "\"A cache error occured\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 35,
+      "value": "\"Dialog has already been presented\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1365,
+      "length": 37,
+      "value": "\"Dialog presentation is not required\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1453,
+      "length": 22,
+      "value": "\"Dialog is not loaded\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1537,
+      "length": 52,
+      "value": "\"An internal error occured with message: \""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1588,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1636,
+      "length": 51,
+      "value": "\"Could not load the dialog because of invalid HTML\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1826,
+      "length": 40,
+      "value": "\"com.appodeal.StackConsentManager-Swift\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1886,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
+      "kind": "StringLiteral",
+      "offset": 1982,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 17,
+      "value": "\"StackConsentManager.LegacyVendorModel\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1221,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1227,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1221,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1227,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1221,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1227,
+      "length": 4,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1233,
+      "length": 4,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1304,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1321,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1341,
+      "length": 12,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1304,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1321,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1341,
+      "length": 12,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1304,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1321,
+      "length": 18,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1341,
+      "length": 12,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 6,
+      "value": "\"zone\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1512,
+      "length": 6,
+      "value": "\"zone\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 24,
+      "value": "\"StackConsentManager.LegacyConsentPreferences\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2451,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4986,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/NaviagationCompletionCache.swift",
+      "kind": "StringLiteral",
+      "offset": 260,
+      "length": 9,
+      "value": "\"StackConsentManager.Reference\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 648,
+      "length": 27,
+      "value": "\"Unsupported response type\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1120,
+      "length": 11,
+      "value": "\"text\/html\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1295,
+      "length": 3,
+      "value": "422"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1387,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1544,
+      "length": 85,
+      "value": "\"Server returned unsupported status code \""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1598,
+      "length": 4,
+      "value": "\" with message \""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1628,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 34,
+      "value": "\"Server returned unsupported data\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1885,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 83,
+      "value": "\"window.bridge.resolveOnRequestAuthorizationStatusPromise('\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 634,
+      "length": 3,
+      "value": "\"')\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 90,
+      "value": "\"window.bridge.rejectOnRequestAuthorizationStatusPromise('\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 778,
+      "length": 3,
+      "value": "\"')\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAuthorizationStatusBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 487,
+      "length": 61,
+      "value": "\"window.bridge.setAuthorizationStatusIOS(\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAuthorizationStatusBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 546,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/InjectNativeBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 3419,
+      "value": "\"(function() {\n    \/\/ Installation\n    var bridge = window.bridge = {};\n    var resolveOnRequestAuthorizationStatus;\n    var rejectOnRequestAuthorizationStatus;\n    \n    \/\/ API\n    bridge.onRequestAuthorizationStatus = function() {\n        console.log(\"Request AppTrackingAuthorizationStatus\");\n        callNative(\"onRequestAuthorizationStatus\");\n        return new Promise((resolve, reject) => {\n            resolveOnRequestAuthorizationStatus = resolve;\n            rejectOnRequestAuthorizationStatus = reject;\n        });\n    };\n    \n    bridge.resolveOnRequestAuthorizationStatusPromise = function(parameters) {\n        console.log(\"Response AppTrackingAuthorizationStatus is succesful: \" + parameters);\n        resolveOnRequestAuthorizationStatus(parameters);\n    };\n    \n    bridge.rejectOnRequestAuthorizationStatusPromise = function(parameters) {\n        console.log(\"Response AppTrackingAuthorizationStatus is failed: \" + parameters);\n        rejectOnRequestAuthorizationStatus(parameters);\n    };\n    \n    bridge.setConsent = function(framework, consent) {\n        if (window.cmp !== undefined && window.cmp.setConsent !== undefined) {\n            console.log(\"Set consent object: \" + framework);\n            console.log(JSON.stringify(consent));\n            window.cmp.setConsent(framework, consent);\n        } else {\n            console.log(\"CMP object doesn't exist or respond to setConsent\");\n        }\n    };\n    \n    bridge.setApp = function(name, version, image) {\n        if (window.cmp !== undefined && window.cmp.setApp !== undefined) {\n            console.log(\"Set app name: \" + name + \"version: \" + version);\n            window.cmp.setApp(name, version, image)\n        } else {\n            console.log(\"CMP object doesn't exist or respond to setApp\");\n        }\n    }\n    \n    bridge.setAuthorizationStatusIOS = function(status) {\n        if (window.cmp !== undefined && window.cmp.setAuthorizationStatusIOS !== undefined) {\n            console.log(\"Set AppTrackingAuthorizationStatus: \" + status);\n            window.cmp.setAuthorizationStatusIOS(status);\n        } else {\n            console.log(\"CMP object doesn't exist or respond to setAuthorizationStatusIOS\");\n        }\n    }\n    \n    bridge.show = function() {\n        if (window.cmp !== undefined && window.cmp.show !== undefined) {\n            console.log(\"Show consent form\");\n            window.cmp.show().finally(() => {\n                console.log(\"Close consent form\");\n                callNative(\"didClose\")\n            });\n        } else {\n            console.log(\"CMP object doesn't exist or respond to show\");\n        }\n    };\n    \n    window.cmp.onUpdateConsent = function(framework, object) {\n        console.log(\"Request update consent: \" + framework);\n        console.log(JSON.stringify(object));\n        callNative(\"onUpdateConsent?\" + framework + \"&\" + JSON.stringify(object))\n    }\n    \n    \/\/ Helpers\n    var callNative = function(cmd) {\n        window.webkit.messageHandlers.cmhandler.postMessage(cmd);\n    };\n    \n    \/\/ Logs\n    console = new Object();\n    console.log = function(msg) {\n         window.webkit.messageHandlers.loghandler.postMessage(\"[CMP-Bridge] \" + msg);\n    };\n    \n    console.debug = console.log;\n    console.info = console.log;\n    console.warn = console.log;\n    console.error = console.log;\n    \n    window.cmp.onRequestAuthorizationStatusIOS = bridge.onRequestAuthorizationStatus\n}());\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 30,
+      "value": "\"onRequestAuthorizationStatus\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 17,
+      "value": "\"onUpdateConsent\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 10,
+      "value": "\"didClose\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 481,
+      "length": 11,
+      "value": "\"cmhandler\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 663,
+      "length": 5,
+      "value": "\"---\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 735,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 763,
+      "length": 4,
+      "value": "\"||\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "Array",
+      "offset": 772,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/CodablePreferencesValue.swift",
+      "kind": "StringLiteral",
+      "offset": 1825,
+      "length": 18,
+      "value": "\"unsupported type\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagementPlatformType.swift",
+      "kind": "StringLiteral",
+      "offset": 375,
+      "length": 5,
+      "value": "\"UMP\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 21,
+      "value": "\"StackConsentManager\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 11,
+      "value": "\"form.html\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "kind": "BooleanLiteral",
+      "offset": 744,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1226,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ShowBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 266,
+      "length": 23,
+      "value": "\"window.bridge.show();\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1152,
+      "length": 16,
+      "value": "\"APD_PRIVACY_V1\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 16,
+      "value": "\"APD_PRIVACY_V2\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1242,
+      "length": 14,
+      "value": "\"IAB_TCF_V1.1\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 14,
+      "value": "\"IAB_TCF_V2.2\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1329,
+      "length": 16,
+      "value": "\"GOOGLE_PRIVACY\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 16,
+      "value": "\"IAB_US_PRIVACY\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 16,
+      "value": "\"APD_PRIVACY_V1\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
+      "length": 16,
+      "value": "\"APD_PRIVACY_V2\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1614,
+      "length": 14,
+      "value": "\"IAB_TCF_V1.1\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1657,
+      "length": 14,
+      "value": "\"IAB_TCF_V2.2\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
+      "length": 16,
+      "value": "\"GOOGLE_PRIVACY\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1746,
+      "length": 16,
+      "value": "\"IAB_US_PRIVACY\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1921,
+      "length": 13,
+      "value": "\"consent.txt\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2073,
+      "length": 21,
+      "value": "\"IABTCF_AddtlConsent\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2123,
+      "length": 26,
+      "value": "\"IABTCF_ApdPrivacyConsent\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2178,
+      "length": 13,
+      "value": "\"IABConsent_\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2220,
+      "length": 9,
+      "value": "\"IABTCF_\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 2255,
+      "length": 15,
+      "value": "\"IABUSPrivacy_\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 12,
+      "value": "\"loghandler\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 526,
+      "length": 26,
+      "value": "\"com.stack.consentmanager\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 8,
+      "value": "\"bridge\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 622,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 630,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/StoredConsent.swift",
+      "kind": "Array",
+      "offset": 458,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/StoredConsent.swift",
+      "kind": "Array",
+      "offset": 2348,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 109,
+      "value": "\"window.bridge.setConsent('\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 50,
+      "value": "\"', \""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 4,
+      "value": "\"{}\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/ConsentUpdateRequestParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 30,
+      "value": "\"StackConsentManager.ConsentUpdateRequestParameters\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 579,
+      "length": 62,
+      "value": "\"Unknown UserDefaults key pattern for framework: \""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 640,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 41,
+      "value": "\"External Consent Object can't be stored\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 42,
+      "value": "\"External Consent Object can't be removed\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/APIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 26,
+      "value": "\"https:\/\/a.appbaqend.com\/\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/APIClient.swift",
+      "kind": "IntegerLiteral",
+      "offset": 658,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/APIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1073,
+      "length": 34,
+      "value": "\"Server returned unsupported data\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1339,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 23,
+      "value": "\"consent_manager\/check\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
+      "kind": "Dictionary",
+      "offset": 1421,
+      "length": 50,
+      "value": "[(\"Content-Type\", \"application\/json\")]"
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 25,
+      "value": "\"https:\/\/a.appbaqend.com\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 286,
+      "length": 7,
+      "value": "\"2.0.1\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 32,
+      "value": "\"kStackConsentManagerFrameworks\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 32,
+      "value": "\"kStackConsentManagerFramework_\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 555,
+      "length": 17,
+      "value": "\"X-ConsentStatus\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 598,
+      "length": 12,
+      "value": "\"X-CMP-Type\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 789,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 32,
+      "value": "\"NSUserTrackingUsageDescription\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1014,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1074,
+      "length": 26,
+      "value": "\"GADApplicationIdentifier\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1651,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1725,
+      "length": 7,
+      "value": "\"PHONE\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 1735,
+      "length": 8,
+      "value": "\"TABLET\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 2162,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3931,
+      "length": 7,
+      "value": "\"LIGHT\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3941,
+      "length": 6,
+      "value": "\"DARK\""
+    },
+    {
+      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 3981,
+      "length": 7,
+      "value": "\"LIGHT\""
+    }
+  ]
+}

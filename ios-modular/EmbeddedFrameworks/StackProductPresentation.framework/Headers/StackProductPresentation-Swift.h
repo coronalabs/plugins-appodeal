@@ -255,6 +255,7 @@ using UInt = size_t;
 
 @class NSString;
 @protocol STKProductControllerDelegate;
+@class UIViewController;
 
 SWIFT_CLASS_NAMED("ProductController")
 @interface STKProductController : NSObject
@@ -285,6 +286,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _No
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull useEmbeddedBrowser;)
 + (NSString * _Nonnull)useEmbeddedBrowser SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, weak) id <STKProductControllerDelegate> _Nullable delegate;
+@property (nonatomic, weak) UIViewController * _Nullable rootViewController;
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSArray<NSString *> * _Nonnull supportedSKAdNetworkVersions;)
 + (NSArray<NSString *> * _Nonnull)supportedSKAdNetworkVersions SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)isReady:(NSDictionary<NSString *, NSObject *> * _Nonnull)parameters SWIFT_WARN_UNUSED_RESULT;

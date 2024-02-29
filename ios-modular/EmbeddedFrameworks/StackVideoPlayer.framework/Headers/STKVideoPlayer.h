@@ -17,6 +17,10 @@
 - (void)player:(STKVideoPlayer *)player didFailWithError:(NSError *)error;
 - (void)player:(STKVideoPlayer *)player processInterval:(NSTimeInterval)interval;
 
+@optional
+- (void)playerDidStartBuffering:(STKVideoPlayer *)player;
+- (void)playerDidEndBuffering:(STKVideoPlayer *)player;
+
 @end
 
 @interface STKVideoPlayer : UIView

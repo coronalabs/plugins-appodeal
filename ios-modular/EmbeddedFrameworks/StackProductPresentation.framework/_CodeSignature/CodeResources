@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/StackProductPresentation-Swift.h</key>
 		<data>
-		tHxdc//HH0aJ2eMUq1xBm+8jm9s=
+		G5HOF8iUHApRX+jqUkHhZex8kgU=
 		</data>
 		<key>Headers/StackProductPresentation.h</key>
 		<data>
@@ -14,15 +14,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		53NLUWuCd3dPpHMp9tBRmJT8VpQ=
+		fxzS3VQCrgTzYVedibGIXeRwFmo=
 		</data>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		QnIc1QdudTmO1PXlU81bwPcYUhc=
+		Bf8QWJ8tmwjy6flmKab9LeBEdMA=
 		</data>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		DhAvl8tG3pOX0w4WIMl3zbbsmhs=
+		sjWBfdbameYlsgxaZaCtplOGcQo=
 		</data>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DhAvl8tG3pOX0w4WIMl3zbbsmhs=
+		sjWBfdbameYlsgxaZaCtplOGcQo=
 		</data>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		imuLnxSz1HOMejWEb8yaw1J1BGA=
+		7cX9UkrqwkOBg93wQD/U/6YnGfs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -47,11 +47,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tHxdc//HH0aJ2eMUq1xBm+8jm9s=
+			G5HOF8iUHApRX+jqUkHhZex8kgU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DibRHH1foNmdkQQv+H65ZuJj8wvYSV1UjzvniJ3uMYE=
+			2sIkNtc+2GeKaITAdG9H7PeGCT4EElSqKzwXObmtskU=
 			</data>
 		</dict>
 		<key>Headers/StackProductPresentation.h</key>
@@ -69,22 +69,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QnIc1QdudTmO1PXlU81bwPcYUhc=
+			Bf8QWJ8tmwjy6flmKab9LeBEdMA=
 			</data>
 			<key>hash2</key>
 			<data>
-			9W/0sz3dtA5tM+TWIxXX3DZ72lF5DC6R+Ee6AMZi/6M=
+			GTH/q3ucHcmWM/q+PZLK/H/UAM7wp1Rimlk/tvuD3jU=
 			</data>
 		</dict>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			DhAvl8tG3pOX0w4WIMl3zbbsmhs=
+			sjWBfdbameYlsgxaZaCtplOGcQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQ84JjCU+uSo1iPbUHeIMMzHikGM0kvm+f75IVye0HQ=
+			5bwWFSyoj1fEN3C+VOCNd/XHGtBevqiwMPpL9YvDiHE=
 			</data>
 		</dict>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -102,22 +102,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DhAvl8tG3pOX0w4WIMl3zbbsmhs=
+			sjWBfdbameYlsgxaZaCtplOGcQo=
 			</data>
 			<key>hash2</key>
 			<data>
-			PQ84JjCU+uSo1iPbUHeIMMzHikGM0kvm+f75IVye0HQ=
+			5bwWFSyoj1fEN3C+VOCNd/XHGtBevqiwMPpL9YvDiHE=
 			</data>
 		</dict>
 		<key>Modules/StackProductPresentation.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			imuLnxSz1HOMejWEb8yaw1J1BGA=
+			7cX9UkrqwkOBg93wQD/U/6YnGfs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DbBQt8glsaFxqtVhWCqTTLdv2u9YtiF8IZNbjjrjqhc=
+			/N8WyoGo+4sZshzYJS063vYcodaTT3UZHrCJ1Jusenk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

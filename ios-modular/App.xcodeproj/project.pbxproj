@@ -58,19 +58,42 @@
 		A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244991683FA5300C395D1 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E2537E166AE3DC00DCDC2C /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C22C1E4B1E981D9000D74196 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = C22C1E4A1E981D9000D74196 /* LaunchScreen.storyboardc */; };
+		DBD2D3B42B8FC3C9004941A1 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B32B8FC3C9004941A1 /* Appodeal.framework */; };
+		DBD2D3D02B8FD5D9004941A1 /* StackCrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B72B8FD5D8004941A1 /* StackCrashReporter.framework */; };
+		DBD2D3D12B8FD5D9004941A1 /* StackProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B82B8FD5D8004941A1 /* StackProtobuf.framework */; };
+		DBD2D3D22B8FD5D9004941A1 /* AppodealMediationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B92B8FD5D8004941A1 /* AppodealMediationCore.framework */; };
+		DBD2D3D32B8FD5D9004941A1 /* StackFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BA2B8FD5D8004941A1 /* StackFoundation.framework */; };
+		DBD2D3D42B8FD5D9004941A1 /* StackVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BB2B8FD5D8004941A1 /* StackVideoPlayer.framework */; };
+		DBD2D3D62B8FD5D9004941A1 /* StackNASTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BD2B8FD5D8004941A1 /* StackNASTKit.framework */; };
+		DBD2D3D72B8FD5D9004941A1 /* StackModules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BE2B8FD5D8004941A1 /* StackModules.framework */; };
+		DBD2D3D82B8FD5D9004941A1 /* StackProductPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BF2B8FD5D8004941A1 /* StackProductPresentation.framework */; };
+		DBD2D3D92B8FD5D9004941A1 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C02B8FD5D8004941A1 /* Appodeal.framework */; };
+		DBD2D3DA2B8FD5D9004941A1 /* StackIABAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C12B8FD5D8004941A1 /* StackIABAssets.framework */; };
+		DBD2D3DB2B8FD5D9004941A1 /* StackUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C22B8FD5D8004941A1 /* StackUIKit.framework */; };
+		DBD2D3DC2B8FD5D9004941A1 /* StackXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C32B8FD5D8004941A1 /* StackXML.framework */; };
+		DBD2D3DD2B8FD5D9004941A1 /* StackAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C42B8FD5D8004941A1 /* StackAnalytics.framework */; };
+		DBD2D3DE2B8FD5D9004941A1 /* StackRichMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C52B8FD5D9004941A1 /* StackRichMedia.framework */; };
+		DBD2D3E02B8FD5D9004941A1 /* StackOpenMeasure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C72B8FD5D9004941A1 /* StackOpenMeasure.framework */; };
+		DBD2D3E22B8FD5D9004941A1 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C92B8FD5D9004941A1 /* Protobuf.framework */; };
+		DBD2D3E42B8FD5D9004941A1 /* StackMRAIDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CB2B8FD5D9004941A1 /* StackMRAIDKit.framework */; };
+		DBD2D3E62B8FD5D9004941A1 /* StackConsentManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CD2B8FD5D9004941A1 /* StackConsentManager.framework */; };
+		DBD2D3E72B8FD5D9004941A1 /* StackVASTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CE2B8FD5D9004941A1 /* StackVASTKit.framework */; };
+		DBD2D3E82B8FD5D9004941A1 /* StackVASTAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CF2B8FD5D9004941A1 /* StackVASTAssets.framework */; };
+		DBFC75292B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC75272B8FF2CC007869B8 /* OMSDK_Appodeal.framework */; };
+		DBFC752A2B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC75272B8FF2CC007869B8 /* OMSDK_Appodeal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DBFC752D2B90006A007869B8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC752C2B90006A007869B8 /* EventKit.framework */; };
+		DBFC752F2B900091007869B8 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC752E2B900091007869B8 /* SafariServices.framework */; };
+		DBFC75312B9000C1007869B8 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC75302B9000C1007869B8 /* WatchConnectivity.framework */; };
 		E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E640B2F31BFC00BA0031FAE9 /* Photos.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F5185CA326B6868900334E65 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5185CA226B6868900334E65 /* Dummy.swift */; };
 		F51C66D61EE0D3B20040E4BE /* libplugin_appodeal_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E253E2166DE7C800DCDC2C /* libplugin_appodeal_base.a */; };
 		F52CCBB7259786D600965AD9 /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F52CCBB6259786D600965AD9 /* AppTrackingTransparency.framework */; };
-		F53CF20A2044B8E900C1DA9E /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53CF2092044B8E900C1DA9E /* WatchConnectivity.framework */; };
-		F53CF20C2044B8F200C1DA9E /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F53CF20B2044B8F200C1DA9E /* EventKit.framework */; };
 		F54C1AAC1FEB10660051D284 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AAB1FEB10660051D284 /* libxml2.tbd */; };
 		F54C1AAE1FEB106D0051D284 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AAD1FEB106D0051D284 /* libz.tbd */; };
 		F54C1AB01FEB107C0051D284 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AAF1FEB107C0051D284 /* JavaScriptCore.framework */; };
 		F54C1AB21FEB10830051D284 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AB11FEB10830051D284 /* CoreBluetooth.framework */; };
 		F54C1AB41FEB108A0051D284 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AB31FEB108A0051D284 /* WebKit.framework */; };
-		F54C1AB61FEB108F0051D284 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AB51FEB108F0051D284 /* SafariServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F54C1AB81FEB10950051D284 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AB71FEB10950051D284 /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F54C1ABA1FEB10AC0051D284 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54C1AB91FEB10AC0051D284 /* CoreTelephony.framework */; };
 		F56457D91FA108F500EC8C29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F56712391F73451B006B502D /* Images.xcassets */; };
@@ -95,6 +118,20 @@
 			remoteInfo = plugin_library;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBFC752B2B8FF2EC007869B8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBFC752A2B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoronaDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -141,23 +178,43 @@
 		A4E253DA166DE7C800DCDC2C /* Plugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Plugin.xcodeproj; sourceTree = "<group>"; };
 		C22C1E4A1E981D9000D74196 /* LaunchScreen.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; name = LaunchScreen.storyboardc; path = ../Corona/LaunchScreen.storyboardc; sourceTree = "<group>"; };
 		C277D3B51EBB9F8E00966BA1 /* _CoronaSplashScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _CoronaSplashScreen.png; sourceTree = "<group>"; };
+		DBD2D3B32B8FC3C9004941A1 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appodeal.framework; path = EmbeddedFrameworks/Appodeal.framework; sourceTree = "<group>"; };
+		DBD2D3B72B8FD5D8004941A1 /* StackCrashReporter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackCrashReporter.framework; path = EmbeddedFrameworks/StackCrashReporter.framework; sourceTree = "<group>"; };
+		DBD2D3B82B8FD5D8004941A1 /* StackProtobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackProtobuf.framework; path = EmbeddedFrameworks/StackProtobuf.framework; sourceTree = "<group>"; };
+		DBD2D3B92B8FD5D8004941A1 /* AppodealMediationCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppodealMediationCore.framework; path = EmbeddedFrameworks/AppodealMediationCore.framework; sourceTree = "<group>"; };
+		DBD2D3BA2B8FD5D8004941A1 /* StackFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackFoundation.framework; path = EmbeddedFrameworks/StackFoundation.framework; sourceTree = "<group>"; };
+		DBD2D3BB2B8FD5D8004941A1 /* StackVideoPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackVideoPlayer.framework; path = EmbeddedFrameworks/StackVideoPlayer.framework; sourceTree = "<group>"; };
+		DBD2D3BD2B8FD5D8004941A1 /* StackNASTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackNASTKit.framework; path = EmbeddedFrameworks/StackNASTKit.framework; sourceTree = "<group>"; };
+		DBD2D3BE2B8FD5D8004941A1 /* StackModules.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackModules.framework; path = EmbeddedFrameworks/StackModules.framework; sourceTree = "<group>"; };
+		DBD2D3BF2B8FD5D8004941A1 /* StackProductPresentation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackProductPresentation.framework; path = EmbeddedFrameworks/StackProductPresentation.framework; sourceTree = "<group>"; };
+		DBD2D3C02B8FD5D8004941A1 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appodeal.framework; path = EmbeddedFrameworks/Appodeal.framework; sourceTree = "<group>"; };
+		DBD2D3C12B8FD5D8004941A1 /* StackIABAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackIABAssets.framework; path = EmbeddedFrameworks/StackIABAssets.framework; sourceTree = "<group>"; };
+		DBD2D3C22B8FD5D8004941A1 /* StackUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackUIKit.framework; path = EmbeddedFrameworks/StackUIKit.framework; sourceTree = "<group>"; };
+		DBD2D3C32B8FD5D8004941A1 /* StackXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackXML.framework; path = EmbeddedFrameworks/StackXML.framework; sourceTree = "<group>"; };
+		DBD2D3C42B8FD5D8004941A1 /* StackAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackAnalytics.framework; path = EmbeddedFrameworks/StackAnalytics.framework; sourceTree = "<group>"; };
+		DBD2D3C52B8FD5D9004941A1 /* StackRichMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackRichMedia.framework; path = EmbeddedFrameworks/StackRichMedia.framework; sourceTree = "<group>"; };
+		DBD2D3C72B8FD5D9004941A1 /* StackOpenMeasure.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackOpenMeasure.framework; path = EmbeddedFrameworks/StackOpenMeasure.framework; sourceTree = "<group>"; };
+		DBD2D3C92B8FD5D9004941A1 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Protobuf.framework; path = EmbeddedFrameworks/Protobuf.framework; sourceTree = "<group>"; };
+		DBD2D3CB2B8FD5D9004941A1 /* StackMRAIDKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackMRAIDKit.framework; path = EmbeddedFrameworks/StackMRAIDKit.framework; sourceTree = "<group>"; };
+		DBD2D3CD2B8FD5D9004941A1 /* StackConsentManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackConsentManager.framework; path = EmbeddedFrameworks/StackConsentManager.framework; sourceTree = "<group>"; };
+		DBD2D3CE2B8FD5D9004941A1 /* StackVASTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackVASTKit.framework; path = EmbeddedFrameworks/StackVASTKit.framework; sourceTree = "<group>"; };
+		DBD2D3CF2B8FD5D9004941A1 /* StackVASTAssets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StackVASTAssets.framework; path = EmbeddedFrameworks/StackVASTAssets.framework; sourceTree = "<group>"; };
+		DBFC75272B8FF2CC007869B8 /* OMSDK_Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OMSDK_Appodeal.framework; path = EmbeddedFrameworks/OMSDK_Appodeal.framework; sourceTree = "<group>"; };
+		DBFC752C2B90006A007869B8 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		DBFC752E2B900091007869B8 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		DBFC75302B9000C1007869B8 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
 		E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		E640B2F31BFC00BA0031FAE9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		F5185CA126B6868900334E65 /* App-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Bridging-Header.h"; sourceTree = "<group>"; };
 		F5185CA226B6868900334E65 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
 		F52CCBB6259786D600965AD9 /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
-		F53A38F91FEC020200962EFF /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdColony.framework; path = ../SDK/Appodeal/APDAdColonyAdapter.embeddedframework/AdColony.framework; sourceTree = "<group>"; };
-		F53CF2092044B8E900C1DA9E /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
-		F53CF20B2044B8F200C1DA9E /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		F54A40BD1EE07F9100AF417D /* build.settings */ = {isa = PBXFileReference; lastKnownFileType = text; name = build.settings; path = ../Corona/build.settings; sourceTree = "<group>"; };
 		F54A40BE1EE07F9100AF417D /* config.lua */ = {isa = PBXFileReference; lastKnownFileType = text; name = config.lua; path = ../Corona/config.lua; sourceTree = "<group>"; };
-		F54C1AA91FEB0FCC0051D284 /* Appodeal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appodeal.framework; path = ../SDK/Appodeal/Appodeal.framework; sourceTree = "<group>"; };
 		F54C1AAB1FEB10660051D284 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		F54C1AAD1FEB106D0051D284 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		F54C1AAF1FEB107C0051D284 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F54C1AB11FEB10830051D284 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		F54C1AB31FEB108A0051D284 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
-		F54C1AB51FEB108F0051D284 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		F54C1AB71FEB10950051D284 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		F54C1AB91FEB10AC0051D284 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		F55829801ED23E1200E5808C /* CoronaApp.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = CoronaApp.xcconfig; sourceTree = "<group>"; };
@@ -172,18 +229,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F53CF20C2044B8F200C1DA9E /* EventKit.framework in Frameworks */,
-				F53CF20A2044B8E900C1DA9E /* WatchConnectivity.framework in Frameworks */,
+				DBD2D3D82B8FD5D9004941A1 /* StackProductPresentation.framework in Frameworks */,
 				F54C1AB81FEB10950051D284 /* AdSupport.framework in Frameworks */,
 				F54C1ABA1FEB10AC0051D284 /* CoreTelephony.framework in Frameworks */,
-				F54C1AB61FEB108F0051D284 /* SafariServices.framework in Frameworks */,
+				DBD2D3D22B8FD5D9004941A1 /* AppodealMediationCore.framework in Frameworks */,
 				F54C1AB41FEB108A0051D284 /* WebKit.framework in Frameworks */,
 				F54C1AB21FEB10830051D284 /* CoreBluetooth.framework in Frameworks */,
+				DBD2D3D42B8FD5D9004941A1 /* StackVideoPlayer.framework in Frameworks */,
+				DBD2D3D32B8FD5D9004941A1 /* StackFoundation.framework in Frameworks */,
 				F54C1AB01FEB107C0051D284 /* JavaScriptCore.framework in Frameworks */,
 				F54C1AAE1FEB106D0051D284 /* libz.tbd in Frameworks */,
 				F54C1AAC1FEB10660051D284 /* libxml2.tbd in Frameworks */,
 				F51C66D61EE0D3B20040E4BE /* libplugin_appodeal_base.a in Frameworks */,
 				E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */,
+				DBD2D3DA2B8FD5D9004941A1 /* StackIABAssets.framework in Frameworks */,
 				E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */,
 				F5BB41531BC42ACF0033F6FA /* CoreText.framework in Frameworks */,
 				A46885F418068C2900381941 /* CoreVideo.framework in Frameworks */,
@@ -192,29 +251,49 @@
 				A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */,
 				A484117715128D5D0074BD57 /* AddressBook.framework in Frameworks */,
 				A484117815128D5D0074BD57 /* AddressBookUI.framework in Frameworks */,
+				DBD2D3D02B8FD5D9004941A1 /* StackCrashReporter.framework in Frameworks */,
+				DBFC75292B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Frameworks */,
 				A484117915128D5D0074BD57 /* AudioToolbox.framework in Frameworks */,
 				A484117A15128D5D0074BD57 /* AVFoundation.framework in Frameworks */,
+				DBD2D3D62B8FD5D9004941A1 /* StackNASTKit.framework in Frameworks */,
+				DBD2D3B42B8FC3C9004941A1 /* Appodeal.framework in Frameworks */,
 				A484117B15128D5D0074BD57 /* CFNetwork.framework in Frameworks */,
 				A484112215114F700074BD57 /* CoreGraphics.framework in Frameworks */,
+				DBD2D3D12B8FD5D9004941A1 /* StackProtobuf.framework in Frameworks */,
+				DBFC752D2B90006A007869B8 /* EventKit.framework in Frameworks */,
+				DBFC752F2B900091007869B8 /* SafariServices.framework in Frameworks */,
 				A484117C15128D5D0074BD57 /* CoreLocation.framework in Frameworks */,
 				A484117D15128D5D0074BD57 /* CoreMedia.framework in Frameworks */,
+				DBD2D3DC2B8FD5D9004941A1 /* StackXML.framework in Frameworks */,
+				DBD2D3DE2B8FD5D9004941A1 /* StackRichMedia.framework in Frameworks */,
+				DBD2D3E42B8FD5D9004941A1 /* StackMRAIDKit.framework in Frameworks */,
 				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
 				A484112015114F700074BD57 /* Foundation.framework in Frameworks */,
 				A484117F15128D5D0074BD57 /* GameKit.framework in Frameworks */,
 				F5E548091BE7FF0200091810 /* GameController.framework in Frameworks */,
 				F52CCBB7259786D600965AD9 /* AppTrackingTransparency.framework in Frameworks */,
+				DBD2D3E82B8FD5D9004941A1 /* StackVASTAssets.framework in Frameworks */,
+				DBD2D3E72B8FD5D9004941A1 /* StackVASTKit.framework in Frameworks */,
 				A484118015128D5D0074BD57 /* ImageIO.framework in Frameworks */,
 				A484118115128D5D0074BD57 /* libobjc.dylib in Frameworks */,
+				DBD2D3D72B8FD5D9004941A1 /* StackModules.framework in Frameworks */,
+				DBD2D3DB2B8FD5D9004941A1 /* StackUIKit.framework in Frameworks */,
 				A48411CA15129F610074BD57 /* libsqlite3.dylib in Frameworks */,
 				A484118215128D5D0074BD57 /* MapKit.framework in Frameworks */,
 				A484118315128D5D0074BD57 /* MediaPlayer.framework in Frameworks */,
 				A484118415128D5D0074BD57 /* MessageUI.framework in Frameworks */,
 				A484118515128D5D0074BD57 /* MobileCoreServices.framework in Frameworks */,
 				A484118615128D5D0074BD57 /* OpenAL.framework in Frameworks */,
+				DBFC75312B9000C1007869B8 /* WatchConnectivity.framework in Frameworks */,
+				DBD2D3E02B8FD5D9004941A1 /* StackOpenMeasure.framework in Frameworks */,
 				A484112615114F700074BD57 /* OpenGLES.framework in Frameworks */,
 				A484118715128D5D0074BD57 /* QuartzCore.framework in Frameworks */,
+				DBD2D3DD2B8FD5D9004941A1 /* StackAnalytics.framework in Frameworks */,
 				A484118815128D5D0074BD57 /* Security.framework in Frameworks */,
+				DBD2D3D92B8FD5D9004941A1 /* Appodeal.framework in Frameworks */,
 				A484118A15128D5D0074BD57 /* SystemConfiguration.framework in Frameworks */,
+				DBD2D3E62B8FD5D9004941A1 /* StackConsentManager.framework in Frameworks */,
+				DBD2D3E22B8FD5D9004941A1 /* Protobuf.framework in Frameworks */,
 				A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */,
 				A484111E15114F700074BD57 /* UIKit.framework in Frameworks */,
 			);
@@ -266,19 +345,19 @@
 		A484111C15114F700074BD57 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBFC75302B9000C1007869B8 /* WatchConnectivity.framework */,
+				DBFC752E2B900091007869B8 /* SafariServices.framework */,
+				DBFC752C2B90006A007869B8 /* EventKit.framework */,
+				DBFC75272B8FF2CC007869B8 /* OMSDK_Appodeal.framework */,
 				F52CCBB6259786D600965AD9 /* AppTrackingTransparency.framework */,
-				F53CF20B2044B8F200C1DA9E /* EventKit.framework */,
-				F53CF2092044B8E900C1DA9E /* WatchConnectivity.framework */,
-				F53A38F91FEC020200962EFF /* AdColony.framework */,
 				F54C1AB91FEB10AC0051D284 /* CoreTelephony.framework */,
 				F54C1AB71FEB10950051D284 /* AdSupport.framework */,
-				F54C1AB51FEB108F0051D284 /* SafariServices.framework */,
 				F54C1AB31FEB108A0051D284 /* WebKit.framework */,
 				F54C1AB11FEB10830051D284 /* CoreBluetooth.framework */,
 				F54C1AAF1FEB107C0051D284 /* JavaScriptCore.framework */,
 				F54C1AAD1FEB106D0051D284 /* libz.tbd */,
 				F54C1AAB1FEB10660051D284 /* libxml2.tbd */,
-				F54C1AA91FEB0FCC0051D284 /* Appodeal.framework */,
+				DBD2D3B32B8FC3C9004941A1 /* Appodeal.framework */,
 				E640B2F31BFC00BA0031FAE9 /* Photos.framework */,
 				E640B2F11BFC00B00031FAE9 /* AssetsLibrary.framework */,
 				F5E548081BE7FF0200091810 /* GameController.framework */,
@@ -312,6 +391,26 @@
 				A484117615128D5D0074BD57 /* SystemConfiguration.framework */,
 				A4E2537E166AE3DC00DCDC2C /* Twitter.framework */,
 				A484111D15114F700074BD57 /* UIKit.framework */,
+				DBD2D3C02B8FD5D8004941A1 /* Appodeal.framework */,
+				DBD2D3B92B8FD5D8004941A1 /* AppodealMediationCore.framework */,
+				DBD2D3C92B8FD5D9004941A1 /* Protobuf.framework */,
+				DBD2D3C42B8FD5D8004941A1 /* StackAnalytics.framework */,
+				DBD2D3CD2B8FD5D9004941A1 /* StackConsentManager.framework */,
+				DBD2D3B72B8FD5D8004941A1 /* StackCrashReporter.framework */,
+				DBD2D3BA2B8FD5D8004941A1 /* StackFoundation.framework */,
+				DBD2D3C12B8FD5D8004941A1 /* StackIABAssets.framework */,
+				DBD2D3BE2B8FD5D8004941A1 /* StackModules.framework */,
+				DBD2D3CB2B8FD5D9004941A1 /* StackMRAIDKit.framework */,
+				DBD2D3BD2B8FD5D8004941A1 /* StackNASTKit.framework */,
+				DBD2D3C72B8FD5D9004941A1 /* StackOpenMeasure.framework */,
+				DBD2D3BF2B8FD5D8004941A1 /* StackProductPresentation.framework */,
+				DBD2D3B82B8FD5D8004941A1 /* StackProtobuf.framework */,
+				DBD2D3C52B8FD5D9004941A1 /* StackRichMedia.framework */,
+				DBD2D3C22B8FD5D8004941A1 /* StackUIKit.framework */,
+				DBD2D3CF2B8FD5D9004941A1 /* StackVASTAssets.framework */,
+				DBD2D3CE2B8FD5D9004941A1 /* StackVASTKit.framework */,
+				DBD2D3BB2B8FD5D8004941A1 /* StackVideoPlayer.framework */,
+				DBD2D3C32B8FD5D8004941A1 /* StackXML.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -369,6 +468,7 @@
 				A484118B15128E320074BD57 /* build.settings to Info.plist */,
 				A484118F1512906B0074BD57 /* Certify Corona Build */,
 				A484119015129A930074BD57 /* Touch main.mm to ensure build */,
+				DBFC752B2B8FF2EC007869B8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -389,9 +489,9 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					A484111815114F700074BD57 = {
-						DevelopmentTeam = BG2J43EA88;
+						DevelopmentTeam = A6QFRGXX8S;
 						LastSwiftMigration = 1250;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					F597AC6E1ED8CA3E0085F5E5 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -689,9 +789,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = BG2J43EA88;
+				DEVELOPMENT_TEAM = A6QFRGXX8S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmbeddedFrameworks",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
@@ -699,9 +804,21 @@
 				INFOPLIST_FILE = "App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.testing;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmbeddedFrameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(CORONA_CUSTOM_LDFLAGS)",
+					"-all_load",
+					"-lplayer",
+					"-v",
+					"-ld_classic",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthtech.coronaDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SEPARATE_STRIP = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
@@ -719,9 +836,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = BG2J43EA88;
+				DEVELOPMENT_TEAM = A6QFRGXX8S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmbeddedFrameworks",
+				);
 				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Prefix.pch;
@@ -729,9 +851,21 @@
 				INFOPLIST_FILE = "App-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.appodeal.testing;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EmbeddedFrameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(CORONA_CUSTOM_LDFLAGS)",
+					"-all_load",
+					"-lplayer",
+					"-v",
+					"-ld_classic",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotthtech.coronaDev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "Wildcard Profile";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SEPARATE_STRIP = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";

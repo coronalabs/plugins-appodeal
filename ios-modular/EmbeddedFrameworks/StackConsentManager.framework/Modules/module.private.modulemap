@@ -1,7 +1,0 @@
-framework module StackConsentManager_Private {
-    header "STKConsentModel.h"
-    header "STKVendorModel.h"
-    header "STKConsentManagerJSONModelProtocol.h"
-    
-    export *
-}

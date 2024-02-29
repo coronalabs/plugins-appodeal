@@ -1278,91 +1278,91 @@
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 649,
       "length": 7,
       "value": "\"Ready\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 682,
       "length": 11,
       "value": "\"Executing\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 718,
       "length": 10,
       "value": "\"Finished\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 786,
+      "offset": 787,
       "length": 4,
       "value": "\"is\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 648,
+      "offset": 649,
       "length": 7,
       "value": "\"Ready\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 682,
       "length": 11,
       "value": "\"Executing\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 718,
       "length": 10,
       "value": "\"Finished\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 878,
+      "offset": 879,
       "length": 29,
       "value": "\"com.appodeal.asyncoperation\""
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1640,
+      "offset": 1641,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 2820,
+      "offset": 2821,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "IntegerLiteral",
-      "offset": 2841,
+      "offset": 2842,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2902,
+      "offset": 2903,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/staskochkin\/Projects\/Work\/Appodeal\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 566,
       "length": 15,
       "value": "\"AppodealMediationCore.AdUnitOperation\""
     }

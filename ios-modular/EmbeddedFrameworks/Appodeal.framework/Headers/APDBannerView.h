@@ -1,9 +1,9 @@
 //
 //  APDBannerView.h
 //
-//  AppodealSDK version 3.2.0-beta.1
+//  AppodealSDK version 3.2.1
 //
-//  Copyright © 2023 Appodeal, Inc. All rights reserved.
+//  Copyright © 2024 Appodeal, Inc. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

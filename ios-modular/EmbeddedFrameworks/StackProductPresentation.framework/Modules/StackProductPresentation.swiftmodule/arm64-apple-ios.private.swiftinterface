@@ -10,6 +10,7 @@ import StackUIKit
 import StoreKit
 import Swift
 import UIKit
+import UIKit.UIViewController
 import _Concurrency
 import _StringProcessing
 @_inheritsConvenienceInitializers @objc(STKProductPresentation) final public class ProductPresentation : ObjectiveC.NSObject {
@@ -50,6 +51,7 @@ extension StackProductPresentation.ProductPresentation : StackProductPresentatio
   @objc public static let adNetworkFidelityKey: Swift.String
   @objc public static let useEmbeddedBrowser: Swift.String
   @objc weak final public var delegate: StackProductPresentation.ProductControllerDelegate?
+  @objc weak final public var rootViewController: UIKit.UIViewController?
   @objc public static var supportedSKAdNetworkVersions: [Swift.String] {
     @objc get
   }

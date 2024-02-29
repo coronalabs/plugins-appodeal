@@ -37,6 +37,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)skipped;
 
+- (void)bufferStart;
+
+- (void)bufferFinish;
+
 - (void)volumeChangeTo:(CGFloat)playerVolume;
 
 - (void)playerStateChangeToNormal;

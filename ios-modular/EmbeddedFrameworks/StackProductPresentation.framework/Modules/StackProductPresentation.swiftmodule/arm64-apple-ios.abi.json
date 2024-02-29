@@ -43,6 +43,13 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "StackProductPresentation",
         "declAttributes": [
           "RawDocComment"
@@ -782,6 +789,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIViewController",
+        "printedName": "UIKit.UIViewController",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
       },
       {
         "kind": "TypeDecl",
@@ -1987,6 +2001,122 @@
           },
           {
             "kind": "Var",
+            "name": "rootViewController",
+            "printedName": "rootViewController",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "UIKit.UIViewController?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(py)rootViewController",
+            "mangledName": "$s24StackProductPresentation0B10ControllerC08rootViewD0So06UIViewD0CSgvp",
+            "moduleName": "StackProductPresentation",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)rootViewController",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC08rootViewD0So06UIViewD0CSgvg",
+                "moduleName": "StackProductPresentation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIViewController?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController(im)setRootViewController:",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC08rootViewD0So06UIViewD0CSgvs",
+                "moduleName": "StackProductPresentation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:24StackProductPresentation0B10ControllerC08rootViewD0So06UIViewD0CSgvM",
+                "mangledName": "$s24StackProductPresentation0B10ControllerC08rootViewD0So06UIViewD0CSgvM",
+                "moduleName": "StackProductPresentation",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "supportedSKAdNetworkVersions",
             "printedName": "supportedSKAdNetworkVersions",
             "children": [
@@ -2554,413 +2684,497 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ExternalPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ExternalPresenter.swift",
       "kind": "StringLiteral",
       "offset": 205,
       "length": 17,
       "value": "\"StackProductPresentation.ExternalPresenter\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/STKAdImpression.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/STKAdImpression.swift",
       "kind": "StringLiteral",
-      "offset": 437,
+      "offset": 401,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SafariPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SafariPresenter.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 15,
       "value": "\"StackProductPresentation.SafariPresenter\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 1645,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 1862,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 2163,
       "length": 4,
       "value": "0.18"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 2176,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 2220,
       "length": 2,
       "value": "22"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 2265,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 2334,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 2591,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 2629,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 2691,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 2920,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "StringLiteral",
       "offset": 3057,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "FloatLiteral",
       "offset": 3284,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 3297,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 3336,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 3376,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 3440,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 3667,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 3888,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 4113,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "IntegerLiteral",
       "offset": 4378,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "BooleanLiteral",
       "offset": 4444,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 9300,
+      "offset": 9430,
       "length": 16,
       "value": "\"StackProductPresentation.OverlayPresenter\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/CompleteOperatation.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/CompleteOperatation.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 19,
       "value": "\"StackProductPresentation.CompleteOperatation\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKOverlayPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKOverlayPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 196,
+      "offset": 220,
       "length": 18,
       "value": "\"StackProductPresentation.SKOverlayPresenter\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
       "offset": 458,
       "length": 48,
       "value": "\"Unable to present SKStoreProductViewController\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
       "offset": 537,
       "length": 67,
       "value": "\"Unable to find controller to present SKStoreProductViewController\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
       "offset": 639,
       "length": 49,
       "value": "\"SKStoreProductViewController has been presented\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
       "offset": 739,
       "length": 17,
       "value": "\"StackProductPresentation.StoreKitPresenter\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 5611,
+      "offset": 7410,
       "length": 50,
       "value": "\"StackProductPresentation.StoreControllerViewControllerAnimatedTransitioning\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 1405,
+      "offset": 1434,
       "length": 35,
       "value": "\"STKProductParameterItemIdentifier\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 1491,
+      "offset": 1520,
       "length": 33,
       "value": "\"STKProductParameterClickThrough\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 1592,
+      "offset": 1621,
       "length": 50,
       "value": "\"STKProductParameterAdNetworkAttributionSignature\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 1708,
+      "offset": 1737,
       "length": 48,
       "value": "\"STKProductParameterAdNetworkCampaignIdentifier\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 1820,
+      "offset": 1849,
       "length": 46,
       "value": "\"STKProductParameterAdNetworkSourceIdentifier\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 1953,
       "length": 40,
       "value": "\"STKProductParameterAdNetworkIdentifier\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 2017,
+      "offset": 2046,
       "length": 35,
       "value": "\"STKProductParameterAdNetworkNonce\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 2109,
+      "offset": 2138,
       "length": 39,
       "value": "\"STKProductParameterAdNetworkTimestamp\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 2220,
+      "offset": 2249,
       "length": 54,
       "value": "\"STKProductParameterAdNetworkSourceAppStoreIdentifier\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 2329,
+      "offset": 2358,
       "length": 37,
       "value": "\"STKProductParameterAdNetworkVersion\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 2424,
+      "offset": 2453,
       "length": 40,
       "value": "\"STKProductParameterAdNetworkFidelities\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 2520,
+      "offset": 2549,
       "length": 38,
       "value": "\"STKProductParameterAdNetworkFidelity\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2641,
       "length": 39,
       "value": "\"STKProductParameterUseEmbeddedBrowser\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2925,
+      "offset": 3024,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "Array",
-      "offset": 2987,
+      "offset": 3086,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 3100,
+      "offset": 3199,
       "length": 40,
       "value": "\"com.explore.stack.product-presentation\""
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3185,
+      "offset": 3284,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 5,
+      "value": "\"2.1\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "\"2.2\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "\"3.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "\"4.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 5,
+      "value": "\"5.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 5,
+      "value": "\"2.1\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "\"2.2\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "\"3.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "\"4.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 5,
+      "value": "\"5.0\""
+    },
+    {
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 3757,
+      "offset": 3318,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 3780,
+      "offset": 3341,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 3757,
+      "offset": 3318,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 3780,
+      "offset": 3341,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 3757,
+      "offset": 3318,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
       "kind": "IntegerLiteral",
-      "offset": 3780,
+      "offset": 3341,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
       "kind": "Array",
       "offset": 383,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
       "kind": "Array",
       "offset": 479,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/artur.h\/Desktop\/Stack\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 17,

@@ -1,0 +1,98 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StackConsentManager
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import AppTrackingTransparency
+import Foundation
+import OSLog
+import Swift
+import UIKit
+import UserMessagingPlatform
+import WebKit
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers @objc(APDConsentDialog) final public class ConsentDialog : ObjectiveC.NSObject {
+  @objc final public func present(rootViewController: UIKit.UIViewController, completion: @escaping (Foundation.NSError?) -> ())
+  @objc deinit
+}
+@available(iOS 13, *)
+extension StackConsentManager.ConsentDialog {
+  #if compiler(>=5.3) && $AsyncAwait
+  @_Concurrency.MainActor final public func present(rootViewController: UIKit.UIViewController) async throws
+  #endif
+}
+@objc(APDAuthorizationStatus) public enum AuthorizationStatus : Swift.UInt {
+  case notDetermined
+  case restricted
+  case denied
+  case authorized
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+@objc(APDConsentStatus) public enum ConsentStatus : Swift.UInt {
+  case unknown
+  case required
+  case notRequired
+  case obtained
+  public init?(rawValue: Swift.UInt)
+  public typealias RawValue = Swift.UInt
+  public var rawValue: Swift.UInt {
+    get
+  }
+}
+public enum ConsentManagerError : Swift.Error {
+  case requestTimeout
+  case requestError(Swift.String)
+  case serverError
+  case cache
+  case notRequested
+  case alreadyPresented
+  case presentationNotRequired
+  case dialogNotLoaded
+  case internalError(Swift.String)
+  case invalidForm
+  case generic(any Swift.Error)
+}
+extension StackConsentManager.ConsentManagerError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(APDConsentManager) final public class ConsentManager : ObjectiveC.NSObject {
+  @objc public static let shared: StackConsentManager.ConsentManager
+  @objc dynamic final public var status: StackConsentManager.ConsentStatus {
+    get
+  }
+  @objc final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters, completion: @escaping (Foundation.NSError?) -> ())
+  @objc final public func revoke()
+  @objc final public func loadAndPresentIfNeeded(rootViewController: UIKit.UIViewController, completion: @escaping (Foundation.NSError?) -> ())
+  @objc final public func load(completion: @escaping (StackConsentManager.ConsentDialog?, Foundation.NSError?) -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+@available(iOS 13, *)
+extension StackConsentManager.ConsentManager {
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func loadAndPresentIfNeeded(rootViewController: UIKit.UIViewController) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func load() async throws -> StackConsentManager.ConsentDialog
+  #endif
+}
+@objc(APDConsentUpdateRequestParameters) final public class ConsentUpdateRequestParameters : ObjectiveC.NSObject {
+  @objc public init(appKey: Swift.String, mediationSdkName: Swift.String, mediationSdkVersion: Swift.String, COPPA: Swift.Bool)
+  @objc deinit
+}
+extension StackConsentManager.AuthorizationStatus : Swift.Equatable {}
+extension StackConsentManager.AuthorizationStatus : Swift.Hashable {}
+extension StackConsentManager.AuthorizationStatus : Swift.RawRepresentable {}
+extension StackConsentManager.ConsentStatus : Swift.Equatable {}
+extension StackConsentManager.ConsentStatus : Swift.Hashable {}
+extension StackConsentManager.ConsentStatus : Swift.RawRepresentable {}

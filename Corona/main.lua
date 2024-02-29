@@ -85,7 +85,7 @@ eventText = display.newText {
 eventText.anchorX = 0
 eventText.anchorY = 0
 eventText.x = display.screenOriginX + 5
-eventText.y = adTypeText.y + adTypeText.height + 5
+eventText.y = display.contentCenterY
 eventText:setFillColor(0)
 
 local function appodealListener( event )
@@ -94,18 +94,21 @@ end
 
 print("Using: ", appKey)
 
-appodeal.init(appodealListener, {
-	disableWriteExternalPermissionCheck = true,
-	appKey = appKey,
-	-- testMode = true,
-	bannerAnimation = true,
-hasUserConsent = true,
-	customRules = {
-		levels_played=5,
-		boss_mode=true,
-		user_level="beginner"
-	}
-})
+timer.performWithDelay( 1000, function() 
+	appodeal.init(appodealListener, {
+		disableWriteExternalPermissionCheck = true,
+		appKey = appKey,
+		-- testMode = true,
+		bannerAnimation = true,
+		hasUserConsent = true,
+		customRules = {
+			levels_played=5,
+			boss_mode=true,
+			user_level="beginner"
+		}
+	})
+end)
+
 
 -- Create a button
 local button1 = widget.newButton(
@@ -120,7 +123,7 @@ local button1 = widget.newButton(
 	end,
 })
 button1.x = display.contentCenterX
-button1.y = eventText.y + (eventText.height) + 10
+button1.y = display.contentCenterY + 40
 
 -- Create a button
 local button2 = widget.newButton(
@@ -134,7 +137,7 @@ local button2 = widget.newButton(
 	end,
 })
 button2.x = display.contentCenterX
-button2.y = button1.y + button1.height + button2.height * .15
+button2.y = display.contentCenterY + 90
 
 local button3 = widget.newButton(
 {
@@ -145,4 +148,4 @@ local button3 = widget.newButton(
 	end,
 })
 button3.x = display.contentCenterX
-button3.y = button2.y + button3.height + button2.height * .15
+button3.y = display.contentCenterY + 130

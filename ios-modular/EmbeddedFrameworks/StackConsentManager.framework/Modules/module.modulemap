@@ -1,6 +1,4 @@
 framework module StackConsentManager {
-  umbrella header "StackConsentManager.h"
-
-  export *
-  module * { export * }
+  header "StackConsentManager-Swift.h"
+  requires objc
 }

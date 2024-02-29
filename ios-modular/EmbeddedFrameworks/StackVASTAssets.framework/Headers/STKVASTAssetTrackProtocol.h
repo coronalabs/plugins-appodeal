@@ -26,7 +26,9 @@ typedef NS_ENUM(NSUInteger, STKVASTAssetEvent) {
     STKVASTAssetEventExpand,
     STKVASTAssetEventCollapse,
     STKVASTAssetEventRewind,
-    STKVASTAssetEventInvitation
+    STKVASTAssetEventInvitation,
+    STKVASTAssetEventStartBuffering,
+    STKVASTAssetEventFinishBuffering
 };
 
 NS_ASSUME_NONNULL_BEGIN
