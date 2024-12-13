@@ -1,11 +1,11 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdk 33
+    namespace "plugin.appodeal"
+    compileSdk 34
 
     defaultConfig {
-        minSdkVersion 15
-        targetSdk 33
+        minSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
@@ -16,25 +16,25 @@ android {
 
 }
 repositories {
-    maven { url "https://artifactory.appodeal.com/appodeal-beta-public" }
+    maven { url "https://artifactory.appodeal.com/appodeal" }
 }
-
 dependencies {
     implementation ':Corona@aar'
-    implementation 'com.appodeal.ads.sdk:core:3.2.0-beta.1'
+    implementation "com.appodeal.ads:sdk:3.4.0.0"
 }
 
+def buildDirectory = getLayout().getBuildDirectory().asFile.get()
 tasks.register("extractPluginJar") {
     group "Solar2Dev"
     dependsOn assembleRelease
     doLast {
         copy {
             from {
-                zipTree("$buildDir/outputs/aar/${project.name}-release.aar").matching {
+                zipTree("$buildDirectory/outputs/aar/${project.name}-release.aar").matching {
                     include 'classes.jar'
                 }.singleFile
             }
-            into "$buildDir/outputs/"
+            into "$buildDirectory/outputs/"
             String packageName = new XmlSlurper().parse(file('src/main/AndroidManifest.xml')).@package.text()
             rename "classes.jar", "${packageName}.jar"
         }
@@ -58,7 +58,7 @@ tasks.register("deployToLocalSolar2DRepo", Tar) {
     compression = Compression.GZIP
     archiveFileName = "data.tgz"
     def rootS2DP
-    if(System.env.APP_DATA) {
+    if (System.env.APP_DATA) {
         rootS2DP = System.env.APP_DATA
     } else {
         rootS2DP = System.env.HOME
@@ -67,7 +67,7 @@ tasks.register("deployToLocalSolar2DRepo", Tar) {
     destinationDirectory = dst
 
     into("/") {
-        from("$buildDir/outputs/aar")
+        from("$buildDirectory/outputs/aar")
         include("${project.name}-release.aar")
     }
     doLast {

@@ -25,8 +25,6 @@ import com.appodeal.ads.RewardedVideoCallbacks;
 import com.appodeal.ads.UserSettings;
 import com.appodeal.ads.initializing.ApdInitializationCallback;
 import com.appodeal.ads.initializing.ApdInitializationError;
-import com.appodeal.ads.regulator.CCPAUserConsent;
-import com.appodeal.ads.regulator.GDPRUserConsent;
 import com.appodeal.ads.rewarded.Reward;
 import com.naef.jnlua.JavaFunction;
 import com.naef.jnlua.LuaState;
@@ -587,19 +585,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                             return 0;
                         }
                     } else if (key.equals("hasUserConsent")) {
-                        if (luaState.type(-1) == LuaType.BOOLEAN) {
-                            hasUserConsent = luaState.toBoolean(-1);
-                            if(hasUserConsent){
-                                Appodeal.updateGDPRUserConsent(GDPRUserConsent.Personalized);
-                                Appodeal.updateCCPAUserConsent(CCPAUserConsent.OptIn);
-                            }else{
-                                Appodeal.updateGDPRUserConsent(GDPRUserConsent.NonPersonalized);
-                                Appodeal.updateCCPAUserConsent(CCPAUserConsent.OptOut);
-                            }
-                        } else {
-                            logMsg(ERROR_MSG, "options.hasUserConsent (boolean) expected, got: " + luaState.typeName(-1));
-                            return 0;
-                        }
+                        logMsg(WARNING_MSG, "options.hasUserConsent has been removed");
                     } else if (key.equals("autoCacheAds")) {
                         logMsg(ERROR_MSG, "Parameter autoCacheAds was deprecated. Use disableAutoCacheForAdTypes instead");
                         return 0;

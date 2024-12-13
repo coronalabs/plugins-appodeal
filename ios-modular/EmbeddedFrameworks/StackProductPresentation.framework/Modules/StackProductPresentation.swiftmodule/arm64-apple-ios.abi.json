@@ -16,8 +16,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
         "declKind": "Import",
         "moduleName": "StackProductPresentation"
       },
@@ -33,8 +33,8 @@
       },
       {
         "kind": "Import",
-        "name": "StackFoundation",
-        "printedName": "StackFoundation",
+        "name": "StackModules",
+        "printedName": "StackModules",
         "declKind": "Import",
         "moduleName": "StackProductPresentation"
       },
@@ -42,23 +42,6 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "StackFoundation",
-        "printedName": "StackFoundation",
         "declKind": "Import",
         "moduleName": "StackProductPresentation"
       },
@@ -84,7 +67,10 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "StackProductPresentation"
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -112,8 +98,199 @@
       },
       {
         "kind": "Import",
-        "name": "StackUIKit",
-        "printedName": "StackUIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StackModules",
+        "printedName": "StackModules",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StackModules",
+        "printedName": "StackModules",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StackModules",
+        "printedName": "StackModules",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "StackModules",
+        "printedName": "StackModules",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StoreKit",
+        "printedName": "StoreKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
+        "name": "StackModules",
+        "printedName": "StackModules",
         "declKind": "Import",
         "moduleName": "StackProductPresentation"
       },
@@ -136,6 +313,13 @@
       },
       {
         "kind": "Import",
+        "name": "StackModules",
+        "printedName": "StackModules",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -143,6 +327,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "StackProductPresentation"
       },
       {
         "kind": "Import",
@@ -163,620 +354,8 @@
       },
       {
         "kind": "Import",
-        "name": "StackUIKit",
-        "printedName": "StackUIKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "StackFoundation",
-        "printedName": "StackFoundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ProductPresentation",
-        "printedName": "ProductPresentation",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "openProduct",
-            "printedName": "openProduct(parameters:success:failure:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(([Swift.String : Swift.AnyHashable]) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "([Swift.String : Swift.AnyHashable]) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Dictionary",
-                        "printedName": "[Swift.String : Swift.AnyHashable]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "AnyHashable",
-                            "printedName": "Swift.AnyHashable",
-                            "usr": "s:s11AnyHashableV"
-                          }
-                        ],
-                        "usr": "s:SD"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((Foundation.NSError) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Foundation.NSError) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "NSError",
-                        "printedName": "Foundation.NSError",
-                        "usr": "c:objc(cs)NSError"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)openProductWithParameters:success:failure:completion:",
-            "mangledName": "$s24StackProductPresentation0bC0C04openB010parameters7success7failure10completionySDySSs11AnyHashableVG_yAKcSgySo7NSErrorCcSgyycSgtFZ",
-            "moduleName": "StackProductPresentation",
-            "static": true,
-            "objc_name": "openProductWithParameters:success:failure:completion:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startImpression",
-            "printedName": "startImpression(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)startImpression:",
-            "mangledName": "$s24StackProductPresentation0bC0C15startImpressionyySDySSs11AnyHashableVGFZ",
-            "moduleName": "StackProductPresentation",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "endImpression",
-            "printedName": "endImpression(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)endImpression:",
-            "mangledName": "$s24StackProductPresentation0bC0C13endImpressionyySDySSs11AnyHashableVGFZ",
-            "moduleName": "StackProductPresentation",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProductPresentation",
-                "printedName": "StackProductPresentation.ProductPresentation",
-                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(im)init",
-            "mangledName": "$s24StackProductPresentation0bC0CACycfc",
-            "moduleName": "StackProductPresentation",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "controller",
-            "printedName": "controller(_:didFailToPresent:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProductController",
-                "printedName": "StackProductPresentation.ProductController",
-                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSError",
-                "printedName": "Foundation.NSError",
-                "usr": "c:objc(cs)NSError"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:didFailToPresent:",
-            "mangledName": "$s24StackProductPresentation0bC0C10controller_16didFailToPresentyAA0B10ControllerC_So7NSErrorCtF",
-            "moduleName": "StackProductPresentation",
-            "objc_name": "controller:didFailToPresent:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "controller",
-            "printedName": "controller(_:willLeaveApplication:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProductController",
-                "printedName": "StackProductPresentation.ProductController",
-                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:willLeaveApplication:",
-            "mangledName": "$s24StackProductPresentation0bC0C10controller_20willLeaveApplicationyAA0B10ControllerC_SDySSs11AnyHashableVGtF",
-            "moduleName": "StackProductPresentation",
-            "objc_name": "controller:willLeaveApplication:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "controller",
-            "printedName": "controller(_:willPresentProduct:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProductController",
-                "printedName": "StackProductPresentation.ProductController",
-                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Swift.AnyHashable]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyHashable",
-                    "printedName": "Swift.AnyHashable",
-                    "usr": "s:s11AnyHashableV"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:willPresentProduct:",
-            "mangledName": "$s24StackProductPresentation0bC0C10controller_011willPresentB0yAA0B10ControllerC_SDySSs11AnyHashableVGtF",
-            "moduleName": "StackProductPresentation",
-            "objc_name": "controller:willPresentProduct:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "controllerDidCompleteProcessing",
-            "printedName": "controllerDidCompleteProcessing(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProductController",
-                "printedName": "StackProductPresentation.ProductController",
-                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controllerDidCompleteProcessing:",
-            "mangledName": "$s24StackProductPresentation0bC0C31controllerDidCompleteProcessingyyAA0B10ControllerCF",
-            "moduleName": "StackProductPresentation",
-            "objc_name": "controllerDidCompleteProcessing:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation",
-        "mangledName": "$s24StackProductPresentation0bC0C",
-        "moduleName": "StackProductPresentation",
-        "objc_name": "STKProductPresentation",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ProductControllerDelegate",
-            "printedName": "ProductControllerDelegate",
-            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate",
-            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "StackUIKit",
-        "printedName": "StackUIKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "StackFoundation",
-        "printedName": "StackFoundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "StackModules",
+        "printedName": "StackModules",
         "declKind": "Import",
         "moduleName": "StackProductPresentation"
       },
@@ -2622,563 +2201,1810 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "ProductPresentation",
+        "printedName": "ProductPresentation",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "openProduct",
+            "printedName": "openProduct(parameters:success:failure:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(([Swift.String : Swift.AnyHashable]) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([Swift.String : Swift.AnyHashable]) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.AnyHashable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.NSError) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.NSError) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSError",
+                        "printedName": "Foundation.NSError",
+                        "usr": "c:objc(cs)NSError"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)openProductWithParameters:success:failure:completion:",
+            "mangledName": "$s24StackProductPresentation0bC0C04openB010parameters7success7failure10completionySDySSs11AnyHashableVG_yAKcSgySo7NSErrorCcSgyycSgtFZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "objc_name": "openProductWithParameters:success:failure:completion:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startImpression",
+            "printedName": "startImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)startImpression:",
+            "mangledName": "$s24StackProductPresentation0bC0C15startImpressionyySDySSs11AnyHashableVGFZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "endImpression",
+            "printedName": "endImpression(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(cm)endImpression:",
+            "mangledName": "$s24StackProductPresentation0bC0C13endImpressionyySDySSs11AnyHashableVGFZ",
+            "moduleName": "StackProductPresentation",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProductPresentation",
+                "printedName": "StackProductPresentation.ProductPresentation",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation(im)init",
+            "mangledName": "$s24StackProductPresentation0bC0CACycfc",
+            "moduleName": "StackProductPresentation",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:didFailToPresent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSError",
+                "printedName": "Foundation.NSError",
+                "usr": "c:objc(cs)NSError"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:didFailToPresent:",
+            "mangledName": "$s24StackProductPresentation0bC0C10controller_16didFailToPresentyAA0B10ControllerC_So7NSErrorCtF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controller:didFailToPresent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:willLeaveApplication:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:willLeaveApplication:",
+            "mangledName": "$s24StackProductPresentation0bC0C10controller_20willLeaveApplicationyAA0B10ControllerC_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controller:willLeaveApplication:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controller",
+            "printedName": "controller(_:willPresentProduct:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.AnyHashable]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controller:willPresentProduct:",
+            "mangledName": "$s24StackProductPresentation0bC0C10controller_011willPresentB0yAA0B10ControllerC_SDySSs11AnyHashableVGtF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controller:willPresentProduct:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controllerDidCompleteProcessing",
+            "printedName": "controllerDidCompleteProcessing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProductController",
+                "printedName": "StackProductPresentation.ProductController",
+                "usr": "c:@M@StackProductPresentation@objc(cs)STKProductController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@StackProductPresentation@objc(cs)STKProductPresentation(im)controllerDidCompleteProcessing:",
+            "mangledName": "$s24StackProductPresentation0bC0C31controllerDidCompleteProcessingyyAA0B10ControllerCF",
+            "moduleName": "StackProductPresentation",
+            "objc_name": "controllerDidCompleteProcessing:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@StackProductPresentation@objc(cs)STKProductPresentation",
+        "mangledName": "$s24StackProductPresentation0bC0C",
         "moduleName": "StackProductPresentation",
+        "objc_name": "STKProductPresentation",
         "declAttributes": [
-          "RawDocComment"
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ProductControllerDelegate",
+            "printedName": "ProductControllerDelegate",
+            "usr": "c:@M@StackProductPresentation@objc(pl)STKProductControllerDelegate",
+            "mangledName": "$s24StackProductPresentation0B18ControllerDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "StackFoundation",
-        "printedName": "StackFoundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "StoreKit",
-        "printedName": "StoreKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "StackProductPresentation"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ExternalPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 205,
-      "length": 17,
-      "value": "\"StackProductPresentation.ExternalPresenter\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/STKAdImpression.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/STKAdImpression.swift",
       "kind": "StringLiteral",
       "offset": 401,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SafariPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 365,
-      "length": 15,
-      "value": "\"StackProductPresentation.SafariPresenter\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1645,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1862,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "FloatLiteral",
-      "offset": 2163,
-      "length": 4,
-      "value": "0.18"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/STKAdImpression.swift",
       "kind": "IntegerLiteral",
-      "offset": 2176,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2220,
-      "length": 2,
-      "value": "22"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2265,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2334,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2591,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2629,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2691,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2920,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 3057,
-      "length": 5,
-      "value": "\"GET\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "FloatLiteral",
-      "offset": 3284,
-      "length": 4,
-      "value": "0.25"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3297,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3336,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3376,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3440,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3667,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3888,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4113,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4378,
+      "offset": 619,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Opertations\/ValidateOperation.swift",
+      "kind": "Array",
+      "offset": 380,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Opertations\/ValidateOperation.swift",
+      "kind": "Array",
+      "offset": 476,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Opertations\/ValidateOperation.swift",
+      "kind": "Array",
+      "offset": 1061,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Opertations\/ValidateOperation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1327,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Opertations\/ValidateOperation.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 17,
+      "value": "\"StackProductPresentation.ValidateOperation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 5,
+      "value": "\"2.1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "\"2.2\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "\"3.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "\"4.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 5,
+      "value": "\"5.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 242,
+      "length": 5,
+      "value": "\"2.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 5,
+      "value": "\"2.1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 5,
+      "value": "\"2.2\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 5,
+      "value": "\"3.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 5,
+      "value": "\"4.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 5,
+      "value": "\"5.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "Dictionary",
+      "offset": 719,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "Dictionary",
+      "offset": 2329,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3341,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3341,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3341,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/SKAdNetworkParameters.swift",
+      "kind": "Dictionary",
+      "offset": 4538,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/OverlayParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 333,
+      "length": 64,
+      "value": "\"http:\/\/itunes.apple.com\/lookup?id=\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/OverlayParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/OverlayParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 1908,
+      "length": 9,
+      "value": "\"results\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/OverlayParameters.swift",
+      "kind": "Array",
+      "offset": 2108,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKitPresentationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4444,
+      "offset": 2021,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKitPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2324,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKitPresentationController.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 37,
+      "value": "\"StackProductPresentation.StoreKitPresentationDefaultController\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKitPresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2749,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/OverlayPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKitPresentationController.swift",
+      "kind": "Array",
+      "offset": 3786,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKitPresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4965,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKitPresentationController.swift",
       "kind": "StringLiteral",
-      "offset": 9430,
+      "offset": 4496,
+      "length": 50,
+      "value": "\"StackProductPresentation.StoreControllerViewControllerAnimatedTransitioning\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/ExternalPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 296,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/ExternalPresenter.swift",
+      "kind": "Dictionary",
+      "offset": 860,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/ExternalPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 17,
+      "value": "\"StackProductPresentation.ExternalPresenter\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1557,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1687,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2390,
+      "length": 37,
+      "value": "\"https:\/\/apps.apple.com\/apps\/id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2426,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2592,
+      "length": 6,
+      "value": "\"http\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2624,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2696,
+      "length": 11,
+      "value": "\"itms-apps\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2733,
+      "length": 6,
+      "value": "\"itms\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2763,
+      "length": 18,
+      "value": "\"itunes.apple.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 2805,
       "length": 16,
-      "value": "\"StackProductPresentation.OverlayPresenter\""
+      "value": "\"apps.apple.com\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/CompleteOperatation.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
       "kind": "StringLiteral",
-      "offset": 215,
-      "length": 19,
-      "value": "\"StackProductPresentation.CompleteOperatation\""
+      "offset": 2980,
+      "length": 4,
+      "value": "\"id\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKOverlayPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 3035,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/ProductParameters.swift",
+      "kind": "StringLiteral",
+      "offset": 3047,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/ProductControllerError.swift",
+      "kind": "StringLiteral",
+      "offset": 441,
+      "length": 39,
+      "value": "\"The provided parameters are not valid\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/ProductControllerError.swift",
+      "kind": "StringLiteral",
+      "offset": 511,
+      "length": 43,
+      "value": "\"Response does not contain any failing URL\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/ProductControllerError.swift",
+      "kind": "StringLiteral",
+      "offset": 641,
+      "length": 37,
+      "value": "\"Unable to prepare product presenter\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/ProductControllerError.swift",
+      "kind": "StringLiteral",
+      "offset": 715,
+      "length": 53,
+      "value": "\"This method is not available on current iOS version\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SKOverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 728,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SKOverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 769,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SKOverlayPresenter.swift",
       "kind": "StringLiteral",
       "offset": 220,
       "length": 18,
       "value": "\"StackProductPresentation.SKOverlayPresenter\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Opertations\/CompleteOperatation.swift",
       "kind": "StringLiteral",
-      "offset": 458,
+      "offset": 212,
+      "length": 19,
+      "value": "\"StackProductPresentation.CompleteOperatation\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1404,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1774,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "StringLiteral",
+      "offset": 50,
+      "length": 33,
+      "value": "\"StackProductPresentation.StoreKitPresentation170Controller\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2012,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2063,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2069,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2085,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2453,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/StoreKit170PresentationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2645,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/StoreKitPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
       "length": 48,
       "value": "\"Unable to present SKStoreProductViewController\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 537,
+      "offset": 508,
       "length": 67,
       "value": "\"Unable to find controller to present SKStoreProductViewController\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 639,
+      "offset": 610,
       "length": 49,
       "value": "\"SKStoreProductViewController has been presented\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/StoreKitPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2447,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/StoreKitPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3467,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/StoreKitPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 739,
+      "offset": 709,
       "length": 17,
       "value": "\"StackProductPresentation.StoreKitPresenter\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/StoreKitPresenter.swift",
-      "kind": "StringLiteral",
-      "offset": 7410,
-      "length": 50,
-      "value": "\"StackProductPresentation.StoreControllerViewControllerAnimatedTransitioning\""
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Models\/StoreKitParameters.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1907,
+      "length": 1,
+      "value": "0"
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 34,
+      "value": "\"Application can not open product\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1168,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1371,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 1807,
+      "length": 61,
+      "value": "\"Unable to find controller to present SFSafariViewController\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 2070,
+      "length": 43,
+      "value": "\"SFSafariViewController has been presented\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2295,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2565,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 367,
+      "length": 15,
+      "value": "\"StackProductPresentation.SafariPresenter\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/SafariPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 2801,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/NetworkSession.swift",
+      "kind": "FloatLiteral",
+      "offset": 452,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/NetworkSession.swift",
+      "kind": "StringLiteral",
+      "offset": 485,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/NetworkSession.swift",
+      "kind": "StringLiteral",
+      "offset": 557,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/ProductPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1435,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/ProductPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1484,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/ProductPresenter.swift",
+      "kind": "Array",
+      "offset": 2063,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/ProductPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2417,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 733,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1648,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1865,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 2166,
+      "length": 4,
+      "value": "0.18"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2179,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2223,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2268,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2337,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2594,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2632,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2694,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2923,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 3060,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 3287,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3300,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3339,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3379,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3443,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3670,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3891,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4116,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4381,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4447,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4825,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4831,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4875,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 4922,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 5121,
+      "length": 4,
+      "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5206,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5212,
+      "length": 3,
+      "value": "150"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5293,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5464,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "Array",
+      "offset": 5680,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5807,
+      "length": 2,
+      "value": "82"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 6025,
+      "length": 4,
+      "value": "0.92"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6121,
+      "length": 3,
+      "value": "600"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6302,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6447,
+      "length": 3,
+      "value": "-20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 6697,
+      "length": 4,
+      "value": "0.75"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6885,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7126,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 7237,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7342,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7641,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7740,
+      "length": 3,
+      "value": "-10"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8205,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8894,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "FloatLiteral",
+      "offset": 8934,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9085,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9523,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9660,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9701,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Presenters\/OverlayPresenter.swift",
+      "kind": "StringLiteral",
+      "offset": 9433,
+      "length": 16,
+      "value": "\"StackProductPresentation.OverlayPresenter\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 1434,
       "length": 35,
       "value": "\"STKProductParameterItemIdentifier\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 1520,
       "length": 33,
       "value": "\"STKProductParameterClickThrough\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 1621,
       "length": 50,
       "value": "\"STKProductParameterAdNetworkAttributionSignature\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 1737,
       "length": 48,
       "value": "\"STKProductParameterAdNetworkCampaignIdentifier\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 1849,
       "length": 46,
       "value": "\"STKProductParameterAdNetworkSourceIdentifier\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 1953,
       "length": 40,
       "value": "\"STKProductParameterAdNetworkIdentifier\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 2046,
       "length": 35,
       "value": "\"STKProductParameterAdNetworkNonce\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 2138,
       "length": 39,
       "value": "\"STKProductParameterAdNetworkTimestamp\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 2249,
       "length": 54,
       "value": "\"STKProductParameterAdNetworkSourceAppStoreIdentifier\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 2358,
       "length": 37,
       "value": "\"STKProductParameterAdNetworkVersion\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 2453,
       "length": 40,
       "value": "\"STKProductParameterAdNetworkFidelities\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 2549,
       "length": 38,
       "value": "\"STKProductParameterAdNetworkFidelity\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 2641,
       "length": 39,
       "value": "\"STKProductParameterUseEmbeddedBrowser\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "BooleanLiteral",
       "offset": 3024,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "Array",
       "offset": 3086,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
       "offset": 3199,
       "length": 40,
       "value": "\"com.explore.stack.product-presentation\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ProductController.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "IntegerLiteral",
       "offset": 3284,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 5,
-      "value": "\"2.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 5,
-      "value": "\"2.1\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 294,
-      "length": 5,
-      "value": "\"2.2\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 320,
-      "length": 5,
-      "value": "\"3.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 5,
-      "value": "\"4.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 372,
-      "length": 5,
-      "value": "\"5.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 242,
-      "length": 5,
-      "value": "\"2.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 5,
-      "value": "\"2.1\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 294,
-      "length": 5,
-      "value": "\"2.2\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 320,
-      "length": 5,
-      "value": "\"3.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 346,
-      "length": 5,
-      "value": "\"4.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "StringLiteral",
-      "offset": 372,
-      "length": 5,
-      "value": "\"5.0\""
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3318,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3341,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3318,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3341,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3318,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/SKAdNetworkParameters.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3341,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "Array",
-      "offset": 383,
+      "offset": 3501,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
-      "kind": "Array",
-      "offset": 479,
-      "length": 2,
-      "value": "[]"
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 3567,
+      "length": 5,
+      "value": "\"2.0\""
     },
     {
-      "filePath": "\/Users\/aliaksandrharbachou\/Documents\/Repositories\/StackModules-iOS\/STKUIKit\/StackProductPresentation\/ValidateOperation.swift",
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
       "kind": "StringLiteral",
-      "offset": 215,
-      "length": 17,
-      "value": "\"StackProductPresentation.ValidateOperation\""
+      "offset": 3649,
+      "length": 5,
+      "value": "\"2.1\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 3684,
+      "length": 5,
+      "value": "\"2.2\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 3766,
+      "length": 5,
+      "value": "\"3.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 3848,
+      "length": 5,
+      "value": "\"4.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 3928,
+      "length": 5,
+      "value": "\"5.0\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4124,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4270,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5602,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6111,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7076,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9083,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9895,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "StringLiteral",
+      "offset": 11270,
+      "length": 27,
+      "value": "\"Unable to present product\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11662,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/StackModules-iOS\/StackModules-iOS\/StackModules\/StackProductPresentation\/Controllers\/ProductController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11857,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

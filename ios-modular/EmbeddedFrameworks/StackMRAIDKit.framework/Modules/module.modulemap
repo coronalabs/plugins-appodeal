@@ -1,6 +1,0 @@
-framework module StackMRAIDKit {
-  umbrella header "StackMRAIDKit.h"
-
-  export *
-  module * { export * }
-}

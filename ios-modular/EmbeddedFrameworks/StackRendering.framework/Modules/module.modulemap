@@ -1,0 +1,6 @@
+framework module StackRendering {
+  umbrella header "StackRendering.h"
+  export *
+
+  module * { export * }
+}

@@ -2,7 +2,7 @@
 //  APDDefines.h
 //  Appodeal
 //
-//  AppodealSDK version 3.2.1
+//  AppodealSDK version 3.4.0
 //
 //  Copyright © 2024 Appodeal, Inc. All rights reserved.
 //
@@ -413,10 +413,10 @@ FOUNDATION_EXPORT NSString * _Nonnull const kAPDAppsFlyerIdExtrasKey;
 /**
  Network defines
  */
-FOUNDATION_EXPORT NSString * _Nonnull const kAPDAdColonyNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDAdMobNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDAdMobMediationNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDAppLovinNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDAppLovinMAXNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDBidMachineNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDBidonNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDBigoAdsNetworkName;
@@ -429,6 +429,12 @@ FOUNDATION_EXPORT NSString * _Nonnull const kAPDMyTargetNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDUnityNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDVungleNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDYandexNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDCriteoNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDTapjoyNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDAmazonNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDPangleNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDSmaatoNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDMobileFuseNetworkName;
 
 /**
  Size defines

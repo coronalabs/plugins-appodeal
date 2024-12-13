@@ -1,7 +1,7 @@
 framework module Appodeal {
   umbrella header "Appodeal.h"
-
   export *
+
   module * { export * }
 
 	link framework "AVFoundation"

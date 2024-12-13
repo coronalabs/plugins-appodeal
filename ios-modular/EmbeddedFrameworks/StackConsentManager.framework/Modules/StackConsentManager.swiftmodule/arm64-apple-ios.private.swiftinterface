@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StackConsentManager
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StackConsentManager
 import AdSupport
 import AppTrackingTransparency
 import Foundation
@@ -12,6 +11,7 @@ import UserMessagingPlatform
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers @objc(APDConsentDialog) final public class ConsentDialog : ObjectiveC.NSObject {
   @objc final public func present(rootViewController: UIKit.UIViewController, completion: @escaping (Foundation.NSError?) -> ())
   @objc deinit
@@ -56,6 +56,7 @@ public enum ConsentManagerError : Swift.Error {
   case internalError(Swift.String)
   case invalidForm
   case generic(any Swift.Error)
+  case formException(Swift.String)
 }
 extension StackConsentManager.ConsentManagerError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {

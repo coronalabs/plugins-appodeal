@@ -2,7 +2,7 @@
 //  APDSdk.h
 //  Appodeal
 //
-//  AppodealSDK version 3.2.1
+//  AppodealSDK version 3.4.0
 //
 //  Copyright © 2024 Appodeal, Inc. All rights reserved.
 //
@@ -101,16 +101,6 @@ typedef void(^APDAdRevenueHandler)(_Nonnull id<AppodealAdRevenue>);
  @param version Framework version. Default nill
  */
 - (void)setFramework:(APDFramework)framework version:(nullable NSString *)version;
-/**
- Updates user consent in GDPR regulation
- @param userConsent User consent flag that indicates that user give consent on personal data processing
- */
-- (void)updateUserConsentGDPR:(APDGDPRUserConsent)userConsent __deprecated_msg("This method is deprecated and will be removed in the next release");
-/**
- Updates user consent in CCPA regulation
- @param userConsent User consent flag that indicates that user give consent on personal data processing
- */
-- (void)updateUserConsentCCPA:(APDCCPAUserConsent)userConsent __deprecated_msg("This method is deprecated and will be removed in the next release");;
 /**
  Call this method to specify framework before initialization
  @param pluginVersion NSString version plugin
@@ -274,13 +264,3 @@ typedef void(^APDAdRevenueHandler)(_Nonnull id<AppodealAdRevenue>);
   customParameters:(NSDictionary * _Nullable)customParameters;
 
 @end
-
-#if __has_include(<StackConsentManager/StackConsentManager-Swift.h>)
-@interface APDSdk (ConsentManager)
-/**
-  User has update consent through Stack Consent Manager.
-  @param consentReport Consent report object from Stack Consent Manager
-*/
-- (void)setConsentReport:(nonnull id)consentReport __deprecated_msg("This method is deprecated and will be removed in the next release");
-@end
-#endif

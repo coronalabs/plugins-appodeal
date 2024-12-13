@@ -1,6 +1,0 @@
-framework module StackAnalytics {
-  umbrella header "StackAnalytics.h"
-
-  export *
-  module * { export * }
-}

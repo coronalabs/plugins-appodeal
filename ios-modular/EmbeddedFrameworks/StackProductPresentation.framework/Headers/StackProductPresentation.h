@@ -2,8 +2,8 @@
 //  StackProductPresentation.h
 //  StackProductPresentation
 //
-//  Created by Stas Kochkin on 07.04.2021.
-//  Copyright © 2021 Stack. All rights reserved.
+//  Created by Stas Kochkin on 08.04.2024.
+//  Copyright © 2024 Stack. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

@@ -1,6 +1,0 @@
-framework module StackVASTAssets {
-  umbrella header "StackVASTAssets.h"
-
-  export *
-  module * { export * }
-}

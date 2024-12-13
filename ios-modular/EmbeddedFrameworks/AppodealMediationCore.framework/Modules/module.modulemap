@@ -1,7 +1,7 @@
 framework module AppodealMediationCore {
   umbrella header "AppodealMediationCore.h"
-
   export *
+
   module * { export * }
 }
 

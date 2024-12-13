@@ -2,7 +2,7 @@
 //  Appodeal.h
 //  Appodeal
 //
-//  AppodealSDK version 3.2.1
+//  AppodealSDK version 3.4.0
 //
 //  Copyright (c) 2024 Appodeal, Inc. All rights reserved.
 //
@@ -551,16 +551,6 @@
  */
 + (void)setChildDirectedTreatment:(BOOL)childDirectedTreatment;
 /**
- Updates user consent in GDPR regulation
- @param userConsent User consent flag that indicates that user give consent on personal data processing
- */
-+ (void)updateUserConsentGDPR:(APDGDPRUserConsent)userConsent __deprecated_msg("This method is deprecated and will be removed in the next release");
-/**
- Updates user consent in CCPA regulation
- @param userConsent User consent flag that indicates that user give consent on personal data processing
- */
-+ (void)updateUserConsentCCPA:(APDCCPAUserConsent)userConsent __deprecated_msg("This method is deprecated and will be removed in the next release");
-/**
  Get framework type
  @note Objective-C
  <pre> [Appodeal framework]; </pre>
@@ -636,14 +626,3 @@
  */
 + (nullable NSString *)userId;
 @end
-
-
-#if __has_include(<StackConsentManager/StackConsentManager-Swift.h>)
-@interface Appodeal (ConsentManager)
-/**
- User has update consent through Stack Consent Manager .
- @param consentReport Consent report object from Stack Consent Manager
- */
-+ (void)updateConsentReport:(nonnull id)consentReport __deprecated_msg("This method is deprecated and will be removed in the next release");
-@end
-#endif

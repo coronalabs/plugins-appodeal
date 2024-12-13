@@ -1,6 +1,0 @@
-framework module StackFoundation {
-  umbrella header "StackFoundation.h"
-
-  export *
-  module * { export * }
-}

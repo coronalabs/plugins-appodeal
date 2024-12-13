@@ -1,6 +1,0 @@
-framework module StackRichMedia {
-  umbrella header "StackRichMedia.h"
-
-  export *
-  module * { export * }
-}

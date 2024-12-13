@@ -1514,12 +1514,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> (Swift.Error) -> StackConsentManager.ConsentManagerError",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> (any Swift.Error) -> StackConsentManager.ConsentManagerError",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> StackConsentManager.ConsentManagerError",
+                    "printedName": "(any Swift.Error) -> StackConsentManager.ConsentManagerError",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -1530,7 +1530,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -1554,6 +1554,56 @@
             "declKind": "EnumElement",
             "usr": "s:19StackConsentManager0bC5ErrorO7genericyACs0D0_pcACmF",
             "mangledName": "$s19StackConsentManager0bC5ErrorO7genericyACs0D0_pcACmF",
+            "moduleName": "StackConsentManager"
+          },
+          {
+            "kind": "Var",
+            "name": "formException",
+            "printedName": "formException",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(StackConsentManager.ConsentManagerError.Type) -> (Swift.String) -> StackConsentManager.ConsentManagerError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> StackConsentManager.ConsentManagerError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "StackConsentManager.ConsentManagerError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConsentManagerError",
+                        "printedName": "StackConsentManager.ConsentManagerError",
+                        "usr": "s:19StackConsentManager0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19StackConsentManager0bC5ErrorO13formExceptionyACSScACmF",
+            "mangledName": "$s19StackConsentManager0bC5ErrorO13formExceptionyACSScACmF",
             "moduleName": "StackConsentManager"
           },
           {
@@ -2604,1369 +2654,424 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 669,
-      "length": 78,
-      "value": "\"window.bridge.setApp('\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 702,
-      "length": 4,
-      "value": "\"', '\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 716,
-      "length": 4,
-      "value": "\"', '\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 744,
-      "length": 3,
-      "value": "\"')\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "Dictionary",
-      "offset": 883,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1205,
-      "length": 21,
-      "value": "\"CFBundleDisplayName\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1305,
-      "length": 14,
-      "value": "\"CFBundleName\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1397,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1501,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1546,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1675,
-      "length": 15,
-      "value": "\"CFBundleIcons\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1743,
-      "length": 21,
-      "value": "\"CFBundlePrimaryIcon\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1817,
-      "length": 19,
-      "value": "\"CFBundleIconFiles\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 1994,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 2080,
-      "length": 33,
-      "value": "\"data:image\/png;base64,\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAppDataBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 2112,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/BridgeCommand.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/Commands\/BridgeCommand.swift",
       "kind": "BooleanLiteral",
       "offset": 396,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsentDialog.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/ConsentDialog.swift",
       "kind": "StringLiteral",
       "offset": 239,
       "length": 13,
       "value": "\"StackConsentManager.ConsentDialog\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
-      "kind": "StringLiteral",
-      "offset": 366,
-      "length": 38,
-      "value": "\"Storing v1 ConsentModel is forbidden\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
-      "kind": "StringLiteral",
-      "offset": 658,
-      "length": 21,
-      "value": "\"StackConsentManager\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
-      "kind": "StringLiteral",
-      "offset": 944,
-      "length": 17,
-      "value": "\"STKConsentModel\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
-      "kind": "StringLiteral",
-      "offset": 1029,
-      "length": 16,
-      "value": "\"STKVendorModel\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/LegacyConsentObjectCache.swift",
-      "kind": "StringLiteral",
-      "offset": 1605,
-      "length": 21,
-      "value": "\"StackConsentManager\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 360,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 396,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 512,
-      "length": 16,
-      "value": "\"NOT_DETERMINED\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 574,
-      "length": 12,
-      "value": "\"RESTRICTED\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 628,
-      "length": 8,
-      "value": "\"DENIED\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 12,
-      "value": "\"AUTHORIZED\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 810,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 857,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 900,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
-      "kind": "IntegerLiteral",
-      "offset": 947,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 360,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 380,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/AuthorizationStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 396,
       "length": 10,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 442,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
-      "kind": "IntegerLiteral",
-      "offset": 483,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
-      "kind": "Array",
-      "offset": 1067,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
-      "kind": "Array",
-      "offset": 1981,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/AnyConsenObject.swift",
-      "kind": "Array",
-      "offset": 2800,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 265,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 283,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
       "kind": "IntegerLiteral",
       "offset": 304,
       "length": 8,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
       "kind": "StringLiteral",
-      "offset": 417,
-      "length": 10,
-      "value": "\"REQUIRED\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 471,
-      "length": 14,
-      "value": "\"NOT_REQUIRED\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 532,
-      "length": 10,
-      "value": "\"OBTAINED\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 418,
       "length": 18,
       "value": "\"http:\/\/localhost\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 868,
-      "length": 34,
-      "value": "\"init?(coder:) is not implemented\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1848,
-      "length": 11,
-      "value": "\"text\/html\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1896,
-      "length": 7,
-      "value": "\"utf-8\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2589,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4156,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4868,
-      "length": 54,
-      "value": "\"iOS version is lower than 14.0, ATT is not supported\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/ConsenDialogViewController.swift",
       "kind": "StringLiteral",
       "offset": 264,
       "length": 26,
       "value": "\"StackConsentManager.ConsenDialogViewController\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/NativeBridge.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/NativeBridge.swift",
       "kind": "StringLiteral",
       "offset": 242,
       "length": 14,
       "value": "\"StackConsentManager.MessageHandler\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Proxy\/ATTConsentDialogProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 568,
-      "length": 29,
-      "value": "\"ATT Request is not required\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/DisableZoomingBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 292,
-      "length": 284,
-      "value": "\"        var meta = document.createElement('meta');\n        meta.name = 'viewport';\n        meta.content = 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no';\n        var head = document.getElementsByTagName('head')[0];\n        head.appendChild(meta);\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/DisableSelectionsBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 298,
-      "length": 57,
-      "value": "\"document.documentElement.style.webkitUserSelect='none';\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 830,
-      "length": 27,
-      "value": "\"The form is not requested\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 907,
-      "length": 39,
-      "value": "\"The request failed because of timeout\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1007,
-      "length": 66,
-      "value": "\"Server return unsuccessful status code with messsage: \""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1072,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1120,
-      "length": 35,
-      "value": "\"Server return unsuccessful status\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1196,
-      "length": 23,
-      "value": "\"A cache error occured\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1271,
-      "length": 35,
-      "value": "\"Dialog has already been presented\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1365,
-      "length": 37,
-      "value": "\"Dialog presentation is not required\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1453,
-      "length": 22,
-      "value": "\"Dialog is not loaded\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1537,
-      "length": 52,
-      "value": "\"An internal error occured with message: \""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1588,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1636,
-      "length": 51,
-      "value": "\"Could not load the dialog because of invalid HTML\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1826,
-      "length": 40,
-      "value": "\"com.appodeal.StackConsentManager-Swift\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1886,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagerError.swift",
-      "kind": "StringLiteral",
-      "offset": 1982,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "StringLiteral",
       "offset": 217,
       "length": 17,
       "value": "\"StackConsentManager.LegacyVendorModel\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1221,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1233,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1221,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1233,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1221,
       "length": 4,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1227,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1233,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1304,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1321,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1341,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1304,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1321,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1341,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1304,
       "length": 15,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1321,
       "length": 18,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "IntegerLiteral",
       "offset": 1341,
       "length": 12,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 6,
       "value": "\"zone\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "StringLiteral",
       "offset": 1512,
       "length": 6,
       "value": "\"zone\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "StringLiteral",
       "offset": 1125,
       "length": 24,
       "value": "\"StackConsentManager.LegacyConsentPreferences\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "BooleanLiteral",
       "offset": 2451,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Models\/LegacyConsentObject.swift",
       "kind": "BooleanLiteral",
       "offset": 4986,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/NaviagationCompletionCache.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/NaviagationCompletionCache.swift",
       "kind": "StringLiteral",
       "offset": 260,
       "length": 9,
       "value": "\"StackConsentManager.Reference\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 648,
-      "length": 27,
-      "value": "\"Unsupported response type\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1120,
-      "length": 11,
-      "value": "\"text\/html\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1295,
-      "length": 3,
-      "value": "422"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1387,
-      "length": 3,
-      "value": "500"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1544,
-      "length": 85,
-      "value": "\"Server returned unsupported status code \""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1598,
-      "length": 4,
-      "value": "\" with message \""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1628,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1731,
-      "length": 34,
-      "value": "\"Server returned unsupported data\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1885,
-      "length": 14,
-      "value": "\"Content-Type\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 554,
-      "length": 83,
-      "value": "\"window.bridge.resolveOnRequestAuthorizationStatusPromise('\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 634,
-      "length": 3,
-      "value": "\"')\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 691,
-      "length": 90,
-      "value": "\"window.bridge.rejectOnRequestAuthorizationStatusPromise('\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ResponseAuthorizationStatusBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 778,
-      "length": 3,
-      "value": "\"')\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAuthorizationStatusBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 487,
-      "length": 61,
-      "value": "\"window.bridge.setAuthorizationStatusIOS(\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetAuthorizationStatusBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 546,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/InjectNativeBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 607,
-      "length": 3419,
-      "value": "\"(function() {\n    \/\/ Installation\n    var bridge = window.bridge = {};\n    var resolveOnRequestAuthorizationStatus;\n    var rejectOnRequestAuthorizationStatus;\n    \n    \/\/ API\n    bridge.onRequestAuthorizationStatus = function() {\n        console.log(\"Request AppTrackingAuthorizationStatus\");\n        callNative(\"onRequestAuthorizationStatus\");\n        return new Promise((resolve, reject) => {\n            resolveOnRequestAuthorizationStatus = resolve;\n            rejectOnRequestAuthorizationStatus = reject;\n        });\n    };\n    \n    bridge.resolveOnRequestAuthorizationStatusPromise = function(parameters) {\n        console.log(\"Response AppTrackingAuthorizationStatus is succesful: \" + parameters);\n        resolveOnRequestAuthorizationStatus(parameters);\n    };\n    \n    bridge.rejectOnRequestAuthorizationStatusPromise = function(parameters) {\n        console.log(\"Response AppTrackingAuthorizationStatus is failed: \" + parameters);\n        rejectOnRequestAuthorizationStatus(parameters);\n    };\n    \n    bridge.setConsent = function(framework, consent) {\n        if (window.cmp !== undefined && window.cmp.setConsent !== undefined) {\n            console.log(\"Set consent object: \" + framework);\n            console.log(JSON.stringify(consent));\n            window.cmp.setConsent(framework, consent);\n        } else {\n            console.log(\"CMP object doesn't exist or respond to setConsent\");\n        }\n    };\n    \n    bridge.setApp = function(name, version, image) {\n        if (window.cmp !== undefined && window.cmp.setApp !== undefined) {\n            console.log(\"Set app name: \" + name + \"version: \" + version);\n            window.cmp.setApp(name, version, image)\n        } else {\n            console.log(\"CMP object doesn't exist or respond to setApp\");\n        }\n    }\n    \n    bridge.setAuthorizationStatusIOS = function(status) {\n        if (window.cmp !== undefined && window.cmp.setAuthorizationStatusIOS !== undefined) {\n            console.log(\"Set AppTrackingAuthorizationStatus: \" + status);\n            window.cmp.setAuthorizationStatusIOS(status);\n        } else {\n            console.log(\"CMP object doesn't exist or respond to setAuthorizationStatusIOS\");\n        }\n    }\n    \n    bridge.show = function() {\n        if (window.cmp !== undefined && window.cmp.show !== undefined) {\n            console.log(\"Show consent form\");\n            window.cmp.show().finally(() => {\n                console.log(\"Close consent form\");\n                callNative(\"didClose\")\n            });\n        } else {\n            console.log(\"CMP object doesn't exist or respond to show\");\n        }\n    };\n    \n    window.cmp.onUpdateConsent = function(framework, object) {\n        console.log(\"Request update consent: \" + framework);\n        console.log(JSON.stringify(object));\n        callNative(\"onUpdateConsent?\" + framework + \"&\" + JSON.stringify(object))\n    }\n    \n    \/\/ Helpers\n    var callNative = function(cmd) {\n        window.webkit.messageHandlers.cmhandler.postMessage(cmd);\n    };\n    \n    \/\/ Logs\n    console = new Object();\n    console.log = function(msg) {\n         window.webkit.messageHandlers.loghandler.postMessage(\"[CMP-Bridge] \" + msg);\n    };\n    \n    console.debug = console.log;\n    console.info = console.log;\n    console.warn = console.log;\n    console.error = console.log;\n    \n    window.cmp.onRequestAuthorizationStatusIOS = bridge.onRequestAuthorizationStatus\n}());\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
       "kind": "StringLiteral",
       "offset": 299,
       "length": 30,
       "value": "\"onRequestAuthorizationStatus\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 17,
       "value": "\"onUpdateConsent\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
       "kind": "StringLiteral",
       "offset": 415,
       "length": 10,
       "value": "\"didClose\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
       "kind": "StringLiteral",
-      "offset": 481,
+      "offset": 459,
+      "length": 13,
+      "value": "\"onException\""
+    },
+    {
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 528,
       "length": 11,
       "value": "\"cmhandler\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 663,
-      "length": 5,
-      "value": "\"---\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
-      "kind": "IntegerLiteral",
-      "offset": 735,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 763,
-      "length": 4,
-      "value": "\"||\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/ConsentFormBridgeMessage.swift",
-      "kind": "Array",
-      "offset": 772,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/CodablePreferencesValue.swift",
-      "kind": "StringLiteral",
-      "offset": 1825,
-      "length": 18,
-      "value": "\"unsupported type\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Enums\/ConsentManagementPlatformType.swift",
-      "kind": "StringLiteral",
-      "offset": 375,
-      "length": 5,
-      "value": "\"UMP\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
-      "kind": "StringLiteral",
-      "offset": 336,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
-      "kind": "StringLiteral",
-      "offset": 411,
-      "length": 3,
-      "value": "\"\/\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
       "kind": "StringLiteral",
       "offset": 567,
       "length": 21,
       "value": "\"StackConsentManager\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
       "kind": "StringLiteral",
       "offset": 617,
       "length": 11,
       "value": "\"form.html\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
-      "kind": "BooleanLiteral",
-      "offset": 744,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Cache\/FileReference.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1226,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/ShowBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 266,
-      "length": 23,
-      "value": "\"window.bridge.show();\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1152,
-      "length": 16,
-      "value": "\"APD_PRIVACY_V1\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1197,
-      "length": 16,
-      "value": "\"APD_PRIVACY_V2\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1242,
-      "length": 14,
-      "value": "\"IAB_TCF_V1.1\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1285,
-      "length": 14,
-      "value": "\"IAB_TCF_V2.2\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1329,
-      "length": 16,
-      "value": "\"GOOGLE_PRIVACY\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1371,
-      "length": 16,
-      "value": "\"IAB_US_PRIVACY\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1524,
-      "length": 16,
-      "value": "\"APD_PRIVACY_V1\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1569,
-      "length": 16,
-      "value": "\"APD_PRIVACY_V2\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1614,
-      "length": 14,
-      "value": "\"IAB_TCF_V1.1\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1657,
-      "length": 14,
-      "value": "\"IAB_TCF_V2.2\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1700,
-      "length": 16,
-      "value": "\"GOOGLE_PRIVACY\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1746,
-      "length": 16,
-      "value": "\"IAB_US_PRIVACY\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1921,
-      "length": 13,
-      "value": "\"consent.txt\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2073,
-      "length": 21,
-      "value": "\"IABTCF_AddtlConsent\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2123,
-      "length": 26,
-      "value": "\"IABTCF_ApdPrivacyConsent\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2178,
-      "length": 13,
-      "value": "\"IABConsent_\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2220,
-      "length": 9,
-      "value": "\"IABTCF_\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 2255,
-      "length": 15,
-      "value": "\"IABUSPrivacy_\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 12,
       "value": "\"loghandler\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 526,
-      "length": 26,
-      "value": "\"com.stack.consentmanager\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 580,
-      "length": 8,
-      "value": "\"bridge\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 622,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Messages\/LogBridgeMessage.swift",
-      "kind": "StringLiteral",
-      "offset": 630,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/StoredConsent.swift",
-      "kind": "Array",
-      "offset": 458,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/StoredConsent.swift",
-      "kind": "Array",
-      "offset": 2348,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 109,
-      "value": "\"window.bridge.setConsent('\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 475,
-      "length": 50,
-      "value": "\"', \""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 518,
-      "length": 4,
-      "value": "\"{}\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Dialog\/Bridge\/Commands\/SetConsentBridgeCommand.swift",
-      "kind": "StringLiteral",
-      "offset": 523,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/ConsentUpdateRequestParameters.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/ConsentUpdateRequestParameters.swift",
       "kind": "StringLiteral",
       "offset": 258,
       "length": 30,
       "value": "\"StackConsentManager.ConsentUpdateRequestParameters\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 579,
-      "length": 62,
-      "value": "\"Unknown UserDefaults key pattern for framework: \""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 640,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1122,
-      "length": 41,
-      "value": "\"External Consent Object can't be stored\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Models\/ExternalConsentObject.swift",
-      "kind": "StringLiteral",
-      "offset": 1278,
-      "length": 42,
-      "value": "\"External Consent Object can't be removed\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 432,
-      "length": 26,
-      "value": "\"https:\/\/a.appbaqend.com\/\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/APIClient.swift",
-      "kind": "IntegerLiteral",
-      "offset": 658,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/APIClient.swift",
-      "kind": "StringLiteral",
-      "offset": 1073,
-      "length": 34,
-      "value": "\"Server returned unsupported data\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
       "kind": "StringLiteral",
       "offset": 1339,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
       "kind": "StringLiteral",
       "offset": 1374,
       "length": 23,
       "value": "\"consent_manager\/check\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequest.swift",
       "kind": "Dictionary",
       "offset": 1421,
       "length": 50,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 25,
       "value": "\"https:\/\/a.appbaqend.com\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 286,
       "length": 7,
-      "value": "\"2.0.1\""
+      "value": "\"2.0.2\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 367,
       "length": 32,
       "value": "\"kStackConsentManagerFrameworks\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 444,
       "length": 32,
       "value": "\"kStackConsentManagerFramework_\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 555,
       "length": 17,
       "value": "\"X-ConsentStatus\""
     },
     {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Shared\/Constants.swift",
+      "filePath": "\/Users\/zsysenko\/Documents\/projects\/StackConsentManager-iOS\/StackConsentManager\/Shared\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 598,
       "length": 12,
       "value": "\"X-CMP-Type\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 789,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 854,
-      "length": 17,
-      "value": "\"CFBundleVersion\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 888,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 966,
-      "length": 32,
-      "value": "\"NSUserTrackingUsageDescription\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1014,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1074,
-      "length": 26,
-      "value": "\"GADApplicationIdentifier\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1651,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1725,
-      "length": 7,
-      "value": "\"PHONE\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 1735,
-      "length": 8,
-      "value": "\"TABLET\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 2162,
-      "length": 7,
-      "value": "\"Apple\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3931,
-      "length": 7,
-      "value": "\"LIGHT\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3941,
-      "length": 6,
-      "value": "\"DARK\""
-    },
-    {
-      "filePath": "\/Users\/staskochkin\/Projects\/Work\/Stack\/StackConsentManager\/StackConsentManager\/Manager\/Networking\/Fetch\/FetchRequestBodyBuilder.swift",
-      "kind": "StringLiteral",
-      "offset": 3981,
-      "length": 7,
-      "value": "\"LIGHT\""
     }
   ]
 }

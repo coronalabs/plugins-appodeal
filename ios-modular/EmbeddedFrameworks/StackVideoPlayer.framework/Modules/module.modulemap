@@ -1,6 +1,0 @@
-framework module StackVideoPlayer {
-  umbrella header "StackVideoPlayer.h"
-
-  export *
-  module * { export * }
-}

@@ -1,7 +1,7 @@
 framework module StackProductPresentation {
   umbrella header "StackProductPresentation.h"
-
   export *
+
   module * { export * }
 }
 

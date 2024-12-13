@@ -59,28 +59,12 @@
 		A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E2537E166AE3DC00DCDC2C /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C22C1E4B1E981D9000D74196 /* LaunchScreen.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = C22C1E4A1E981D9000D74196 /* LaunchScreen.storyboardc */; };
 		DBD2D3B42B8FC3C9004941A1 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B32B8FC3C9004941A1 /* Appodeal.framework */; };
-		DBD2D3D02B8FD5D9004941A1 /* StackCrashReporter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B72B8FD5D8004941A1 /* StackCrashReporter.framework */; };
-		DBD2D3D12B8FD5D9004941A1 /* StackProtobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B82B8FD5D8004941A1 /* StackProtobuf.framework */; };
 		DBD2D3D22B8FD5D9004941A1 /* AppodealMediationCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3B92B8FD5D8004941A1 /* AppodealMediationCore.framework */; };
-		DBD2D3D32B8FD5D9004941A1 /* StackFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BA2B8FD5D8004941A1 /* StackFoundation.framework */; };
-		DBD2D3D42B8FD5D9004941A1 /* StackVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BB2B8FD5D8004941A1 /* StackVideoPlayer.framework */; };
-		DBD2D3D62B8FD5D9004941A1 /* StackNASTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BD2B8FD5D8004941A1 /* StackNASTKit.framework */; };
 		DBD2D3D72B8FD5D9004941A1 /* StackModules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BE2B8FD5D8004941A1 /* StackModules.framework */; };
 		DBD2D3D82B8FD5D9004941A1 /* StackProductPresentation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3BF2B8FD5D8004941A1 /* StackProductPresentation.framework */; };
 		DBD2D3D92B8FD5D9004941A1 /* Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C02B8FD5D8004941A1 /* Appodeal.framework */; };
-		DBD2D3DA2B8FD5D9004941A1 /* StackIABAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C12B8FD5D8004941A1 /* StackIABAssets.framework */; };
-		DBD2D3DB2B8FD5D9004941A1 /* StackUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C22B8FD5D8004941A1 /* StackUIKit.framework */; };
-		DBD2D3DC2B8FD5D9004941A1 /* StackXML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C32B8FD5D8004941A1 /* StackXML.framework */; };
-		DBD2D3DD2B8FD5D9004941A1 /* StackAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C42B8FD5D8004941A1 /* StackAnalytics.framework */; };
-		DBD2D3DE2B8FD5D9004941A1 /* StackRichMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C52B8FD5D9004941A1 /* StackRichMedia.framework */; };
-		DBD2D3E02B8FD5D9004941A1 /* StackOpenMeasure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C72B8FD5D9004941A1 /* StackOpenMeasure.framework */; };
 		DBD2D3E22B8FD5D9004941A1 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3C92B8FD5D9004941A1 /* Protobuf.framework */; };
-		DBD2D3E42B8FD5D9004941A1 /* StackMRAIDKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CB2B8FD5D9004941A1 /* StackMRAIDKit.framework */; };
 		DBD2D3E62B8FD5D9004941A1 /* StackConsentManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CD2B8FD5D9004941A1 /* StackConsentManager.framework */; };
-		DBD2D3E72B8FD5D9004941A1 /* StackVASTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CE2B8FD5D9004941A1 /* StackVASTKit.framework */; };
-		DBD2D3E82B8FD5D9004941A1 /* StackVASTAssets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD2D3CF2B8FD5D9004941A1 /* StackVASTAssets.framework */; };
-		DBFC75292B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC75272B8FF2CC007869B8 /* OMSDK_Appodeal.framework */; };
-		DBFC752A2B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC75272B8FF2CC007869B8 /* OMSDK_Appodeal.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DBFC752D2B90006A007869B8 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC752C2B90006A007869B8 /* EventKit.framework */; };
 		DBFC752F2B900091007869B8 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC752E2B900091007869B8 /* SafariServices.framework */; };
 		DBFC75312B9000C1007869B8 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBFC75302B9000C1007869B8 /* WatchConnectivity.framework */; };
@@ -118,20 +102,6 @@
 			remoteInfo = plugin_library;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		DBFC752B2B8FF2EC007869B8 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				DBFC752A2B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppCoronaDelegate.h; sourceTree = SOURCE_ROOT; };
@@ -235,14 +205,11 @@
 				DBD2D3D22B8FD5D9004941A1 /* AppodealMediationCore.framework in Frameworks */,
 				F54C1AB41FEB108A0051D284 /* WebKit.framework in Frameworks */,
 				F54C1AB21FEB10830051D284 /* CoreBluetooth.framework in Frameworks */,
-				DBD2D3D42B8FD5D9004941A1 /* StackVideoPlayer.framework in Frameworks */,
-				DBD2D3D32B8FD5D9004941A1 /* StackFoundation.framework in Frameworks */,
 				F54C1AB01FEB107C0051D284 /* JavaScriptCore.framework in Frameworks */,
 				F54C1AAE1FEB106D0051D284 /* libz.tbd in Frameworks */,
 				F54C1AAC1FEB10660051D284 /* libxml2.tbd in Frameworks */,
 				F51C66D61EE0D3B20040E4BE /* libplugin_appodeal_base.a in Frameworks */,
 				E640B2F41BFC00BA0031FAE9 /* Photos.framework in Frameworks */,
-				DBD2D3DA2B8FD5D9004941A1 /* StackIABAssets.framework in Frameworks */,
 				E640B2F21BFC00B00031FAE9 /* AssetsLibrary.framework in Frameworks */,
 				F5BB41531BC42ACF0033F6FA /* CoreText.framework in Frameworks */,
 				A46885F418068C2900381941 /* CoreVideo.framework in Frameworks */,
@@ -251,33 +218,23 @@
 				A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */,
 				A484117715128D5D0074BD57 /* AddressBook.framework in Frameworks */,
 				A484117815128D5D0074BD57 /* AddressBookUI.framework in Frameworks */,
-				DBD2D3D02B8FD5D9004941A1 /* StackCrashReporter.framework in Frameworks */,
-				DBFC75292B8FF2EC007869B8 /* OMSDK_Appodeal.framework in Frameworks */,
 				A484117915128D5D0074BD57 /* AudioToolbox.framework in Frameworks */,
 				A484117A15128D5D0074BD57 /* AVFoundation.framework in Frameworks */,
-				DBD2D3D62B8FD5D9004941A1 /* StackNASTKit.framework in Frameworks */,
 				DBD2D3B42B8FC3C9004941A1 /* Appodeal.framework in Frameworks */,
 				A484117B15128D5D0074BD57 /* CFNetwork.framework in Frameworks */,
 				A484112215114F700074BD57 /* CoreGraphics.framework in Frameworks */,
-				DBD2D3D12B8FD5D9004941A1 /* StackProtobuf.framework in Frameworks */,
 				DBFC752D2B90006A007869B8 /* EventKit.framework in Frameworks */,
 				DBFC752F2B900091007869B8 /* SafariServices.framework in Frameworks */,
 				A484117C15128D5D0074BD57 /* CoreLocation.framework in Frameworks */,
 				A484117D15128D5D0074BD57 /* CoreMedia.framework in Frameworks */,
-				DBD2D3DC2B8FD5D9004941A1 /* StackXML.framework in Frameworks */,
-				DBD2D3DE2B8FD5D9004941A1 /* StackRichMedia.framework in Frameworks */,
-				DBD2D3E42B8FD5D9004941A1 /* StackMRAIDKit.framework in Frameworks */,
 				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
 				A484112015114F700074BD57 /* Foundation.framework in Frameworks */,
 				A484117F15128D5D0074BD57 /* GameKit.framework in Frameworks */,
 				F5E548091BE7FF0200091810 /* GameController.framework in Frameworks */,
 				F52CCBB7259786D600965AD9 /* AppTrackingTransparency.framework in Frameworks */,
-				DBD2D3E82B8FD5D9004941A1 /* StackVASTAssets.framework in Frameworks */,
-				DBD2D3E72B8FD5D9004941A1 /* StackVASTKit.framework in Frameworks */,
 				A484118015128D5D0074BD57 /* ImageIO.framework in Frameworks */,
 				A484118115128D5D0074BD57 /* libobjc.dylib in Frameworks */,
 				DBD2D3D72B8FD5D9004941A1 /* StackModules.framework in Frameworks */,
-				DBD2D3DB2B8FD5D9004941A1 /* StackUIKit.framework in Frameworks */,
 				A48411CA15129F610074BD57 /* libsqlite3.dylib in Frameworks */,
 				A484118215128D5D0074BD57 /* MapKit.framework in Frameworks */,
 				A484118315128D5D0074BD57 /* MediaPlayer.framework in Frameworks */,
@@ -285,10 +242,8 @@
 				A484118515128D5D0074BD57 /* MobileCoreServices.framework in Frameworks */,
 				A484118615128D5D0074BD57 /* OpenAL.framework in Frameworks */,
 				DBFC75312B9000C1007869B8 /* WatchConnectivity.framework in Frameworks */,
-				DBD2D3E02B8FD5D9004941A1 /* StackOpenMeasure.framework in Frameworks */,
 				A484112615114F700074BD57 /* OpenGLES.framework in Frameworks */,
 				A484118715128D5D0074BD57 /* QuartzCore.framework in Frameworks */,
-				DBD2D3DD2B8FD5D9004941A1 /* StackAnalytics.framework in Frameworks */,
 				A484118815128D5D0074BD57 /* Security.framework in Frameworks */,
 				DBD2D3D92B8FD5D9004941A1 /* Appodeal.framework in Frameworks */,
 				A484118A15128D5D0074BD57 /* SystemConfiguration.framework in Frameworks */,
@@ -468,7 +423,6 @@
 				A484118B15128E320074BD57 /* build.settings to Info.plist */,
 				A484118F1512906B0074BD57 /* Certify Corona Build */,
 				A484119015129A930074BD57 /* Touch main.mm to ensure build */,
-				DBFC752B2B8FF2EC007869B8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
