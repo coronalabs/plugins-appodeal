@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <StackRendering/STKXMLVASTInLineModel.h>
+#import <StackRendering/STKNASTAdLabelAssetModel.h>
 
 /**
  NAST Model
@@ -57,15 +58,25 @@
  VAST string
  */
 @property (strong, nonatomic, readonly, nullable) NSString *rawVAST;
-
 /**
  VAST InLine model
  */
 @property (strong, nonatomic, readonly, nullable) STKXMLVASTInLineModel *VASTInLineModel;
-
 /**
  Custom NAST params
  */
 @property (strong, nonatomic, readonly, nonnull) NSDictionary *customParams;
+/**
+ Ad label info
+ */
+@property (strong, nonatomic, readonly, nullable) STKNASTAdLabelAssetModel *adLabel;
+/**
+ JSON Data for privacy sheet
+ */
+@property (strong, nonatomic, readonly, nullable) NSString *privacySheetData;
+/**
+ Privacy Sheet label info
+ */
+@property (strong, nonatomic, readonly, nullable) STKNASTAdLabelAssetModel *privacySheetLabel;
 
 @end

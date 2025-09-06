@@ -66,11 +66,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)presentAd:(STKMRAIDAd *)ad;
 
 - (void)startImpression;
+- (void)endImpression;
 
 - (void)setViewable:(BOOL)viewable;
 
 - (void)ad:(STKMRAIDAd *)ad willNavigateToURL:(NSURL *)URL;
 - (void)ad:(STKMRAIDAd *)ad didReceiveProductURL:(NSURL *)URL;
+- (void)openPrivacySheet:(NSString *)jsonData;
 
 @end
 

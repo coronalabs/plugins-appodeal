@@ -7,6 +7,7 @@
 #import <StackRendering/STKMRAIDWebConfiguration.h>
 #import <StackRendering/STKMRAIDService.h>
 #import <StackRendering/STKMRAIDMeasure.h>
+#import <StackProductPresentation/StackProductPresentation-Swift.h>
 
 
 @class STKMRAIDAd;
@@ -41,8 +42,12 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong, readonly) STKMRAIDService *service;
 /// Open Measure
 @property (nonatomic, strong, readonly) STKMRAIDMeasure *measure;
+/// Advertised product
+@property (nonatomic, strong, readonly) STKProduct *advertisedProduct;
 /// Append configuration
 @property (nonatomic, readonly) void(^appendConfiguration)(STKMRAIDWebConfiguration *);
+/// Append advertisied product store parameters
+@property (nonatomic, readonly) void(^appendProductParameters)(NSDictionary<NSString *, id> *);
 /// Method to load HTML
 /// @param HTML Raw HTML string
 - (void)loadHTML:(NSString *)HTML;

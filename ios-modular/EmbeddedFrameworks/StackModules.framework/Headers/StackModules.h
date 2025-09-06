@@ -50,6 +50,7 @@
 #import <StackModules/STKContainerLogRecorder.h>
 #import <StackModules/STKStorageLogRecorder.h>
 #import <StackModules/STKStreamingLogRecorder.h>
+#import <StackModules/STKConstants.h>
 
 #import <StackModules/NSObject+STKFoundation.h>
 #import <StackModules/NSURL+STKFoundation.h>

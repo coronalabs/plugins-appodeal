@@ -2,9 +2,9 @@
 //  APDDefines.h
 //  Appodeal
 //
-//  AppodealSDK version 3.4.0
+//  AppodealSDK version 3.9.0
 //
-//  Copyright © 2024 Appodeal, Inc. All rights reserved.
+//  Copyright © 2025 Appodeal, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -150,6 +150,17 @@ typedef NS_ENUM(NSUInteger, APDCCPAUserConsent) {
     APDCCPAUserConsentUnknown = 0,
     APDCCPAUserConsentOptIn,
     APDCCPAUserConsentOptOut,
+};
+/**
+ For Included in AnalyticsServices for Events
+ */
+typedef NS_OPTIONS(NSUInteger, APDAnalyticsService) {
+    APDAnalyticsServiceAdjust    = 1 << 0,
+    APDAnalyticsServiceAppsFlyer = 1 << 1,
+    APDAnalyticsServiceFacebook  = 1 << 2,
+    APDAnalyticsServiceFirebase  = 1 << 3,
+    APDAnalyticsServiceNone      = 0,
+    APDAnalyticsServiceAll       = APDAnalyticsServiceAdjust | APDAnalyticsServiceAppsFlyer | APDAnalyticsServiceFacebook | APDAnalyticsServiceFirebase
 };
 /**
  Declaration of banner delegate
@@ -407,6 +418,21 @@ typedef NS_ENUM(NSUInteger, APDCCPAUserConsent) {
 - (void)didReceiveRevenueForAd:(nonnull id<AppodealAdRevenue>)ad;
 @end
 /**
+ Delegate for purchase event
+ */
+@protocol AppodealPurchaseDelegate <NSObject>
+/**
+ Called when SDK receives purchases info from ROI360 system
+ @param purchase Information about purchase
+ */
+- (void)didReceivePurchase:(nullable NSDictionary<NSString *, id> *)successPurchases;
+/**
+ Called when SDK receives purchases info from ROI360 system
+ @param error Information about error
+ */
+- (void)didFailPurchase:(nullable NSError *)error;
+@end
+/**
  Extra Keys defines
  */
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDAppsFlyerIdExtrasKey;
@@ -424,6 +450,7 @@ FOUNDATION_EXPORT NSString * _Nonnull const kAPDDTExchangeNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDFacebookNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDInMobiNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDIronSourceNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDLevelPlayNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDMintegralNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDMyTargetNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDUnityNetworkName;
@@ -435,6 +462,10 @@ FOUNDATION_EXPORT NSString * _Nonnull const kAPDAmazonNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDPangleNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDSmaatoNetworkName;
 FOUNDATION_EXPORT NSString * _Nonnull const kAPDMobileFuseNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDMolocoNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDPubMaticNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDOguryNetworkName;
+FOUNDATION_EXPORT NSString * _Nonnull const kAPDVerveNetworkName;
 
 /**
  Size defines

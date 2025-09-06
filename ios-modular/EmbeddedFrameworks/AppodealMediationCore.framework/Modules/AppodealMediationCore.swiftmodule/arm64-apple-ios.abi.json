@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AppodealMediationCore",
+    "printedName": "AppodealMediationCore",
     "children": [
       {
         "kind": "Import",
@@ -229,6 +229,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -496,6 +512,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -728,6 +758,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -937,6 +981,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1133,6 +1191,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -1150,109 +1224,67 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/MediationController.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/MediationController.swift",
       "kind": "StringLiteral",
       "offset": 1018,
       "length": 29,
       "value": "\"com.appodealmediation.queue\""
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 246,
+      "offset": 244,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 257,
+      "offset": 255,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
       "kind": "IntegerLiteral",
-      "offset": 246,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 257,
-      "length": 8,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 514,
+      "offset": 506,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 514,
-      "length": 11,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
       "offset": 649,
       "length": 7,
       "value": "\"Ready\""
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
       "offset": 682,
       "length": 11,
       "value": "\"Executing\""
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
       "offset": 718,
       "length": 10,
       "value": "\"Finished\""
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
       "kind": "StringLiteral",
-      "offset": 649,
-      "length": 7,
-      "value": "\"Ready\""
-    },
-    {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 682,
-      "length": 11,
-      "value": "\"Executing\""
-    },
-    {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 718,
-      "length": 10,
-      "value": "\"Finished\""
-    },
-    {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 879,
+      "offset": 867,
       "length": 29,
       "value": "\"com.appodeal.asyncoperation\""
     },
     {
-      "filePath": "\/Users\/zsysenko\/Documents\/projects\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
-      "kind": "StringLiteral",
-      "offset": 566,
-      "length": 15,
-      "value": "\"AppodealMediationCore.AdUnitOperation\""
+      "filePath": "\/Users\/evgeniagrigorovic\/Desktop\/Project\/AppodealSDK-iOS\/AppodealMediationCore\/AppodealMediationCore\/AdUnitOperation.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1605,
+      "length": 4,
+      "value": "true"
     }
   ]
 }

@@ -2,9 +2,9 @@
 //  APDSdk.h
 //  Appodeal
 //
-//  AppodealSDK version 3.4.0
+//  AppodealSDK version 3.9.0
 //
-//  Copyright © 2024 Appodeal, Inc. All rights reserved.
+//  Copyright © 2025 Appodeal, Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -262,5 +262,14 @@ typedef void(^APDAdRevenueHandler)(_Nonnull id<AppodealAdRevenue>);
  */
 - (void)trackEvent:(nonnull NSString *)event
   customParameters:(NSDictionary * _Nullable)customParameters;
+/**
+ Track custom event
+ @param event Event name
+ @param customParameters Custom parameters
+ @param analytics Services list where to send events
+ */
+- (void)trackEvent:(nonnull NSString *)event
+  customParameters:(NSDictionary * _Nullable)customParameters
+         analytics:(APDAnalyticsService)analytics;
 
 @end

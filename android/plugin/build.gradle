@@ -20,7 +20,7 @@ repositories {
 }
 dependencies {
     implementation ':Corona@aar'
-    implementation "com.appodeal.ads:sdk:3.4.0.0"
+    implementation "com.appodeal.ads:sdk:3.8.1.0"
 }
 
 def buildDirectory = getLayout().getBuildDirectory().asFile.get()

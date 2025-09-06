@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <StackRendering/STKVASTControllerConfiguration.h>
-
+#import <StackProductPresentation/StackProductPresentation-Swift.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -37,6 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+__deprecated_msg("No longer supported")
 @interface STKVASTView : UIView
 
 @property (nonatomic, weak, nullable) id <STKVASTViewDelegate> delegate;

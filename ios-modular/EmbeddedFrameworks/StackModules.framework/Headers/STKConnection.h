@@ -16,14 +16,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (class, nonatomic, readonly) NSString *statusName;
 
-@property (class, nonatomic, readonly) NSString *carrierName;
-
-@property (class, nonatomic, readonly) NSString *mobileCountryCode;
-
-@property (class, nonatomic, readonly) NSString *mobileNetworkCode;
-
-@property (class, nonatomic, readonly, nullable) NSString *mccmnc;
-
 @property (class, nonatomic, readonly, nullable) NSString *subtype;
 
 @end

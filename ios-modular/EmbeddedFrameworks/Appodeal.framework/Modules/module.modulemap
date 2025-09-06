@@ -60,8 +60,10 @@ framework module Appodeal {
 	header "APDNativeAdQueue.h"
 	header "APDNativeAdSettings.h"
 	header "APDNativeAdViewProtocol.h"
+	header "APDPurchase.h"
 	header "APDRewardProtocol.h"
 	header "APDRewardedVideo.h"
 	header "APDSdk.h"
+	header "AppodealPurchaseProtocol.h"
 
 }

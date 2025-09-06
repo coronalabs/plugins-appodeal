@@ -2,9 +2,9 @@
 //  Appodeal.h
 //  Appodeal
 //
-//  AppodealSDK version 3.4.0
+//  AppodealSDK version 3.9.0
 //
-//  Copyright (c) 2024 Appodeal, Inc. All rights reserved.
+//  Copyright (c) 2025 Appodeal, Inc. All rights reserved.
 //
 
 
@@ -241,6 +241,28 @@
  */
 + (void)setExtrasValue:(nullable id)value forKey:(nonnull NSString *)key;
 /**
+ Set Bidon endpoint URL before initialization
+ @note Objective-C
+ <pre> [Appodeal setBidonEndpoint:@"https://example.com/api"]; </pre>
+ @note Swift
+ <pre> Appodeal.setBidonEndpoint("https://example.com/api") </pre>
+ @param url - NSString value, must be nonnull
+ */
++ (void)setBidonEndpoint:(NSString *_Nonnull)url;
+/**
+ Get the current Bidon endpoint URL
+ @note Objective-C
+ <pre>
+ NSString *endpoint = [Appodeal getBidonEndpoint];
+ </pre>
+ @note Swift
+ <pre>
+ let endpoint = Appodeal.getBidonEndpoint()
+ </pre>
+ @return NSString value or nil if not set
+ */
++ (NSString *_Nullable)getBidonEndpoint;
+/**
  SDK extras
  @note Objective-C
  <pre>
@@ -267,6 +289,11 @@
  @param adRevenueDelegate Nullable instance of class that conforms protocol AppodealAdRevenueDelegate
  */
 + (void)setAdRevenueDelegate:(nullable id<AppodealAdRevenueDelegate>)adRevenueDelegate;
+/**
+ Set purchase delegate for ROI360 system
+ @param purchaseDelegate Nullable instance of class that conforms protocol AppodealPurchaseDelegate
+ */
++ (void)setPurchaseDelegate:(nullable id<AppodealPurchaseDelegate>)purchaseDelegate;
 /**
  Set interstitial delegate to get callbacks
  @note Objective-C
@@ -432,6 +459,15 @@
  */
 + (void)trackEvent:(nonnull NSString *)event
   customParameters:(NSDictionary * _Nullable)customParameters;
+/**
+ Track custom event
+ @param event Event name
+ @param customParameters Custom parameters
+ @param analytics Services list where to send events
+ */
++ (void)trackEvent:(nonnull NSString *)event
+  customParameters:(NSDictionary * _Nullable)customParameters
+         analytics:(APDAnalyticsService)analytics;
 /**
  Get current SDK version
  @note Objective-C

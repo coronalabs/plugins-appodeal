@@ -37,7 +37,7 @@
 // ----------------------------------------------------------------------------
 
 #define PLUGIN_NAME        "plugin.appodeal"
-#define PLUGIN_VERSION     "1.8.0"
+#define PLUGIN_VERSION     "1.8.1"
 #define PLUGIN_SDK_VERSION  [Appodeal getVersion]
 
 
@@ -577,17 +577,7 @@ AppodealLibrary::init(lua_State *L)
 			else if (UTF8IsEqual(key, "hasUserConsent")) {
 				if (lua_type(L, -1) == LUA_TBOOLEAN) {
 					hasUserConsent = lua_toboolean(L, -1);
-                    if(hasUserConsent){
-                        [Appodeal updateUserConsentGDPR:APDGDPRUserConsentPersonalized];
-                        [Appodeal updateUserConsentCCPA:APDCCPAUserConsentOptIn];
-                    }else{
-                        [Appodeal updateUserConsentGDPR:APDGDPRUserConsentNonPersonalized];
-                        [Appodeal updateUserConsentCCPA:APDCCPAUserConsentOptOut];
-                    }
-				}
-				else {
-					logMsg(L, ERROR_MSG, MsgFormat(@"options.hasUserConsent (boolean) expected, got: %s", luaL_typename(L, -1)));
-					return 0;
+                    logMsg(L, WARNING_MSG, MsgFormat(@"options.hasUserConsent is deprecated"));
 				}
 			}
 			else if (!UTF8IsEqual(key, "disableWriteExternalPermissionCheck")) {

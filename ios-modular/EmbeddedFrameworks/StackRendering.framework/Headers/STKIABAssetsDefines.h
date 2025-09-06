@@ -10,6 +10,8 @@
 #import <UIKit/UIKit.h>
 
 
+FOUNDATION_EXPORT NSString *const kSTKRenderingVersion;
+
 FOUNDATION_EXPORT NSString *kSTKIABControlDefaultFillColor;
 
 FOUNDATION_EXPORT NSString *kSTKIABCTAViewStyleDefault;
@@ -31,6 +33,7 @@ FOUNDATION_EXPORT NSString *kSTKIABCountdownViewStyleText;
 FOUNDATION_EXPORT NSString *kSTKIABRepeatViewStylePlay;
 
 FOUNDATION_EXPORT NSString *kSTKIABForceOrientationPortrait;
+
 
 CGSize STKIABAssetSize(void);
 UIEdgeInsets STKIABDefaultInsets(void);

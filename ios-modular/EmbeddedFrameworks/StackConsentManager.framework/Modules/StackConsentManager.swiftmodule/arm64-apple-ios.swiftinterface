@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StackConsentManager
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AdSupport
 import AppTrackingTransparency
 import Foundation
@@ -18,9 +19,7 @@ import _SwiftConcurrencyShims
 }
 @available(iOS 13, *)
 extension StackConsentManager.ConsentDialog {
-  #if compiler(>=5.3) && $AsyncAwait
   @_Concurrency.MainActor final public func present(rootViewController: UIKit.UIViewController) async throws
-  #endif
 }
 @objc(APDAuthorizationStatus) public enum AuthorizationStatus : Swift.UInt {
   case notDetermined
@@ -63,12 +62,21 @@ extension StackConsentManager.ConsentManagerError : Foundation.LocalizedError {
     get
   }
 }
+@objc(APDConsentUrlProvider) public protocol ConsentUrlProvider : ObjectiveC.NSObjectProtocol {
+  @objc var isAllHostsUnreached: Swift.Bool { get }
+  @objc func endpoint(_ path: Swift.String?) -> Foundation.URL
+  @objc func isTrustedURL(_ url: Foundation.URL) -> Swift.Bool
+  @objc func blockEndpoint()
+  @objc func update()
+  @objc func reset()
+}
 @_inheritsConvenienceInitializers @objc(APDConsentManager) final public class ConsentManager : ObjectiveC.NSObject {
   @objc public static let shared: StackConsentManager.ConsentManager
   @objc dynamic final public var status: StackConsentManager.ConsentStatus {
     get
   }
   @objc final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters, completion: @escaping (Foundation.NSError?) -> ())
+  @objc final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters, urlProvider: any StackConsentManager.ConsentUrlProvider, completion: @escaping (Foundation.NSError?) -> ())
   @objc final public func revoke()
   @objc final public func loadAndPresentIfNeeded(rootViewController: UIKit.UIViewController, completion: @escaping (Foundation.NSError?) -> ())
   @objc final public func load(completion: @escaping (StackConsentManager.ConsentDialog?, Foundation.NSError?) -> ())
@@ -77,15 +85,9 @@ extension StackConsentManager.ConsentManagerError : Foundation.LocalizedError {
 }
 @available(iOS 13, *)
 extension StackConsentManager.ConsentManager {
-  #if compiler(>=5.3) && $AsyncAwait
   final public func requestConsentInfoUpdate(parameters: StackConsentManager.ConsentUpdateRequestParameters) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   final public func loadAndPresentIfNeeded(rootViewController: UIKit.UIViewController) async throws
-  #endif
-  #if compiler(>=5.3) && $AsyncAwait
   final public func load() async throws -> StackConsentManager.ConsentDialog
-  #endif
 }
 @objc(APDConsentUpdateRequestParameters) final public class ConsentUpdateRequestParameters : ObjectiveC.NSObject {
   @objc public init(appKey: Swift.String, mediationSdkName: Swift.String, mediationSdkVersion: Swift.String, COPPA: Swift.Bool)

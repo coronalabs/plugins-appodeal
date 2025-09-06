@@ -51,7 +51,7 @@ import java.util.Map;
 @SuppressWarnings({"unused", "RedundantSuppression"})
 public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
     private static final String PLUGIN_NAME = "plugin.appodeal";
-    private static final String PLUGIN_VERSION = "1.6.6";
+    private static final String PLUGIN_VERSION = "1.6.7";
     private static final String PLUGIN_SDK_VERSION = Appodeal.getVersion();
 
     private static final String EVENT_NAME = "adsRequest";

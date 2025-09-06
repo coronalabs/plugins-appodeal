@@ -7,7 +7,7 @@
 #import <UIKit/UIKit.h>
 #import <StackModules/StackModules.h>
 #import <StackRendering/STKVASTControllerConfiguration.h>
-
+#import <StackProductPresentation/StackProductPresentation.h>
 
 @class STKVASTController;
 
@@ -70,6 +70,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak, nullable) id <STKVASTControllerDelegate> delegate;
 /// VAST XML Creative
 @property (nonatomic, copy, readonly, nullable) NSString *adCreative;
+/// Advertised product
+@property (nonatomic, strong, readonly) STKProduct *advertisedProduct;
 /// Initializer
 /// @param configuration VAST controller configuration
 - (instancetype)initWithConfiguration:(STKVASTControllerConfiguration *)configuration;

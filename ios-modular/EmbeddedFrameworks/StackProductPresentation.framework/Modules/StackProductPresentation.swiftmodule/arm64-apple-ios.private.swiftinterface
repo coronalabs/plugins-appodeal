@@ -1,31 +1,189 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name StackProductPresentation
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name StackProductPresentation
+import AdAttributionKit
 import Foundation
-import SafariServices
+import StackModules.STKConstants
 import StackModules
 @_exported import StackProductPresentation
 import StoreKit
 import Swift
 import UIKit
-import UIKit.UIViewController
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc(STKProductControllerDelegate) public protocol ProductControllerDelegate {
-  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didFailToPresent error: Foundation.NSError)
-  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didPrepareProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didPrepareProductOverlay parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc optional func controller(_ controller: StackProductPresentation.ProductController, willPresentProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didDismissProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc optional func controller(_ controller: StackProductPresentation.ProductController, willLeaveApplication parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc optional func controller(_ controller: StackProductPresentation.ProductController, didTrackOverlayInteraction parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc optional func controllerDidCompleteProcessing(_ controller: StackProductPresentation.ProductController)
+@objc(STKProductNavigationDelegate) public protocol ProductNavigationDelegate {
+  @objc func productNavigationDidFailToNavigate(_ productNavigation: StackProductPresentation.ProductNavigation, error: any Swift.Error)
+  @objc func productNavigationWillPresentModal(_ productNavigation: StackProductPresentation.ProductNavigation)
+  @objc func productNavigationDidDismissModal(_ productNavigation: StackProductPresentation.ProductNavigation)
+  @objc func productNavigationWillLeaveApplication(_ productNavigation: StackProductPresentation.ProductNavigation, _ url: Swift.String?)
 }
-@_inheritsConvenienceInitializers @objc(STKProductController) final public class ProductController : ObjectiveC.NSObject {
+@objc(STKProductNavigation) final public class ProductNavigation : ObjectiveC.NSObject {
+  @objc weak final public var delegate: (any StackProductPresentation.ProductNavigationDelegate)?
+  final public var framework: StackProductPresentation.Product.Framework {
+    get
+  }
+  @objc public init(impression: StackProductPresentation.ProductImpression? = nil)
+  @objc final public func navigate(to destination: Foundation.URL?)
+  @objc deinit
+}
+public protocol AAKProductParameters {
+  var compactJWS: Swift.String { get }
+}
+@objc(STKProductOverlayDelegate) public protocol ProductOverlayDelegate {
+  @objc func overlayDidFailToLoad(_ overlay: StackProductPresentation.ProductOverlay?, error: any Swift.Error)
+  @objc func overlayDidReceiveUserTap(_ overlay: StackProductPresentation.ProductOverlay)
+  @objc func overlayWillStartPresentation(_ overlay: StackProductPresentation.ProductOverlay)
+  @objc func overlayDidFinishDismissal(_ overlay: StackProductPresentation.ProductOverlay)
+}
+@objc(STKProductOverlay) final public class ProductOverlay : ObjectiveC.NSObject {
+  @objc(STKProductOverlayStyle) public enum Style : Swift.UInt {
+    case `default` = 0
+    case custom
+    public init?(rawValue: Swift.UInt)
+    public typealias RawValue = Swift.UInt
+    public var rawValue: Swift.UInt {
+      get
+    }
+  }
+  @objc weak final public var delegate: (any StackProductPresentation.ProductOverlayDelegate)?
+  final public var framework: StackProductPresentation.Product.Framework {
+    get
+  }
+  @objc public init(impression: StackProductPresentation.ProductImpression, style: StackProductPresentation.ProductOverlay.Style = .default) throws
+  @objc final public func present(from rootViewController: UIKit.UIViewController? = nil)
+  @objc final public func hide()
+  @objc deinit
+}
+public protocol ProductDelegate : AnyObject {
+  func product(_ product: StackProductPresentation.Product, didReceive event: StackProductPresentation.Product.Event)
+}
+@_inheritsConvenienceInitializers @objc(STKProduct) final public class Product : ObjectiveC.NSObject {
+  weak final public var delegate: (any StackProductPresentation.ProductDelegate)?
+  final public func prepare(with parameters: StackProductPresentation.Product.ProductParametersType, completion: @escaping ((any Swift.Error)?) -> ())
+  @objc final public func prepare(parameters: [Swift.String : Any], completion: @escaping ((any Swift.Error)?) -> ())
+  @objc final public func beginView(on view: UIKit.UIView, controller: UIKit.UIViewController, completion: (((any Swift.Error)?) -> ())? = nil)
+  @objc final public func endView(completion: (((any Swift.Error)?) -> ())? = nil)
+  @objc final public func navigate(to destination: Foundation.URL?, resolveLinkAlways: Swift.Bool = true, delegate: (any StackProductPresentation.ProductNavigationDelegate)? = nil)
+  @objc final public func presentOverlay(style: StackProductPresentation.ProductOverlay.Style, from rootViewController: UIKit.UIViewController? = nil, delegate: (any StackProductPresentation.ProductOverlayDelegate)? = nil)
+  @objc final public func hideOverlay()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension StackProductPresentation.Product : StackProductPresentation.ProductNavigationDelegate {
+  @objc final public func productNavigationDidFailToNavigate(_ productNavigation: StackProductPresentation.ProductNavigation, error: any Swift.Error)
+  @objc final public func productNavigationWillPresentModal(_ productNavigation: StackProductPresentation.ProductNavigation)
+  @objc final public func productNavigationDidDismissModal(_ productNavigation: StackProductPresentation.ProductNavigation)
+  @objc final public func productNavigationWillLeaveApplication(_ productNavigation: StackProductPresentation.ProductNavigation, _ url: Swift.String?)
+}
+extension StackProductPresentation.Product : StackProductPresentation.ProductOverlayDelegate {
+  @objc final public func overlayDidFailToLoad(_ overlay: StackProductPresentation.ProductOverlay?, error: any Swift.Error)
+  @objc final public func overlayDidReceiveUserTap(_ overlay: StackProductPresentation.ProductOverlay)
+  @objc final public func overlayWillStartPresentation(_ overlay: StackProductPresentation.ProductOverlay)
+  @objc final public func overlayDidFinishDismissal(_ overlay: StackProductPresentation.ProductOverlay)
+}
+extension StackProductPresentation.Product {
+  public enum Error : Swift.Error {
+    case unsupportedOsVersion
+    case invalidProductParameters(reason: Swift.String)
+    case unsupportedLink
+    case invalidPresentationState
+    case wrapper(error: any Swift.Error)
+    case internalInconsistency(reason: Swift.String)
+    case storeControllerNotReady
+    case timeout
+    case unknown
+  }
+  public enum ProductParametersType {
+    case aak(any StackProductPresentation.AAKProductParameters)
+    case skan(any StackProductPresentation.SKANProductParameters)
+  }
+  public enum Framework {
+    case storeKit
+    case adAttrubutionKit
+    case none
+    public static func == (a: StackProductPresentation.Product.Framework, b: StackProductPresentation.Product.Framework) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Event {
+    case willPrepareImpression
+    case didPrepareImpression(StackProductPresentation.Product.Framework)
+    case impressionError(StackProductPresentation.Product.Framework, StackProductPresentation.Product.Error)
+    case beginImpression(StackProductPresentation.Product.Framework)
+    case endImpression(StackProductPresentation.Product.Framework)
+    case navigationError(StackProductPresentation.Product.Framework, StackProductPresentation.Product.Error)
+    case navigationOpenModal(StackProductPresentation.Product.Framework)
+    case navigationDismissModal(StackProductPresentation.Product.Framework)
+    case navigationExternal(StackProductPresentation.Product.Framework)
+    case overlayError(StackProductPresentation.Product.Framework, StackProductPresentation.Product.Error)
+    case overlayOpen(StackProductPresentation.Product.Framework)
+    case overlayHide(StackProductPresentation.Product.Framework)
+    case overlayTap(StackProductPresentation.Product.Framework)
+    case deepLinkOpen(Swift.String)
+    case deepLinkError(StackProductPresentation.Product.Error)
+  }
+}
+@objc(STKProductImpression) final public class ProductImpression : ObjectiveC.NSObject {
+  final public var framework: StackProductPresentation.Product.Framework {
+    get
+  }
+  public init<ProductParameters>(skanParameters: ProductParameters) throws where ProductParameters : StackProductPresentation.SKANProductParameters
+  public init(aakParameters: any StackProductPresentation.AAKProductParameters) throws
+  @objc public init(parameters: [Swift.String : Any]) throws
+  @objc final public func prepare(completion: @escaping ((any Swift.Error)?) -> ())
+  @objc final public func beginView(on view: UIKit.UIView, controller: UIKit.UIViewController, completion: (((any Swift.Error)?) -> ())? = nil)
+  @objc final public func endView(completion: (((any Swift.Error)?) -> ())? = nil)
+  @objc deinit
+}
+@available(iOS 13.0, *)
+extension StackProductPresentation.ProductImpression {
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  final public func prepare() async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  final public func beginView(on view: UIKit.UIView, controller: UIKit.UIViewController) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 15.0, *)
+  final public func endView() async throws
+  #endif
+}
+public enum SKANProductFidelityType : Swift.UInt64, Swift.Codable {
+  case view
+  case click
+  public init?(rawValue: Swift.UInt64)
+  public typealias RawValue = Swift.UInt64
+  public var rawValue: Swift.UInt64 {
+    get
+  }
+}
+public protocol SKANProductFidelity {
+  var fidelity: StackProductPresentation.SKANProductFidelityType { get }
+  var signature: Swift.String { get }
+  var nonce: Foundation.UUID { get }
+  var timestamp: Swift.Double { get }
+}
+public protocol SKANProductParameters {
+  associatedtype T : StackProductPresentation.SKANProductFidelity
+  var sourceAppStoreItemIdentifier: Swift.UInt? { get }
+  var advertisedAppStoreItemIdentifier: Swift.UInt { get }
+  var adNetworkIdentifier: Swift.String? { get }
+  var adCampaignIdentifier: Swift.UInt? { get }
+  var sourceIdentifier: Swift.UInt? { get }
+  var productPageIdentifier: Foundation.UUID? { get }
+  var nonce: Foundation.UUID? { get }
+  var timestamp: Swift.Double? { get }
+  var signature: Swift.String? { get }
+  var version: Swift.String? { get }
+  var fidelities: [Self.T] { get }
+}
+@objc extension StackProductPresentation.ProductImpression {
   @objc public static let itemIdentifierKey: Swift.String
-  @objc public static let clickThroughKey: Swift.String
   @objc public static let adNetworkAttributionSignatureKey: Swift.String
   @objc public static let adNetworkCampaignIdentifierKey: Swift.String
   @objc public static let adNetworkSourceIdentifierKey: Swift.String
@@ -36,33 +194,44 @@ import _SwiftConcurrencyShims
   @objc public static let adNetworkVersionKey: Swift.String
   @objc public static let adNetworkFidelitiesKey: Swift.String
   @objc public static let adNetworkFidelityKey: Swift.String
-  @objc public static let useEmbeddedBrowser: Swift.String
-  @objc weak final public var delegate: (any StackProductPresentation.ProductControllerDelegate)?
-  @objc weak final public var rootViewController: UIKit.UIViewController?
+  @objc public static let adAttributionCompactJWS: Swift.String
   @objc public static var supportedSKAdNetworkVersions: [Swift.String] {
     @objc get
   }
-  @objc final public func isReady(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>) -> Swift.Bool
-  @objc final public func load(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func present(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func presentSKOverlay(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func presentOverlay(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func hideOverlay(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func startImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func endImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
+}
+@objc(STKPrivacySheetPresenterDelegate) public protocol PrivacySheetPresenterDelegate {
+  @objc func privacySheetDidFailToPresentModal(_ privacySheet: StackProductPresentation.PrivacySheetPresenter, error: any Swift.Error)
+  @objc func privacySheetWillPresentModal(_ privacySheet: StackProductPresentation.PrivacySheetPresenter)
+  @objc func privacySheetDidDismissModal(_ privacySheet: StackProductPresentation.PrivacySheetPresenter)
+  @objc func privacySheetWillLeaveApplication(_ privacySheet: StackProductPresentation.PrivacySheetPresenter)
+  @objc func privacySheetDidFailToLeaveApplication(_ privacySheet: StackProductPresentation.PrivacySheetPresenter, error: any Swift.Error)
+}
+@_inheritsConvenienceInitializers @objc(STKPrivacySheetPresenter) final public class PrivacySheetPresenter : ObjectiveC.NSObject {
+  public enum Error : Swift.Error {
+    case viewModelInvalidOrNotSet
+    case controllerNotSet
+    case invalidRedirectUrl
+    public static func == (a: StackProductPresentation.PrivacySheetPresenter.Error, b: StackProductPresentation.PrivacySheetPresenter.Error) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @objc weak final public var delegate: (any StackProductPresentation.PrivacySheetPresenterDelegate)?
   @objc override dynamic public init()
+  @objc final public func set(json: [Swift.String : Any])
+  @objc final public func prepare(for rootViewController: UIKit.UIViewController?)
+  @objc final public func show()
+  @objc final public func hide()
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc(STKProductPresentation) final public class ProductPresentation : ObjectiveC.NSObject {
-  @objc public static func openProduct(parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>, success: ((Swift.Dictionary<Swift.String, Swift.AnyHashable>) -> Swift.Void)?, failure: ((Foundation.NSError) -> Swift.Void)?, completion: (() -> Swift.Void)?)
-  @objc public static func startImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc public static func endImpression(_ parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension StackProductPresentation.ProductPresentation : StackProductPresentation.ProductControllerDelegate {
-  @objc final public func controller(_ controller: StackProductPresentation.ProductController, didFailToPresent error: Foundation.NSError)
-  @objc final public func controller(_ controller: StackProductPresentation.ProductController, willLeaveApplication parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func controller(_ controller: StackProductPresentation.ProductController, willPresentProduct parameters: Swift.Dictionary<Swift.String, Swift.AnyHashable>)
-  @objc final public func controllerDidCompleteProcessing(_ controller: StackProductPresentation.ProductController)
-}
+extension StackProductPresentation.ProductOverlay.Style : Swift.Equatable {}
+extension StackProductPresentation.ProductOverlay.Style : Swift.Hashable {}
+extension StackProductPresentation.ProductOverlay.Style : Swift.RawRepresentable {}
+extension StackProductPresentation.Product.Framework : Swift.Equatable {}
+extension StackProductPresentation.Product.Framework : Swift.Hashable {}
+extension StackProductPresentation.SKANProductFidelityType : Swift.Equatable {}
+extension StackProductPresentation.SKANProductFidelityType : Swift.Hashable {}
+extension StackProductPresentation.SKANProductFidelityType : Swift.RawRepresentable {}
+extension StackProductPresentation.PrivacySheetPresenter.Error : Swift.Equatable {}
+extension StackProductPresentation.PrivacySheetPresenter.Error : Swift.Hashable {}
