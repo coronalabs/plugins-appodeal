@@ -112,7 +112,7 @@ settings =
         -- Base
         ['plugin.appodeal.base'] = { publisherId = 'com.coronalabs' },
         ["plugin.appodeal.Amazon"] = {publisherId = 'com.coronalabs'},
-        ['plugin.appodeal.Bidmachine'] = { publisherId = 'com.coronalabs' },
+        ['plugin.appodeal.Bidmachine'] = { publisherId = 'com.coronalabs' }, -- needs Amazon, Facebook, Vungle, MyTarget, and Pangle to build
         ['plugin.appodeal.GoogleAdMob'] = { publisherId = 'com.coronalabs' },
         ['plugin.appodeal.AppLovin'] = { publisherId = 'com.coronalabs' },
         ['plugin.appodeal.FacebookAudience'] = { publisherId = 'com.coronalabs' },
@@ -120,7 +120,7 @@ settings =
         ["plugin.appodeal.Pangle"] = {publisherId = 'com.coronalabs'},
         ['plugin.appodeal.Unity'] = { publisherId = 'com.coronalabs' },
         ['plugin.appodeal.Vungle'] = { publisherId = 'com.coronalabs' },
-        ['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs' },
+        --['plugin.appodeal.Yandex'] = { publisherId = 'com.coronalabs' }, -- working on this for iOS
         ["plugin.appodeal.InMobi"] = {publisherId = 'com.coronalabs'},
         
         ["plugin.facebook.v4a"] = {publisherId = 'com.coronalabs'},

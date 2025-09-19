@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 
 android {
     namespace "plugin.appodeal"
-    compileSdk 34
+    compileSdk 35
 
     defaultConfig {
         minSdkVersion 21
@@ -20,7 +20,7 @@ repositories {
 }
 dependencies {
     implementation ':Corona@aar'
-    implementation "com.appodeal.ads:sdk:3.8.1.0"
+    implementation "com.appodeal.ads:sdk:3.9.0.0"
 }
 
 def buildDirectory = getLayout().getBuildDirectory().asFile.get()

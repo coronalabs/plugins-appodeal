@@ -19,9 +19,9 @@ local adTypeText = nil
 
 if platformName == "Android" then
 	if system.getInfo("targetAppStore") == "amazon" then
-		appKey ="fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f" -- com.appodeal.test
+		appKey ="d908f77a97ae0993514bc8edba7e776a36593c77e5f44994" -- com.appodeal.test
 	else -- Google Play
-		appKey = "fee50c333ff3825fd6ad6d38cff78154de3025546d47a84f" -- com.appodeal.test
+		appKey = "d908f77a97ae0993514bc8edba7e776a36593c77e5f44994" -- com.appodeal.test
 	end
 elseif platformName == "iPhone OS" then
 	appKey = "68f7479070ea55f751054146a93b69ba50f839b2b8c577c4" -- com.appodeal.testing
@@ -40,7 +40,7 @@ local function toggleAdTypes()
 	if currentAdType > #availableAdTypes then
 		currentAdType = 1
 	end
-
+	appodeal.load(availableAdTypes[currentAdType])
 	adTypeText.text = "Current ad type: " .. availableAdTypes[currentAdType]
 end
 

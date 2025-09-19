@@ -51,7 +51,7 @@ import java.util.Map;
 @SuppressWarnings({"unused", "RedundantSuppression"})
 public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
     private static final String PLUGIN_NAME = "plugin.appodeal";
-    private static final String PLUGIN_VERSION = "1.6.7";
+    private static final String PLUGIN_VERSION = "1.6.8";
     private static final String PLUGIN_SDK_VERSION = Appodeal.getVersion();
 
     private static final String EVENT_NAME = "adsRequest";
@@ -665,7 +665,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
 
             // default to all ad types if none given
             if (adTypes == NO_ADTYPE) {
-                adTypes = 0;
+                adTypes = 4095;
             }
 
             // save data for future use
@@ -720,6 +720,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                             Appodeal.setLogLevel(com.appodeal.ads.utils.Log.LogLevel.verbose);
                         }
 
+
                         checkAvailableModules();
 
                         // initialize sdk
@@ -728,7 +729,6 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                             public void onInitializationFinished(List<ApdInitializationError> errors) {
                                 HashMap<String, Object> event = new HashMap<>();
                                 event.put(EVENT_PHASE_KEY, PHASE_INIT);
-
                                 if(errors != null) {
                                     event.put(CoronaLuaEvent.ISERROR_KEY, true);
                                     JSONArray array = new JSONArray();
