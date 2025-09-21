@@ -163,7 +163,8 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                         new CanShow(),
                         new SetSegmentFilter(),
                         new TrackInAppPurchase(),
-                        new Set728x90Banners()
+                        new Set728x90Banners(),
+                        new ShowTestView(),
                 };
         String libName = L.toString(1);
         L.register(libName, luaFunctions);
@@ -724,7 +725,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
                         checkAvailableModules();
 
                         // initialize sdk
-                        Appodeal.initialize(coronaActivity, fAppKey, fAdTypes, new ApdInitializationCallback() {
+                        Appodeal.initialize(coronaActivity, fAppKey, 4095, new ApdInitializationCallback() {
                             @Override
                             public void onInitializationFinished(List<ApdInitializationError> errors) {
                                 HashMap<String, Object> event = new HashMap<>();
@@ -1487,6 +1488,24 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener {
         }
     }
 
+    //[Lua] appodeal.showTestView()
+    private class ShowTestView implements NamedJavaFunction {
+        // Gets the name of the Lua function as it would appear in the Lua script
+        @Override
+        public String getName() {
+            return "showTestView";
+        }
+
+        // This method is executed when the Lua function is called
+        @Override
+        public int invoke(LuaState luaState) {
+            functionSignature = "appodeal.showTestView()";
+
+            Appodeal.startTestActivity(CoronaEnvironment.getCoronaActivity());
+
+            return 0;
+        }
+    }
     // [Lua] appodeal.trackInAppPurchase(options)
     private class TrackInAppPurchase implements NamedJavaFunction {
         // Gets the name of the Lua function as it would appear in the Lua script
